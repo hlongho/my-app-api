@@ -1,6 +1,21 @@
 {
-  [
-    "Toán",
-"Vật lý"
+  "subject": [
+    {
+      "name": "math",
+      "display": "Toán"
+    },
+    {
+      "name": "physical",
+      "display": "Vật lý"
+    }
+  ],
+  "grade": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
   ]
 }
