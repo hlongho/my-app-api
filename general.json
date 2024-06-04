@@ -7,6 +7,10 @@
     {
       "name": "physical",
       "display": "Vật lý"
+    },
+    {
+      "name": "chemistry",
+      "display": "Hoá học"
     }
   ],
   "grade": [
