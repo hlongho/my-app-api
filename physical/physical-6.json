@@ -3,9 +3,9 @@
         "name": "Khối lượng",
         "formula": "m = \\rho \\cdot V",
         "note": [
-            "m: Khối lượng (kg)",
-            "\\rho: Khối lượng riêng (kg/m^3)",
-            "V: Thể tích (m^3)"
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
+            "V:\\,Thể\\,tích\\,(m^3)"
         ],
         "unit": "Bài 1: Khối lượng"
     },
@@ -13,8 +13,8 @@
         "name": "Thể tích hình hộp chữ nhật",
         "formula": "V = a \\cdot b \\cdot c",
         "note": [
-            "V: Thể tích (m^3)",
-            "a, b, c: Chiều dài, chiều rộng và chiều cao (m)"
+            "V:\\,Thể\\,tích\\,(m^3)",
+            "a:\\,Chiều\\,dài,\\,b:\\,chiều\\,rộng,\\,c:\\,chiều\\,cao\\,(m)"
         ],
         "unit": "Bài 2: Thể tích"
     },
@@ -22,8 +22,8 @@
         "name": "Thể tích hình lập phương",
         "formula": "V = a^3",
         "note": [
-            "V: Thể tích (m^3)",
-            "a: Chiều dài cạnh (m)"
+            "V:\\,Thể\\,tích\\,(m^3)",
+            "a:\\,Chiều\\,dài\\,cạnh\\,(m)"
         ],
         "unit": "Bài 3: Thể tích"
     },
@@ -31,8 +31,8 @@
         "name": "Thể tích hình cầu",
         "formula": "V = \\frac{4}{3} \\pi r^3",
         "note": [
-            "V: Thể tích (m^3)",
-            "r: Bán kính (m)"
+            "V:\\,Thể\\,tích\\,(m^3)",
+            "r:\\,Bán\\,kính\\,(m)"
         ],
         "unit": "Bài 4: Thể tích"
     },
@@ -40,9 +40,9 @@
         "name": "Lực",
         "formula": "F = m \\cdot a",
         "note": [
-            "F: Lực (N)",
-            "m: Khối lượng (kg)",
-            "a: Gia tốc (m/s^2)"
+            "F:\\,Lực\\,(N)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "a:\\,Gia\\,tốc\\,(m/s^2)"
         ],
         "unit": "Bài 5: Lực"
     },
@@ -50,9 +50,9 @@
         "name": "Trọng lượng",
         "formula": "P = m \\cdot g",
         "note": [
-            "P: Trọng lượng (N)",
-            "m: Khối lượng (kg)",
-            "g: Gia tốc trọng trường (\\approx 9.8 m/s^2)"
+            "P:\\,Trọng\\,lượng\\,(N)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)"
         ],
         "unit": "Bài 6: Lực"
     },
@@ -60,9 +60,9 @@
         "name": "Khối lượng riêng",
         "formula": "\\rho = \\frac{m}{V}",
         "note": [
-            "\\rho: Khối lượng riêng (kg/m^3)",
-            "m: Khối lượng (kg)",
-            "V: Thể tích (m^3)"
+            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "V:\\,Thể\\,tích\\,(m^3)"
         ],
         "unit": "Bài 7: Khối lượng riêng"
     },
@@ -70,9 +70,9 @@
         "name": "Áp suất",
         "formula": "p = \\frac{F}{S}",
         "note": [
-            "p: Áp suất (Pa)",
-            "F: Lực tác dụng (N)",
-            "S: Diện tích bề mặt (m^2)"
+            "p:\\,Áp\\,suất\\,(Pa)",
+            "F:\\,Lực\\,tác\\,dụng\\,(N)",
+            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
         ],
         "unit": "Bài 8: Áp suất"
     },
@@ -80,9 +80,9 @@
         "name": "Công suất",
         "formula": "P = \\frac{W}{t}",
         "note": [
-            "P: Công suất (W)",
-            "W: Công (J)",
-            "t: Thời gian (s)"
+            "P:\\,Công\\,suất\\,(W)",
+            "W:\\,Công\\,(J)",
+            "t:\\,Thời\\,gian\\,(s)"
         ],
         "unit": "Bài 9: Công suất"
     },
@@ -90,9 +90,9 @@
         "name": "Công cơ học",
         "formula": "W = F \\cdot s",
         "note": [
-            "W: Công (J)",
-            "F: Lực (N)",
-            "s: Quãng đường (m)"
+            "W:\\,Công\\,(J)",
+            "F:\\,Lực\\,(N)",
+            "s:\\,Quãng\\,đường\\,(m)"
         ],
         "unit": "Bài 10: Công cơ học"
     },
@@ -100,10 +100,10 @@
         "name": "Nhiệt năng",
         "formula": "Q = m \\cdot c \\cdot \\Delta t",
         "note": [
-            "Q: Nhiệt năng (J)",
-            "m: Khối lượng (kg)",
-            "c: Nhiệt dung riêng (J/kg.°C)",
-            "\\Delta t: Độ thay đổi nhiệt độ (°C)"
+            "Q:\\,Nhiệt\\,năng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg.°C)",
+            "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
         ],
         "unit": "Bài 11: Nhiệt năng"
     },
@@ -111,9 +111,9 @@
         "name": "Hiệu suất",
         "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
         "note": [
-            "H: Hiệu suất (%)",
-            "A_{\\text{có ích}}: Công có ích (J)",
-            "A_{\\text{toàn phần}}: Công toàn phần (J)"
+            "H:\\,Hiệu\\,suất\\,(\\%)",
+            "A_{\\text{có ích}}:\\,Công\\,có\\,ích\\,(J)",
+            "A_{\\text{toàn phần}}:\\,Công\\,toàn\\,phần\\,(J)"
         ],
         "unit": "Bài 12: Hiệu suất"
     }
