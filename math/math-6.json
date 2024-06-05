@@ -2,73 +2,73 @@
     {
         "name": "Khối lượng",
         "formula": "m = \\rho \\cdot V",
-        "note": "m: Khối lượng (kg) \n \\rho: Khối lượng riêng (kg/m^3) \n V: Thể tích (m^3)",
+        "note": "m: \\text{Khối lượng (kg)} \\\\ \\rho: \\text{Khối lượng riêng (kg/m^3)} \\\\ V: \\text{Thể tích (m^3)}",
         "unit": "Bài 1: Khối lượng"
     },
     {
         "name": "Thể tích hình hộp chữ nhật",
         "formula": "V = a \\cdot b \\cdot c",
-        "note": "V: Thể tích (m^3) \n a, b, c: Chiều dài, chiều rộng và chiều cao (m)",
+        "note": "V: \\text{Thể tích (m^3)} \\\\ a, b, c: \\text{Chiều dài, chiều rộng và chiều cao (m)}",
         "unit": "Bài 2: Thể tích"
     },
     {
         "name": "Thể tích hình lập phương",
         "formula": "V = a^3",
-        "note": "V: Thể tích (m^3) \n a: Chiều dài cạnh (m)",
+        "note": "V: \\text{Thể tích (m^3)} \\\\ a: \\text{Chiều dài cạnh (m)}",
         "unit": "Bài 2: Thể tích"
     },
     {
         "name": "Thể tích hình cầu",
         "formula": "V = \\frac{4}{3} \\pi r^3",
-        "note": "V: Thể tích (m^3) \n r: Bán kính (m)",
+        "note": "V: \\text{Thể tích (m^3)} \\\\ r: \\text{Bán kính (m)}",
         "unit": "Bài 2: Thể tích"
     },
     {
         "name": "Lực",
         "formula": "F = m \\cdot a",
-        "note": "F: Lực (N) \n m: Khối lượng (kg) \n a: Gia tốc (m/s^2)",
+        "note": "F: \\text{Lực (N)} \\\\ m: \\text{Khối lượng (kg)} \\\\ a: \\text{Gia tốc (m/s^2)}",
         "unit": "Bài 3: Lực"
     },
     {
         "name": "Trọng lượng",
         "formula": "P = m \\cdot g",
-        "note": "P: Trọng lượng (N) \n m: Khối lượng (kg) \n g: Gia tốc trọng trường (\\approx 9,8 m/s^2)",
+        "note": "P: \\text{Trọng lượng (N)} \\\\ m: \\text{Khối lượng (kg)} \\\\ g: \\text{Gia tốc trọng trường (\\approx 9,8 m/s^2)}",
         "unit": "Bài 3: Lực"
     },
     {
         "name": "Khối lượng riêng",
         "formula": "\\rho = \\frac{m}{V}",
-        "note": "\\rho: Khối lượng riêng (kg/m^3) \n m: Khối lượng (kg) \n V: Thể tích (m^3)",
+        "note": "\\rho: \\text{Khối lượng riêng (kg/m^3)} \\\\ m: \\text{Khối lượng (kg)} \\\\ V: \\text{Thể tích (m^3)}",
         "unit": "Bài 4: Khối lượng riêng"
     },
     {
         "name": "Áp suất",
         "formula": "p = \\frac{F}{S}",
-        "note": "p: Áp suất (Pa) \n F: Lực tác dụng (N) \n S: Diện tích bề mặt (m^2)",
+        "note": "p: \\text{Áp suất (Pa)} \\\\ F: \\text{Lực tác dụng (N)} \\\\ S: \\text{Diện tích bề mặt (m^2)}",
         "unit": "Bài 5: Áp suất"
     },
     {
         "name": "Công suất",
         "formula": "P = \\frac{W}{t}",
-        "note": "P: Công suất (W) \n W: Công (J) \n t: Thời gian (s)",
+        "note": "P: \\text{Công suất (W)} \\\\ W: \\text{Công (J)} \\\\ t: \\text{Thời gian (s)}",
         "unit": "Bài 6: Công suất"
     },
     {
         "name": "Công cơ học",
         "formula": "W = F \\cdot s",
-        "note": "W: Công (J) \n F: Lực (N) \n s: Quãng đường (m)",
+        "note": "W: \\text{Công (J)} \\\\ F: \\text{Lực (N)} \\\\ s: \\text{Quãng đường (m)}",
         "unit": "Bài 7: Công cơ học"
     },
     {
         "name": "Nhiệt năng",
         "formula": "Q = m \\cdot c \\cdot \\Delta t",
-        "note": "Q: Nhiệt năng (J) \n m: Khối lượng (kg) \n c: Nhiệt dung riêng (J/kg.°C) \n \\Delta t: Độ thay đổi nhiệt độ (°C)",
+        "note": "Q: \\text{Nhiệt năng (J)} \\\\ m: \\text{Khối lượng (kg)} \\\\ c: \\text{Nhiệt dung riêng (J/kg.°C)} \\\\ \\Delta t: \\text{Độ thay đổi nhiệt độ (°C)}",
         "unit": "Bài 8: Nhiệt năng"
     },
     {
         "name": "Hiệu suất",
         "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
-        "note": "H: Hiệu suất (%) \n A_{\\text{có ích}}: Công có ích (J) \n A_{\\text{toàn phần}}: Công toàn phần (J)",
+        "note": "H: \\text{Hiệu suất (%)} \\\\ A_{\\text{có ích}}: \\text{Công có ích (J)} \\\\ A_{\\text{toàn phần}}: \\text{Công toàn phần (J)}",
         "unit": "Bài 9: Hiệu suất"
     }
 ]
