@@ -116,5 +116,157 @@
             "A_{\\text{toàn phần}}:\\,Công\\,toàn\\,phần\\,(J)"
         ],
         "unit": "Bài 12: Hiệu suất"
+    },
+    {
+        "name": "Ảnh hưởng của Sự nhiệt",
+        "formula": "Q = mc\\Delta T",
+        "note": [
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg°C)",
+            "\\Delta T:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
+        ],
+        "unit": "Bài 13: Ảnh hưởng của Sự nhiệt"
+    },
+    {
+        "name": "Mô men lực và Công cơ học",
+        "formula": "\\tau = Fr",
+        "note": [
+            "\\tau:\\,Mô\\,men\\,lực\\,(N.m)",
+            "F:\\,Lực\\,(N)",
+            "r:\\,Cánh\\,tay\\,đòn\\,(m)"
+        ],
+        "unit": "Bài 14: Mô men lực và Công cơ học"
+    },
+    {
+        "name": "Dòng điện và Điện trở",
+        "formula": "R = \\frac{V}{I}",
+        "note": [
+            "R:\\,Điện\\,trở\\,(Ω)",
+            "V:\\,Điện\\,áp\\,(V)",
+            "I:\\,Dòng\\,điện\\,(A)"
+        ],
+        "unit": "Bài 15: Dòng điện và Điện trở"
+    },
+    {
+        "name": "Nhiệt năng và Công năng của Dòng điện",
+        "formula": "P = IV",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "V:\\,Điện\\,áp\\,(V)"
+        ],
+        "unit": "Bài 16: Nhiệt năng và Công năng của Dòng điện"
+    },
+    {
+        "name": "Từ trường và Nam châm",
+        "formula": "F = BIL",
+        "note": [
+            "F:\\,Lực\\,(N)",
+            "B:\\,Mật\\,độ\\,từ\\,trường\\,(T)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "L:\\,Chiều\\,dài\\,dây\\,dẫn\\,trong\\,từ\\,trường\\,(m)"
+        ],
+        "unit": "Bài 17: Từ trường và Nam châm"
+    },
+    {
+        "name": "Sóng cơ",
+        "formula": "v = f \\lambda",
+        "note": [
+            "v:\\,Vận\\,tốc\\,sóng\\,(m/s)",
+            "f:\\,Tần\\,số\\,sóng\\,(Hz)",
+            "\\lambda:\\,Bước\\,sóng\\,(m)"
+        ],
+        "unit": "Bài 18: Sóng cơ"
+    },
+    {
+        "name": "Điện trường và Điện tích",
+        "formula": "E = \\frac{F}{q}",
+        "note": [
+            "E:\\,Điện\\,trường\\,(V/m)",
+            "F:\\,Lực\\,(N)",
+            "q:\\,Điện\\,tích\\,(C)"
+        ],
+        "unit": "Bài 19: Điện trường và Điện tích"
+    },
+    {
+        "name": "Điện áp và Điện dung",
+        "formula": "C = \\frac{Q}{V}",
+        "note": [
+            "C:\\,Điện\\,dung\\,(F)",
+            "Q:\\,Điện\\,tích\\,(C)",
+            "V:\\,Điện\\,áp\\,(V)"
+        ],
+        "unit": "Bài 20: Điện áp và Điện dung"
+    },
+    {
+        "name": "Quang học",
+        "formula": "v = f \\lambda",
+        "note": [
+            "v:\\,Vận\\,tốc\\,sóng\\,(m/s)",
+            "f:\\,Tần\\,số\\,sóng\\,(Hz)",
+            "\\lambda:\\,Bước\\,sóng\\,(m)"
+        ],
+        "unit": "Bài 21: Quang học"
+    },
+    {
+        "name": "Âm học",
+        "formula": "v = f \\lambda",
+        "note": [
+            "v:\\,Vận\\,tốc\\,âm\\,than\\,(m/s)",
+            "f:\\,Tần\\,số\\,sóng\\,(Hz)",
+            "\\lambda:\\,Bước\\,sóng\\,(m)"
+        ],
+        "unit": "Bài 22: Âm học"
+    },
+    {
+        "name": "Quang phổ",
+        "formula": "v = c \\lambda",
+        "note": [
+            "v:\\,Vận\\,tốc\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(m/s)",
+            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(3 \\times 10^8 m/s)",
+            "\\lambda:\\,Bước\\,sóng\\,(m)"
+        ],
+        "unit": "Bài 23: Quang phổ"
+    },
+    {
+        "name": "Ống kính và gương",
+        "formula": "\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}",
+        "note": [
+            "f:\\,Tiêu\\,cự\\,của\\,ống\\,kính\\,hoặc\\,gương\\,(m)",
+            "p:\\,Khoảng\\,cách\\,từ\\,vật\\,gốc\\,đến\\,ống\\,kính\\,hoặc\\,gương\\,(m)",
+            "q:\\,Khoảng\\,cách\\,từ\\,ống\\,kính\\,hoặc\\,gương\\,đến\\,hình\\,ảnh\\,vật\\,gốc\\,(m)"
+        ],
+        "unit": "Bài 24: Ống kính và gương"
+    },
+    {
+        "name": "Vật chất và Động học học lượng tử",
+        "formula": "E = mc^2",
+        "note": [
+            "E:\\,Năng\\,lượng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,(m/s)"
+        ],
+        "unit": "Bài 25: Vật chất và Động học học lượng tử"
+    },
+    {
+        "name": "Cấu tạo nguyên tử",
+        "formula": "N = Z + A",
+        "note": [
+            "N:\\,Số\\,hạt\\,nguyên\\,tử",
+            "Z:\\,Số\\,proton",
+            "A:\\,Số\\,Nơtron"
+        ],
+        "unit": "Bài 26: Cấu tạo nguyên tử"
+    },
+    {
+        "name": "Hạt nhân nguyên tử",
+        "formula": "E = mc^2",
+        "note": [
+            "E:\\,Năng\\,lượng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,(m/s)"
+        ],
+        "unit": "Bài 27: Hạt nhân nguyên tử"
     }
 ]
