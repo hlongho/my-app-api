@@ -3,9 +3,9 @@
         "name": "Khối lượng",
         "formula": "m = \\rho \\cdot V",
         "note": [
-            "m: \\text{Khối lượng (kg)}",
-            "\\rho: \\text{Khối lượng riêng (kg/\\ensuremath{m^3})}",
-            "V: \\text{Thể tích (\\ensuremath{m^3})}"
+            "m: $\\text{Khối lượng (kg)}$",
+            "\\rho: $\\text{Khối lượng riêng (kg/m^3)}$",
+            "V: $\\text{Thể tích (m^3)}$"
         ],
         "unit": "Bài 1: Khối lượng"
     },
@@ -13,8 +13,8 @@
         "name": "Thể tích hình hộp chữ nhật",
         "formula": "V = a \\cdot b \\cdot c",
         "note": [
-            "V: \\text{Thể tích (\\ensuremath{m^3})}",
-            "a, b, c: \\text{Chiều dài, chiều rộng và chiều cao (m)}"
+            "V: $\\text{Thể tích (m^3)}$",
+            "a, b, c: $\\text{Chiều dài, chiều rộng và chiều cao (m)}$"
         ],
         "unit": "Bài 2: Thể tích"
     },
@@ -22,8 +22,8 @@
         "name": "Thể tích hình lập phương",
         "formula": "V = a^3",
         "note": [
-            "V: \\text{Thể tích (\\ensuremath{m^3})}",
-            "a: \\text{Chiều dài cạnh (m)}"
+            "V: $\\text{Thể tích (m^3)}$",
+            "a: $\\text{Chiều dài cạnh (m)}$"
         ],
         "unit": "Bài 2: Thể tích"
     },
@@ -31,8 +31,8 @@
         "name": "Thể tích hình cầu",
         "formula": "V = \\frac{4}{3} \\pi r^3",
         "note": [
-            "V: \\text{Thể tích (\\ensuremath{m^3})}",
-            "r: \\text{Bán kính (m)}"
+            "V: $\\text{Thể tích (m^3)}$",
+            "r: $\\text{Bán kính (m)}$"
         ],
         "unit": "Bài 2: Thể tích"
     },
@@ -40,9 +40,9 @@
         "name": "Lực",
         "formula": "F = m \\cdot a",
         "note": [
-            "F: \\text{Lực (N)}",
-            "m: \\text{Khối lượng (kg)}",
-            "a: \\text{Gia tốc (\\ensuremath{m/s^2})}"
+            "F: $\\text{Lực (N)}$",
+            "m: $\\text{Khối lượng (kg)}$",
+            "a: $\\text{Gia tốc (m/s^2)}$"
         ],
         "unit": "Bài 3: Lực"
     },
@@ -50,9 +50,9 @@
         "name": "Trọng lượng",
         "formula": "P = m \\cdot g",
         "note": [
-            "P: \\text{Trọng lượng (N)}",
-            "m: \\text{Khối lượng (kg)}",
-            "g: \\text{Gia tốc trọng trường (\\approx 9.8 \\text{\\ensuremath{m/s^2}})}"
+            "P: $\\text{Trọng lượng (N)}$",
+            "m: $\\text{Khối lượng (kg)}$",
+            "g: $\\text{Gia tốc trọng trường (\\approx 9.8 m/s^2)}$"
         ],
         "unit": "Bài 3: Lực"
     },
@@ -60,9 +60,9 @@
         "name": "Khối lượng riêng",
         "formula": "\\rho = \\frac{m}{V}",
         "note": [
-            "\\rho: \\text{Khối lượng riêng (kg/\\ensuremath{m^3})}",
-            "m: \\text{Khối lượng (kg)}",
-            "V: \\text{Thể tích (\\ensuremath{m^3})}"
+            "\\rho: $\\text{Khối lượng riêng (kg/m^3)}$",
+            "m: $\\text{Khối lượng (kg)}$",
+            "V: $\\text{Thể tích (m^3)}$"
         ],
         "unit": "Bài 4: Khối lượng riêng"
     },
@@ -70,9 +70,9 @@
         "name": "Áp suất",
         "formula": "p = \\frac{F}{S}",
         "note": [
-            "p: \\text{Áp suất (Pa)}",
-            "F: \\text{Lực tác dụng (N)}",
-            "S: \\text{Diện tích bề mặt (\\ensuremath{m^2})}"
+            "p: $\\text{Áp suất (Pa)}$",
+            "F: $\\text{Lực tác dụng (N)}$",
+            "S: $\\text{Diện tích bề mặt (m^2)}$"
         ],
         "unit": "Bài 5: Áp suất"
     },
@@ -80,9 +80,9 @@
         "name": "Công suất",
         "formula": "P = \\frac{W}{t}",
         "note": [
-            "P: \\text{Công suất (W)}",
-            "W: \\text{Công (J)}",
-            "t: \\text{Thời gian (s)}"
+            "P: $\\text{Công suất (W)}$",
+            "W: $\\text{Công (J)}$",
+            "t: $\\text{Thời gian (s)}$"
         ],
         "unit": "Bài 6: Công suất"
     },
@@ -90,9 +90,9 @@
         "name": "Công cơ học",
         "formula": "W = F \\cdot s",
         "note": [
-            "W: \\text{Công (J)}",
-            "F: \\text{Lực (N)}",
-            "s: \\text{Quãng đường (m)}"
+            "W: $\\text{Công (J)}$",
+            "F: $\\text{Lực (N)}$",
+            "s: $\\text{Quãng đường (m)}$"
         ],
         "unit": "Bài 7: Công cơ học"
     },
@@ -100,10 +100,10 @@
         "name": "Nhiệt năng",
         "formula": "Q = m \\cdot c \\cdot \\Delta t",
         "note": [
-            "Q: \\text{Nhiệt năng (J)}",
-            "m: \\text{Khối lượng (kg)}",
-            "c: \\text{Nhiệt dung riêng (J/kg.°C)}",
-            "\\Delta t: \\text{Độ thay đổi nhiệt độ (°C)}"
+            "Q: $\\text{Nhiệt năng (J)}$",
+            "m: $\\text{Khối lượng (kg)}$",
+            "c: $\\text{Nhiệt dung riêng (J/kg.°C)}$",
+            "\\Delta t: $\\text{Độ thay đổi nhiệt độ (°C)}$"
         ],
         "unit": "Bài 8: Nhiệt năng"
     },
@@ -111,9 +111,9 @@
         "name": "Hiệu suất",
         "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
         "note": [
-            "H: \\text{Hiệu suất (%)}",
-            "A_{\\text{có ích}}: \\text{Công có ích (J)}",
-            "A_{\\text{toàn phần}}: \\text{Công toàn phần (J)}"
+            "H: $\\text{Hiệu suất (%)}$",
+            "A_{\\text{có ích}}: $\\text{Công có ích (J)}$",
+            "A_{\\text{toàn phần}}: $\\text{Công toàn phần (J)}$"
         ],
         "unit": "Bài 9: Hiệu suất"
     }
