@@ -4,7 +4,7 @@
         "formula": "m = \\rho \\cdot V",
         "note": [
             "m: \\text{Khối lượng (kg)}",
-            " \\rho : \\text{Khối lượng riêng (kg/m^3)}",
+            "\\rho: \\text{Khối lượng riêng (kg)}",
             "V: \\text{Thể tích (m^3)}"
         ],
         "unit": "Bài 1: Khối lượng"
