@@ -1,74 +1,74 @@
 [
     {
-        "name": "Khoi luong",
+        "name": "Khối lượng",
         "formula": "m = \\rho \\cdot V",
-        "note": "m: \\text{Khoi luong (kg)} \\\\ \\rho: \\text{Khoi luong rieng (kg/m^3)} \\\\ V: \\text{The tich (m^3)}",
-        "unit": "Bai 1: Khoi luong"
+        "note": "m: \\text{Khối lượng (kg)} \\\\ \\rho: \\text{Khối lượng riêng (kg/m^3)} \\\\ V: \\text{Thể tích (m^3)}",
+        "unit": "Bài 1: Khối lượng"
     },
     {
-        "name": "The tich hinh hop chu nhat",
+        "name": "Thể tích hình hộp chữ nhật",
         "formula": "V = a \\cdot b \\cdot c",
-        "note": "V: \\text{The tich (m^3)} \\\\ a, b, c: \\text{Chieu dai, chieu rong va chieu cao (m)}",
-        "unit": "Bai 2: The tich"
+        "note": "V: \\text{Thể tích (m^3)} \\\\ a, b, c: \\text{Chiều dài, chiều rộng và chiều cao (m)}",
+        "unit": "Bài 2: Thể tích"
     },
     {
-        "name": "The tich hinh lap phuong",
+        "name": "Thể tích hình lập phương",
         "formula": "V = a^3",
-        "note": "V: \\text{The tich (m^3)} \\\\ a: \\text{Chieu dai canh (m)}",
-        "unit": "Bai 2: The tich"
+        "note": "V: \\text{Thể tích (m^3)} \\\\ a: \\text{Chiều dài cạnh (m)}",
+        "unit": "Bài 2: Thể tích"
     },
     {
-        "name": "The tich hinh cau",
+        "name": "Thể tích hình cầu",
         "formula": "V = \\frac{4}{3} \\pi r^3",
-        "note": "V: \\text{The tich (m^3)} \\\\ r: \\text{Ban kinh (m)}",
-        "unit": "Bai 2: The tich"
+        "note": "V: \\text{Thể tích (m^3)} \\\\ r: \\text{Bán kính (m)}",
+        "unit": "Bài 2: Thể tích"
     },
     {
-        "name": "Luc",
+        "name": "Lực",
         "formula": "F = m \\cdot a",
-        "note": "F: \\text{Luc (N)} \\\\ m: \\text{Khoi luong (kg)} \\\\ a: \\text{Gia toc (m/s^2)}",
-        "unit": "Bai 3: Luc"
+        "note": "F: \\text{Lực (N)} \\\\ m: \\text{Khối lượng (kg)} \\\\ a: \\text{Gia tốc (m/s^2)}",
+        "unit": "Bài 3: Lực"
     },
     {
-        "name": "Trong luong",
+        "name": "Trọng lượng",
         "formula": "P = m \\cdot g",
-        "note": "P: \\text{Trong luong (N)} \\\\ m: \\text{Khoi luong (kg)} \\\\ g: \\text{Gia toc trong truong (\\approx 9,8 m/s^2)}",
-        "unit": "Bai 3: Luc"
+        "note": "P: \\text{Trọng lượng (N)} \\\\ m: \\text{Khối lượng (kg)} \\\\ g: \\text{Gia tốc trọng trường (\\approx 9,8 m/s^2)}",
+        "unit": "Bài 3: Lực"
     },
     {
-        "name": "Khoi luong rieng",
+        "name": "Khối lượng riêng",
         "formula": "\\rho = \\frac{m}{V}",
-        "note": "\\rho: \\text{Khoi luong rieng (kg/m^3)} \\\\ m: \\text{Khoi luong (kg)} \\\\ V: \\text{The tich (m^3)}",
-        "unit": "Bai 4: Khoi luong rieng"
+        "note": "\\rho: \\text{Khối lượng riêng (kg/m^3)} \\\\ m: \\text{Khối lượng (kg)} \\\\ V: \\text{Thể tích (m^3)}",
+        "unit": "Bài 4: Khối lượng riêng"
     },
     {
-        "name": "Ap suat",
+        "name": "Áp suất",
         "formula": "p = \\frac{F}{S}",
-        "note": "p: \\text{Ap suat (Pa)} \\\\ F: \\text{Luc tac dung (N)} \\\\ S: \\text{Dien tich be mat (m^2)}",
-        "unit": "Bai 5: Ap suat"
+        "note": "p: \\text{Áp suất (Pa)} \\\\ F: \\text{Lực tác dụng (N)} \\\\ S: \\text{Diện tích bề mặt (m^2)}",
+        "unit": "Bài 5: Áp suất"
     },
     {
-        "name": "Cong suat",
+        "name": "Công suất",
         "formula": "P = \\frac{W}{t}",
-        "note": "P: \\text{Cong suat (W)} \\\\ W: \\text{Cong (J)} \\\\ t: \\text{Thoi gian (s)}",
-        "unit": "Bai 6: Cong suat"
+        "note": "P: \\text{Công suất (W)} \\\\ W: \\text{Công (J)} \\\\ t: \\text{Thời gian (s)}",
+        "unit": "Bài 6: Công suất"
     },
     {
-        "name": "Cong co hoc",
+        "name": "Công cơ học",
         "formula": "W = F \\cdot s",
-        "note": "W: \\text{Cong (J)} \\\\ F: \\text{Luc (N)} \\\\ s: \\text{Quang duong (m)}",
-        "unit": "Bai 7: Cong co hoc"
+        "note": "W: \\text{Công (J)} \\\\ F: \\text{Lực (N)} \\\\ s: \\text{Quãng đường (m)}",
+        "unit": "Bài 7: Công cơ học"
     },
     {
-        "name": "Nhiet nang",
+        "name": "Nhiệt năng",
         "formula": "Q = m \\cdot c \\cdot \\Delta t",
-        "note": "Q: \\text{Nhiet nang (J)} \\\\ m: \\text{Khoi luong (kg)} \\\\ c: \\text{Nhiet dung rieng (J/kg.°C)} \\\\ \\Delta t: \\text{Do thay doi nhiet do (°C)}",
-        "unit": "Bai 8: Nhiet nang"
+        "note": "Q: \\text{Nhiệt năng (J)} \\\\ m: \\text{Khối lượng (kg)} \\\\ c: \\text{Nhiệt dung riêng (J/kg.°C)} \\\\ \\Delta t: \\text{Độ thay đổi nhiệt độ (°C)}",
+        "unit": "Bài 8: Nhiệt năng"
     },
     {
-        "name": "Hieu suat",
-        "formula": "H = \\frac{A_{\\text{co ich}}}{A_{\\text{toan phan}}} \\cdot 100\\%",
-        "note": "H: \\text{Hieu suat (%)} \\\\ A_{\\text{co ich}}: \\text{Cong co ich (J)} \\\\ A_{\\text{toan phan}}: \\text{Cong toan phan (J)}",
-        "unit": "Bai 9: Hieu suat"
+        "name": "Hiệu suất",
+        "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
+        "note": "H: \\text{Hiệu suất (%)} \\\\ A_{\\text{có ích}}: \\text{Công có ích (J)} \\\\ A_{\\text{toàn phần}}: \\text{Công toàn phần (J)}",
+        "unit": "Bài 9: Hiệu suất"
     }
 ]
