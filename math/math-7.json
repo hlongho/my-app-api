@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Công thức đa thức",
+        "formula": "(a + b)^2 = a^2 + 2ab + b^2",
+        "note": [
+            "a, b:\\,Là\\,các\\,hệ\\,số\\,cố\\,định"
+        ]
+    },
+    {
+        "name": "Công thức về tỷ lệ",
+        "formula": "\\frac{a}{b} = \\frac{c}{d}",
+        "note": [
+            "a, b, c, d:\\,Là\\,các\\,số\\,cố\\,định"
+        ]
+    },
+    {
+        "name": "Diện tích hình vuông",
+        "formula": "A = a^2",
+        "note": [
+            "a:\\,Độ\\,dài\\,cạnh\\,hình\\,vuông"
+        ]
+    },
+    {
+        "name": "Diện tích hình chữ nhật",
+        "formula": "A = a \\times b",
+        "note": [
+            "a, b:\\,Độ\\,dài\\,các\\,cạnh\\,hình\\,chữ\\,nhật"
+        ]
+    },
+    {
+        "name": "Diện tích tam giác",
+        "formula": "A = \\frac{1}{2} \\times b \\times h",
+        "note": [
+            "b:\\,Độ\\,dài\\,cơ\\,bản\\,của\\,tam\\,giác",
+            "h:\\,Chiều\\,cao\\,tương\\,ứng"
+        ]
+    },
+    {
+        "name": "Chu vi hình tròn",
+        "formula": "C = 2 \\times \\pi \\times r",
+        "note": [
+            "r:\\,Bán\\,kính\\,của\\,hình\\,tròn"
+        ]
+    },
+    {
+        "name": "Diện tích hình tròn",
+        "formula": "A = \\pi \\times r^2",
+        "note": [
+            "r:\\,Bán\\,kính\\,của\\,hình\\,tròn"
+        ]
+    }
+]

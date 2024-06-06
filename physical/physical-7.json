@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Tốc độ",
+        "formula": "v = \\frac{s}{t}",
+        "note": [
+            "v:\\,Tốc\\,độ\\,(m/s)",
+            "s:\\,Quãng\\,đường\\,(m)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 1: Chuyển động cơ học"
+    },
+    {
+        "name": "Khối lượng riêng",
+        "formula": "\\rho = \\frac{m}{V}",
+        "note": [
+            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "V:\\,Thể\\,tích\\,(m^3)"
+        ],
+        "unit": "Bài 2: Khối lượng và thể tích"
+    },
+    {
+        "name": "Trọng lượng",
+        "formula": "P = m \\cdot g",
+        "note": [
+            "P:\\,Trọng\\,lượng\\,(N)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)"
+        ],
+        "unit": "Bài 3: Lực"
+    },
+    {
+        "name": "Áp suất",
+        "formula": "p = \\frac{F}{S}",
+        "note": [
+            "p:\\,Áp\\,suất\\,(Pa)",
+            "F:\\,Lực\\,tác\\,dụng\\,(N)",
+            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
+        ],
+        "unit": "Bài 4: Áp suất"
+    },
+    {
+        "name": "Lực đàn hồi",
+        "formula": "F = k \\cdot \\Delta l",
+        "note": [
+            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
+            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
+            "\\Delta l:\\,Độ\\,biến\\,dạng\\,(m)"
+        ],
+        "unit": "Bài 5: Lực đàn hồi"
+    },
+    {
+        "name": "Công cơ học",
+        "formula": "A = F \\cdot s",
+        "note": [
+            "A:\\,Công\\,(J)",
+            "F:\\,Lực\\,(N)",
+            "s:\\,Quãng\\,đường\\,(m)"
+        ],
+        "unit": "Bài 6: Công cơ học"
+    },
+    {
+        "name": "Công suất",
+        "formula": "P = \\frac{A}{t}",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "A:\\,Công\\,(J)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 7: Công suất"
+    },
+    {
+        "name": "Nhiệt lượng",
+        "formula": "Q = m \\cdot c \\cdot \\Delta T",
+        "note": [
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg.°C)",
+            "\\Delta T:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
+        ],
+        "unit": "Bài 8: Nhiệt lượng"
+    },
+    {
+        "name": "Điện trở",
+        "formula": "R = \\frac{V}{I}",
+        "note": [
+            "R:\\,Điện\\,trở\\,(Ω)",
+            "V:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)"
+        ],
+        "unit": "Bài 9: Điện học"
+    },
+    {
+        "name": "Công của dòng điện",
+        "formula": "A = U \\cdot I \\cdot t",
+        "note": [
+            "A:\\,Công\\,của\\,dòng\\,điện\\,(J)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 10: Điện học"
+    },
+    {
+        "name": "Công suất điện",
+        "formula": "P = U \\cdot I",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)"
+        ],
+        "unit": "Bài 11: Điện học"
+    },
+    {
+        "name": "Nhiệt lượng tỏa ra của điện trở",
+        "formula": "Q = I^2 \\cdot R \\cdot t",
+        "note": [
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)",
+            "R:\\,Điện\\,trở\\,(Ω)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 12: Điện học"
+    },
+    {
+        "name": "Lực từ",
+        "formula": "F = B \\cdot I \\cdot L \\cdot sin\\theta",
+        "note": [
+            "F:\\,Lực\\,từ\\,(N)",
+            "B:\\,Cảm\\,ứng\\,từ\\,(T)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)",
+            "L:\\,Chiều\\,dài\\,dây\\,dẫn\\,(m)",
+            "\\theta:\\,Góc\\,giữa\\,dòng\\,điện\\,và\\,từ\\,trường"
+        ],
+        "unit": "Bài 13: Từ học"
+    },
+    {
+        "name": "Công của lực từ",
+        "formula": "A = F \\cdot d",
+        "note": [
+            "A:\\,Công\\,của\\,lực\\,từ\\,(J)",
+            "F:\\,Lực\\,từ\\,(N)",
+            "d:\\,Quãng\\,đường\\,(m)"
+        ],
+        "unit": "Bài 14: Từ học"
+    },
+    {
+        "name": "Hiệu suất",
+        "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
+        "note": [
+            "H:\\,Hiệu\\,suất\\,(\\%)",
+            "A_{\\text{có ích}}:\\,Công\\,có\\,ích\\,(J)",
+            "A_{\\text{toàn phần}}:\\,Công\\,toàn\\,phần\\,(J)"
+        ],
+        "unit": "Bài 15: Hiệu suất"
+    },
+    {
+        "name": "Phản xạ ánh sáng",
+        "formula": "\\theta_i = \\theta_r",
+        "note": [
+            "\\theta_i:\\,Góc\\,tới",
+            "\\theta_r:\\,Góc\\,phản\\,xạ"
+        ],
+        "unit": "Bài 16: Quang học"
+    },
+    {
+        "name": "Khúc xạ ánh sáng",
+        "formula": "n = \\frac{c}{v}",
+        "note": [
+            "n:\\,Chiết\\,suất",
+            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(m/s)",
+            "v:\\,Tốc\\,độ\\,ánh\\,sáng\\,trong\\,môi\\,trường\\,(m/s)"
+        ],
+        "unit": "Bài 17: Quang học"
+    },
+    {
+        "name": "Kính lúp",
+        "formula": "Độ phóng đại = \\frac{25}{f}",
+        "note": [
+            "f:\\,Tiêu\\,cự\\,(cm)"
+        ],
+        "unit": "Bài 18: Quang học"
+    }
+]
