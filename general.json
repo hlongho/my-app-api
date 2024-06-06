@@ -11,5 +11,18 @@
         "display": "Vật lý"
       }
     ]
+  },
+  {
+    "grade": "7",
+    "subject": [
+      {
+        "name": "math",
+        "display": "Toán"
+      },
+      {
+        "name": "physical",
+        "display": "Vật lý"
+      }
+    ]
   }
 ]
