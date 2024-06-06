@@ -1,25 +1,15 @@
-{
-  "subject": [
-    {
-      "name": "math",
-      "display": "Toán"
-    },
-    {
-      "name": "physical",
-      "display": "Vật lý"
-    },
-    {
-      "name": "chemistry",
-      "display": "Hoá học"
-    }
-  ],
-  "grade": [
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12"
-  ]
-}
+[
+  {
+    "grade": "6",
+    "subject": [
+      {
+        "name": "math",
+        "display": "Toán"
+      },
+      {
+        "name": "physical",
+        "display": "Vật lý"
+      }
+    ]
+  }
+]
