@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Công thức liên hệ giữa lực và điện trường",
+        "formula": "E = \\frac{F}{q}",
+        "note": [
+            "E:\\,Cường\\,độ\\,điện\\,trường\\,(V/m)",
+            "F:\\,Lực\\,tác\\,dụng\\,lên\\,điện\\,tích\\,(N)",
+            "q:\\,Điện\\,tích\\,(C)"
+        ],
+        "unit": "Công thức liên hệ giữa lực và điện trường"
+    },
+    {
+        "name": "Định luật Gauss",
+        "formula": "\\Phi = \\oint_S \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{Q}{\\varepsilon_0}",
+        "note": [
+            "\\Phi:\\,Thông\\,lượng\\,điện\\,trường\\,(Vm)",
+            "\\mathbf{E}:\\,Cường\\,độ\\,điện\\,trường\\,(V/m)",
+            "d\\mathbf{A}:\\,Yếu\\,tố\\,diện\\,tích\\,(m^2)",
+            "Q:\\,Điện\\,tích\\,(C)",
+            "\\varepsilon_0:\\,Hằng\\,số\\,điện\\,môi\\,trường\\,(F/m)"
+        ],
+        "unit": "Định luật Gauss"
+    },
+    {
+        "name": "Định luật cảm ứng điện từ Faraday",
+        "formula": "\\mathcal{E} = -\\frac{d\\Phi}{dt}",
+        "note": [
+            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,cảm\\,ứng\\,(V)",
+            "\\Phi:\\,Thông\\,lượng\\,từ\\,trường\\,(Wb)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Định luật cảm ứng điện từ Faraday"
+    },
+    {
+        "name": "Định luật Len",
+        "formula": "\\mathcal{E} = -L \\frac{di}{dt}",
+        "note": [
+            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,cảm\\,ứng\\,(V)",
+            "L:\\,Độ\\,tự\\,cảm\\,(H)",
+            "di:\\,Sự\\,thay\\,đổi\\,dòng\\,điện\\,(A)",
+            "dt:\\,Sự\\,thay\\,đổi\\,thời\\,gian\\,(s)"
+        ],
+        "unit": "Định luật Len"
+    },
+    {
+        "name": "Công suất tiêu thụ điện",
+        "formula": "P = UI\\cos(\\varphi)",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)",
+            "\\varphi:\\,Góc\\,lệch\\,pha"
+        ],
+        "unit": "Công suất tiêu thụ điện"
+    },
+    {
+        "name": "Công suất tức thời của dòng điện xoay chiều",
+        "formula": "P = U_{0}I_{0}\\cos(\\varphi)\\cos(\\omega t)",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "U_{0}:\\,Hiệu\\,điện\\,thế\\,cực\\,đại\\,(V)",
+            "I_{0}:\\,Cường\\,độ\\,dòng\\,điện\\,cực\\,đại\\,(A)",
+            "\\varphi:\\,Góc\\,lệch\\,pha",
+            "\\omega:\\,Tần\\,số\\,góc\\,(rad/s)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Công suất tức thời của dòng điện xoay chiều"
+    },
+    {
+        "name": "Chu kỳ và tần số của dòng điện xoay chiều",
+        "formula": "T = \\frac{2\\pi}{\\omega}",
+        "note": [
+            "T:\\,Chu\\,kỳ\\,(s)",
+            "\\omega:\\,Tần\\,số\\,góc\\,(rad/s)"
+        ],
+        "unit": "Chu kỳ và tần số của dòng điện xoay chiều"
+    },
+    {
+        "name": "Hiệu ứng Doppler",
+        "formula": "f' = f \\frac{v \\pm v_{\\text{nguồn}}}{v \\mp v_{\\text{quan sát}}}",
+        "note": [
+            "f':\\,Tần\\,số\\,quan\\,sát\\,(Hz)",
+            "f:\\,Tần\\,số\\,nguồn\\,(Hz)",
+            "v:\\,Vận\\,tốc\\,sóng\\,(m/s)",
+            "v_{\\text{nguồn}}:\\,Vận\\,tốc\\,nguồn\\,(m/s)",
+            "v_{\\text{quan sát}}:\\,Vận\\,tốc\\,quan\\,sát\\,(m/s)"
+        ],
+        "unit": "Hiệu ứng Doppler"
+    },
+    {
+        "name": "Phương trình sóng",
+        "formula": "y = A \\sin(kx - \\omega t + \\varphi)",
+        "note": [
+            "y:\\,Li\\,độ\\,(m)",
+            "A:\\,Biên\\,độ\\,(m)",
+            "k:\\,Số\\,sóng\\,(rad/m)",
+            "x:\\,Toạ\\,độ\\,(m)",
+            "\\omega:\\,Tần\\,số\\,góc\\,(rad/s)",
+            "t:\\,Thời\\,gian\\,(s)",
+            "\\varphi:\\,Pha\\,(rad)"
+        ],
+        "unit": "Phương trình sóng"
+    },
+    {
+        "name": "Phương trình dao động điều hoà",
+        "formula": "x = A \\cos(\\omega t + \\varphi)",
+        "note": [
+            "x:\\,Li\\,độ\\,(m)",
+            "A:\\,Biên\\,độ\\,(m)",
+            "\\omega:\\,Tần\\,số\\,góc\\,(rad/s)",
+            "t:\\,Thời\\,gian\\,(s)",
+            "\\varphi:\\,Pha\\,(rad)"
+        ],
+        "unit": "Phương trình dao động điều hoà"
+    },
+    {
+        "name": "Công thức Einstein về quang điện",
+        "formula": "E = hf - A",
+        "note": [
+            "E:\\,Năng\\,lượng\\,electron\\,giải\\,phóng\\,(J)",
+            "h:\\,Hằng\\,số\\,Planck\\,(6.626 \\times 10^{-34} J\\cdot s)",
+            "f:\\,Tần\\,số\\,ánh\\,sáng\\,(Hz)",
+            "A:\\,Công\\,thoát\\,(J)"
+        ],
+        "unit": "Công thức Einstein về quang điện"
+    },
+    {
+        "name": "Động lượng photon",
+        "formula": "p = \\frac{E}{c}",
+        "note": [
+            "p:\\,Động\\,lượng\\,photon\\,(kg\\cdot m/s)",
+            "E:\\,Năng\\,lượng\\,photon\\,(J)",
+            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(m/s)"
+        ],
+        "unit": "Động lượng photon"
+    },
+    {
+        "name": "Lưỡng tính sóng-hạt của ánh sáng",
+        "formula": "p = \\frac{h}{\\lambda}",
+        "note": [
+            "p:\\,Động\\,lượng\\,photon\\,(kg\\cdot m/s)",
+            "h:\\,Hằng\\,số\\,Planck\\,(6.626 \\times 10^{-34} J\\cdot s)",
+            "\\lambda:\\,Bước\\,sóng\\,(m)"
+        ],
+        "unit": "Lưỡng tính sóng-hạt của ánh sáng"
+    },
+    {
+        "name": "Công thức Dirac",
+        "formula": "E = \\sqrt{(pc)^2 + (mc^2)^2}",
+        "note": [
+            "E:\\,Năng\\,lượng\\,(J)",
+            "p:\\,Động\\,lượng\\,(kg\\cdot m/s)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(m/s)"
+        ],
+        "unit": "Công thức Dirac"
+    },
+    {
+        "name": "Phương trình Schrödinger độc lập thời gian",
+        "formula": "-\\frac{\\hbar^2}{2m} \\nabla^2 \\psi + V \\psi = E \\psi",
+        "note": [
+            "\\psi:\\,Hàm\\,sóng",
+            "V:\\,Thế\\,năng\\,(J)",
+            "E:\\,Năng\\,lượng\\,(J)",
+            "\\hbar:\\,Hằng\\,số\\,Planck\\,rút\\,gọn\\,(1.055 \\times 10^{-34} J\\cdot s)",
+            "m:\\,Khối\\,lượng\\,(kg)"
+        ],
+        "unit": "Phương trình Schrödinger độc lập thời gian"
+    }
+]

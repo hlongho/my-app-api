@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Diện tích tam giác",
+        "formula": "S = \\frac{1}{2} \\cdot a \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích\\,tam\\,giác",
+            "a:\\,Độ\\,dài\\,cạnh\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Diện tích tam giác"
+    },
+    {
+        "name": "Diện tích tam giác khi biết ba cạnh",
+        "formula": "S = \\sqrt{p(p - a)(p - b)(p - c)}",
+        "note": [
+            "S:\\,Diện\\,tích\\,tam\\,giác",
+            "p:\\,Nửa\\,chu\\,vi\\,(p = \\frac{a + b + c}{2})",
+            "a,\\,b,\\,c:\\,Ba\\,cạnh\\,của\\,tam\\,giác"
+        ],
+        "unit": "Diện tích tam giác"
+    },
+    {
+        "name": "Diện tích hình tròn",
+        "formula": "S = \\pi R^2",
+        "note": [
+            "S:\\,Diện\\,tích\\,hình\\,tròn",
+            "R:\\,Bán\\,kính\\,hình\\,tròn"
+        ],
+        "unit": "Diện tích hình tròn"
+    },
+    {
+        "name": "Chu vi hình tròn",
+        "formula": "C = 2 \\pi R",
+        "note": [
+            "C:\\,Chu\\,vi\\,hình\\,tròn",
+            "R:\\,Bán\\,kính\\,hình\\,tròn"
+        ],
+        "unit": "Chu vi hình tròn"
+    },
+    {
+        "name": "Thể tích khối hộp chữ nhật",
+        "formula": "V = a \\cdot b \\cdot c",
+        "note": [
+            "V:\\,Thể\\,tích\\,khối\\,hộp\\,chữ\\,nhật",
+            "a:\\,Chiều\\,dài",
+            "b:\\,Chiều\\,rộng",
+            "c:\\,Chiều\\,cao"
+        ],
+        "unit": "Thể tích khối hộp chữ nhật"
+    },
+    {
+        "name": "Thể tích khối lập phương",
+        "formula": "V = a^3",
+        "note": [
+            "V:\\,Thể\\,tích\\,khối\\,lập\\,phương",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Thể tích khối lập phương"
+    },
+    {
+        "name": "Thể tích hình lăng trụ",
+        "formula": "V = S_{đáy} \\cdot h",
+        "note": [
+            "V:\\,Thể\\,tích\\,hình\\,lăng\\,trụ",
+            "S_{đáy}:\\,Diện\\,tích\\,mặt\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Thể tích hình lăng trụ"
+    },
+    {
+        "name": "Thể tích khối chóp",
+        "formula": "V = \\frac{1}{3} \\cdot S_{đáy} \\cdot h",
+        "note": [
+            "V:\\,Thể\\,tích\\,khối\\,chóp",
+            "S_{đáy}:\\,Diện\\,tích\\,mặt\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Thể tích khối chóp"
+    },
+    {
+        "name": "Thể tích khối cầu",
+        "formula": "V = \\frac{4}{3} \\pi R^3",
+        "note": [
+            "V:\\,Thể\\,tích\\,khối\\,cầu",
+            "R:\\,Bán\\,kính\\,khối\\,cầu"
+        ],
+        "unit": "Thể tích khối cầu"
+    },
+    {
+        "name": "Diện tích mặt cầu",
+        "formula": "S = 4 \\pi R^2",
+        "note": [
+            "S:\\,Diện\\,tích\\,mặt\\,cầu",
+            "R:\\,Bán\\,kính\\,khối\\,cầu"
+        ],
+        "unit": "Diện tích mặt cầu"
+    },
+    {
+        "name": "Phương trình mặt phẳng trong không gian",
+        "formula": "ax + by + cz + d = 0",
+        "note": [
+            "a,\\,b,\\,c:\\,Các\\,hệ\\,số\\,của\\,phương\\,trình",
+            "d:\\,Hệ\\,số\\,tự\\,do"
+        ],
+        "unit": "Phương trình mặt phẳng"
+    },
+    {
+        "name": "Phương trình mặt cầu trong không gian",
+        "formula": "(x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2 = R^2",
+        "note": [
+            "x_0,\\,y_0,\\,z_0:\\,Tọa\\,độ\\,tâm\\,cầu",
+            "R:\\,Bán\\,kính\\,khối\\,cầu"
+        ],
+        "unit": "Phương trình mặt cầu"
+    },
+    {
+        "name": "Khoảng cách từ một điểm đến một mặt phẳng",
+        "formula": "d = \\frac{|ax_1 + by_1 + cz_1 + d|}{\\sqrt{a^2 + b^2 + c^2}}",
+        "note": [
+            "d:\\,Khoảng\\,cách",
+            "a,\\,b,\\,c:\\,Các\\,hệ\\,số\\,của\\,phương\\,trình\\,mặt\\,phẳng",
+            "d:\\,Hệ\\,số\\,tự\\,do",
+            "(x_1,\\,y_1,\\,z_1):\\,Tọa\\,độ\\,điểm"
+        ],
+        "unit": "Khoảng cách từ một điểm đến một mặt phẳng"
+    }
+]

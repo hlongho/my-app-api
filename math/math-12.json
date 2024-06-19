@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Công thức nghiệm của phương trình bậc hai",
+        "formula": "ax^2 + bx + c = 0",
+        "note": [
+            "Nếu\\,Δ = b^2 - 4ac\\,>\\,0:\\,Phương\\,trình\\,có\\,2\\,nghiệm\\,phân\\,biệt:\\,x_1 = \\frac{-b + \\sqrt{Δ}}{2a},\\,x_2 = \\frac{-b - \\sqrt{Δ}}{2a}",
+            "Nếu\\,Δ = 0:\\,Phương\\,trình\\,có\\,nghiệm\\,kép:\\,x = \\frac{-b}{2a}",
+            "Nếu\\,Δ\\,<\\,0:\\,Phương\\,trình\\,vô\\,nghiệm"
+        ],
+        "unit": "Công thức nghiệm của phương trình bậc hai"
+    },
+    {
+        "name": "Hệ thức Vi-et",
+        "formula": "ax^2 + bx + c = 0",
+        "note": [
+            "Nếu\\,phương\\,trình\\,có\\,nghiệm\\,x_1,\\,x_2\\,thì:",
+            "x_1 + x_2 = -\\frac{b}{a}",
+            "x_1x_2 = \\frac{c}{a}"
+        ],
+        "unit": "Hệ thức Vi-et"
+    },
+    {
+        "name": "Đạo hàm của hàm số",
+        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}",
+        "note": [
+            "f'(x):\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,f(x)"
+        ],
+        "unit": "Đạo hàm"
+    },
+    {
+        "name": "Đạo hàm của hàm số mũ và logarit",
+        "formula": "\\begin{cases} (e^x)' = e^x \\\\ (a^x)' = a^x \\ln(a) \\\\ (\\ln(x))' = \\frac{1}{x} \\\\ (\\log_a(x))' = \\frac{1}{x \\ln(a)} \\end{cases}",
+        "note": [
+            "(e^x)':\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,e^x",
+            "(a^x)':\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,a^x",
+            "(\\ln(x))':\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,\\ln(x)",
+            "(\\log_a(x))':\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,\\log_a(x)"
+        ],
+        "unit": "Đạo hàm của hàm số mũ và logarit"
+    },
+    {
+        "name": "Công thức tính tích phân cơ bản",
+        "formula": "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C,\\,n \\neq -1",
+        "note": [
+            "\\int:\\,Ký\\,hiệu\\,tích\\,phân",
+            "x^n:\\,Hàm\\,số\\,bậc\\,n",
+            "C:\\,Hằng\\,số\\,tích\\,phân"
+        ],
+        "unit": "Công thức tính tích phân cơ bản"
+    },
+    {
+        "name": "Công thức tính tích phân của hàm số mũ và logarit",
+        "formula": "\\begin{cases} \\int e^x dx = e^x + C \\\\ \\int a^x dx = \\frac{a^x}{\\ln(a)} + C \\\\ \\int \\ln(x) dx = x\\ln(x) - x + C \\\\ \\int \\log_a(x) dx = \\frac{x \\ln(x) - x}{\\ln(a)} + C \\end{cases}",
+        "note": [
+            "\\int:\\,Ký\\,hiệu\\,tích\\,phân",
+            "C:\\,Hằng\\,số\\,tích\\,phân"
+        ],
+        "unit": "Công thức tính tích phân của hàm số mũ và logarit"
+    },
+    {
+        "name": "Công thức lượng giác cơ bản",
+        "formula": "\\begin{cases} \\sin^2(x) + \\cos^2(x) = 1 \\\\ 1 + \\tan^2(x) = \\frac{1}{\\cos^2(x)} \\\\ 1 + \\cot^2(x) = \\frac{1}{\\sin^2(x)} \\end{cases}",
+        "note": [
+            "\\sin^2(x) + \\cos^2(x) = 1:\\,Công\\,thức\\,Pythagore\\,cơ\\,bản",
+            "1 + \\tan^2(x) = \\frac{1}{\\cos^2(x)}:\\,Công\\,thức\\,liên\\,hệ\\,giữa\\,tan\\,và\\,cos",
+            "1 + \\cot^2(x) = \\frac{1}{\\sin^2(x)}:\\,Công\\,thức\\,liên\\,hệ\\,giữa\\,cot\\,và\\,sin"
+        ],
+        "unit": "Công thức lượng giác cơ bản"
+    },
+    {
+        "name": "Công thức chuyển đổi giữa các hệ cơ số",
+        "formula": "\\text{Số thập phân} = \\sum_{i=0}^{n} a_i \\cdot b^i",
+        "note": [
+            "a_i:\\,Giá\\,trị\\,các\\,chữ\\,số\\,trong\\,hệ\\,cơ\\,số\\,b",
+            "b:\\,Hệ\\,cơ\\,số",
+            "i:\\,Chỉ\\,số\\,của\\,chữ\\,số\\,từ\\,phải\\,sang\\,trái"
+        ],
+        "unit": "Công thức chuyển đổi giữa các hệ cơ số"
+    },
+    {
+        "name": "Công thức tính tổ hợp",
+        "formula": "C(n, k) = \\frac{n!}{k!(n-k)!}",
+        "note": [
+            "C(n, k):\\,Tổ\\,hợp\\,chập\\,k\\,của\\,n",
+            "n!:\\,Giai\\,thừa\\,của\\,n",
+            "k!:\\,Giai\\,thừa\\,của\\,k"
+        ],
+        "unit": "Công thức tính tổ hợp"
+    }
+]
