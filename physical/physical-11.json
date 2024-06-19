@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Công thức lực tương tác giữa hai điện tích điểm (Định luật Coulomb)",
+        "formula": "F = k \\cdot \\frac{|q_1 \\cdot q_2|}{r^2}",
+        "note": [
+            "F:\\,Lực\\,tương\\,tác\\,(N)",
+            "k:\\,Hằng\\,số\\,Coulomb\\,(8.99 \\times 10^9\\,\\frac{N\\cdot m^2}{C^2})",
+            "q_1, q_2:\\,Độ\\,lớn\\,của\\,các\\,điện\\,tích\\,(C)",
+            "r:\\,Khoảng\\,cách\\,giữa\\,hai\\,điện\\,tích\\,(m)"
+        ],
+        "unit": "Bài 1: Điện tích và định luật Coulomb"
+    },
+    {
+        "name": "Công thức cường độ điện trường",
+        "formula": "E = \\frac{F}{q}",
+        "note": [
+            "E:\\,Cường\\,độ\\,điện\\,trường\\,(N/C)",
+            "F:\\,Lực\\,tác\\,dụng\\,lên\\,điện\\,tích\\,thử\\,(N)",
+            "q:\\,Điện\\,tích\\,thử\\,(C)"
+        ],
+        "unit": "Bài 2: Cường độ điện trường"
+    },
+    {
+        "name": "Hiệu điện thế",
+        "formula": "U = E \\cdot d",
+        "note": [
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "E:\\,Cường\\,độ\\,điện\\,trường\\,(N/C)",
+            "d:\\,Khoảng\\,cách\\,giữa\\,hai\\,điểm\\,(m)"
+        ],
+        "unit": "Bài 3: Hiệu điện thế và công của lực điện"
+    },
+    {
+        "name": "Điện dung của tụ điện",
+        "formula": "C = \\frac{Q}{U}",
+        "note": [
+            "C:\\,Điện\\,dung\\,(F)",
+            "Q:\\,Điện\\,tích\\,trên\\,mỗi\\,bản\\,tụ\\,(C)",
+            "U:\\,Hiệu\\,điện\\,thế\\,giữa\\,hai\\,bản\\,tụ\\,(V)"
+        ],
+        "unit": "Bài 4: Tụ điện"
+    },
+    {
+        "name": "Năng lượng điện trường trong tụ điện",
+        "formula": "W = \\frac{1}{2} C \\cdot U^2",
+        "note": [
+            "W:\\,Năng\\,lượng\\,điện\\,trường\\,(J)",
+            "C:\\,Điện\\,dung\\,của\\,tụ\\,điện\\,(F)",
+            "U:\\,Hiệu\\,điện\\,thế\\,giữa\\,hai\\,bản\\,tụ\\,(V)"
+        ],
+        "unit": "Bài 5: Năng lượng điện trường của tụ điện"
+    },
+    {
+        "name": "Định luật Ohm đối với toàn mạch",
+        "formula": "I = \\frac{\\mathcal{E}}{R + r}",
+        "note": [
+            "I:\\,Dòng\\,điện\\,(A)",
+            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,(V)",
+            "R:\\,Điện\\,trở\\,ngoài\\,(Ω)",
+            "r:\\,Điện\\,trở\\,trong\\,(Ω)"
+        ],
+        "unit": "Bài 6: Định luật Ohm đối với toàn mạch"
+    },
+    {
+        "name": "Công suất tiêu thụ điện",
+        "formula": "P = I^2 \\cdot R",
+        "note": [
+            "P:\\,Công\\,suất\\,tiêu\\,thụ\\,điện\\,(W)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "R:\\,Điện\\,trở\\,(Ω)"
+        ],
+        "unit": "Bài 7: Công suất tiêu thụ điện"
+    },
+    {
+        "name": "Suất điện động cảm ứng",
+        "formula": "\\mathcal{E} = - \\frac{\\Delta \\Phi}{\\Delta t}",
+        "note": [
+            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,cảm\\,ứng\\,(V)",
+            "\\Delta \\Phi:\\,Độ\\,biến\\,thiên\\,từ\\,thông\\,(Wb)",
+            "\\Delta t:\\,Khoảng\\,thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 8: Cảm ứng điện từ"
+    },
+    {
+        "name": "Năng lượng từ trường",
+        "formula": "W = \\frac{1}{2} L \\cdot I^2",
+        "note": [
+            "W:\\,Năng\\,lượng\\,từ\\,trường\\,(J)",
+            "L:\\,Độ\\,tự\\,cảm\\,(H)",
+            "I:\\,Dòng\\,điện\\,(A)"
+        ],
+        "unit": "Bài 9: Năng lượng từ trường"
+    },
+    {
+        "name": "Chu kỳ dao động điều hòa",
+        "formula": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
+        "note": [
+            "T:\\,Chu\\,kỳ\\,(s)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "k:\\,Hệ\\,số\\,đàn\\,hồi\\,(N/m)"
+        ],
+        "unit": "Bài 10: Dao động điều hòa"
+    },
+    {
+        "name": "Tần số dao động điều hòa",
+        "formula": "f = \\frac{1}{T}",
+        "note": [
+            "f:\\,Tần\\,số\\,(Hz)",
+            "T:\\,Chu\\,kỳ\\,(s)"
+        ],
+        "unit": "Bài 11: Tần số dao động điều hòa"
+    },
+    {
+        "name": "Vận tốc trong dao động điều hòa",
+        "formula": "v = -\\omega \\cdot A \\cdot \\sin(\\omega t + \\varphi)",
+        "note": [
+            "v:\\,Vận\\,tốc\\,(m/s)",
+            "\\omega:\\,Tần\\,số\\,góc\\,(rad/s)",
+            "A:\\,Biên\\,độ\\,dao\\,động\\,(m)",
+            "t:\\,Thời\\,gian\\,(s)",
+            "\\varphi:\\,Pha\\,ban\\,đầu"
+        ],
+        "unit": "Bài 12: Vận tốc trong dao động điều hòa"
+    },
+    {
+        "name": "Gia tốc trong dao động điều hòa",
+        "formula": "a = -\\omega^2 \\cdot A \\cdot \\cos(\\omega t + \\varphi)",
+        "note": [
+            "a:\\,Gia\\,tốc\\,(m/s^2)",
+            "\\omega:\\,Tần\\,số\\,góc\\,(rad/s)",
+            "A:\\,Biên\\,độ\\,dao\\,động\\,(m)",
+            "t:\\,Thời\\,gian\\,(s)",
+            "\\varphi:\\,Pha\\,ban\\,đầu"
+        ],
+        "unit": "Bài 13: Gia tốc trong dao động điều hòa"
+    },
+    {
+        "name": "Động năng của vật dao động điều hòa",
+        "formula": "W_d = \\frac{1}{2} m \\cdot v^2",
+        "note": [
+            "W_d:\\,Động\\,năng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "v:\\,Vận\\,tốc\\,(m/s)"
+        ],
+        "unit": "Bài 14: Động năng của vật dao động điều hòa"
+    },
+    {
+        "name": "Thế năng của vật dao động điều hòa",
+        "formula": "W_t = \\frac{1}{2} k \\cdot x^2",
+        "note": [
+            "W_t:\\,Thế\\,năng\\,(J)",
+            "k:\\,Hệ\\,số\\,đàn\\,hồi\\,(N/m)",
+            "x:\\,Li\\,độ\\,(m)"
+        ],
+        "unit": "Bài 15: Thế năng của vật dao động điều hòa"
+    },
+    {
+        "name": "Năng lượng toàn phần của vật dao động điều hòa",
+        "formula": "W = \\frac{1}{2} k \\cdot A^2",
+        "note": [
+            "W:\\,Năng\\,lượng\\,toàn\\,phần\\,(J)",
+            "k:\\,Hệ\\,số\\,đàn\\,hồi\\,(N/m)",
+            "A:\\,Biên\\,độ\\,dao\\,động\\,(m)"
+        ],
+        "unit": "Bài 16: Năng lượng toàn phần của vật dao động điều hòa"
+    }
+]

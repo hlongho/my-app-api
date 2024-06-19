@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Phương trình bậc hai",
+        "formula": "ax^2 + bx + c = 0",
+        "note": [
+            "a, b, c:\\,Hệ\\,số",
+            "x:\\,Nghiệm"
+        ],
+        "unit": "Chương 1: Phương trình bậc hai"
+    },
+    {
+        "name": "Công thức nghiệm của phương trình bậc hai",
+        "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+        "note": [
+            "a, b, c:\\,Hệ\\,số",
+            "x:\\,Nghiệm"
+        ],
+        "unit": "Chương 1: Phương trình bậc hai"
+    },
+    {
+        "name": "Định lý Viète",
+        "formula": "\\begin{cases} x_1 + x_2 = -\\frac{b}{a} \\\\ x_1 x_2 = \\frac{c}{a} \\end{cases}",
+        "note": [
+            "x_1, x_2:\\,Nghiệm",
+            "a, b, c:\\,Hệ\\,số"
+        ],
+        "unit": "Chương 1: Định lý Viète"
+    },
+    {
+        "name": "Hàm số bậc ba",
+        "formula": "y = ax^3 + bx^2 + cx + d",
+        "note": [
+            "a, b, c, d:\\,Hệ\\,số",
+            "y:\\,Giá\\,trị\\,hàm\\,số",
+            "x:\\,Biến\\,số"
+        ],
+        "unit": "Chương 2: Hàm số bậc ba"
+    },
+    {
+        "name": "Hàm số mũ",
+        "formula": "y = a^x",
+        "note": [
+            "a:\\,Cơ\\,số",
+            "y:\\,Giá\\,trị\\,hàm\\,số",
+            "x:\\,Biến\\,số"
+        ],
+        "unit": "Chương 3: Hàm số mũ"
+    },
+    {
+        "name": "Hàm số logarit",
+        "formula": "y = \\log_a{x}",
+        "note": [
+            "a:\\,Cơ\\,số",
+            "y:\\,Giá\\,trị\\,hàm\\,số",
+            "x:\\,Biến\\,số"
+        ],
+        "unit": "Chương 3: Hàm số logarit"
+    },
+    {
+        "name": "Đạo hàm của hàm số",
+        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}",
+        "note": [
+            "f'(x):\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,f(x)",
+            "f(x + h):\\,Giá\\,trị\\,hàm\\,số\\,tại\\,x + h",
+            "f(x):\\,Giá\\,trị\\,hàm\\,số\\,tại\\,x",
+            "h:\\,Khoảng\\,dịch\\,chuyển"
+        ],
+        "unit": "Chương 4: Đạo hàm"
+    },
+    {
+        "name": "Đạo hàm của hàm số mũ",
+        "formula": "(a^x)' = a^x \\ln{a}",
+        "note": [
+            "a^x:\\,Hàm\\,số\\,mũ",
+            "\\ln{a}:\\,Logarit\\,tự\\,nhiên\\,của\\,a"
+        ],
+        "unit": "Chương 4: Đạo hàm của hàm số mũ"
+    },
+    {
+        "name": "Đạo hàm của hàm số logarit",
+        "formula": "(\\log_a{x})' = \\frac{1}{x \\ln{a}}",
+        "note": [
+            "\\log_a{x}:\\,Hàm\\,số\\,logarit",
+            "\\ln{a}:\\,Logarit\\,tự\\,nhiên\\,của\\,a"
+        ],
+        "unit": "Chương 4: Đạo hàm của hàm số logarit"
+    },
+    {
+        "name": "Nguyên hàm",
+        "formula": "F(x) = \\int f(x) \\,dx",
+        "note": [
+            "F(x):\\,Nguyên\\,hàm\\,của\\,f(x)",
+            "\\int f(x) \\,dx:\\,Tích\\,phân\\,bất\\,định",
+            "f(x):\\,Hàm\\,dưới\\,dấu\\,tích\\,phân"
+        ],
+        "unit": "Chương 5: Nguyên hàm và tích phân"
+    },
+    {
+        "name": "Tích phân",
+        "formula": "\\int_{a}^{b} f(x) \\,dx = F(b) - F(a)",
+        "note": [
+            "\\int_{a}^{b} f(x) \\,dx:\\,Tích\\,phân\\,xác\\,định",
+            "F(x):\\,Nguyên\\,hàm\\,của\\,f(x)",
+            "a, b:\\,Cận\\,tích\\,phân"
+        ],
+        "unit": "Chương 5: Nguyên hàm và tích phân"
+    },
+    {
+        "name": "Công thức cơ bản của tích phân",
+        "formula": "\\int x^n \\,dx = \\frac{x^{n+1}}{n+1} + C, \\text{n} \\neq -1",
+        "note": [
+            "x^n:\\,Hàm\\,lũy\\,thừa",
+            "n:\\,Số\\,mũ",
+            "C:\\,Hằng\\,số"
+        ],
+        "unit": "Chương 5: Nguyên hàm và tích phân"
+    },
+    {
+        "name": "Công thức tích phân từng phần",
+        "formula": "\\int u \\,dv = uv - \\int v \\,du",
+        "note": [
+            "u, v:\\,Hàm\\,số",
+            "du, dv:\\,Vi\\,phân\\,của\\,u\\,và\\,v"
+        ],
+        "unit": "Chương 5: Nguyên hàm và tích phân"
+    },
+    {
+        "name": "Công thức tích phân đổi biến số",
+        "formula": "\\int f(g(x))g'(x)dx = \\int f(u)du, \\text{với} \\, u = g(x)",
+        "note": [
+            "f(g(x))g'(x):\\,Hàm\\,số\\,được\\,đổi\\,biến",
+            "u = g(x):\\,Biến\\,đổi"
+        ],
+        "unit": "Chương 5: Nguyên hàm và tích phân"
+    },
+    {
+        "name": "Phương trình đường thẳng trong không gian",
+        "formula": "\\frac{x - x_0}{a} = \\frac{y - y_0}{b} = \\frac{z - z_0}{c}",
+        "note": [
+            "(x_0, y_0, z_0):\\,Tọa\\,độ\\,điểm\\,đi\\,qua\\,đường\\,thẳng",
+            "(a, b, c):\\,Vector\\,chỉ\\,phương"
+        ],
+        "unit": "Chương 6: Phương trình đường thẳng"
+    },
+    {
+        "name": "Phương trình mặt phẳng",
+        "formula": "Ax + By + Cz + D = 0",
+        "note": [
+            "A, B, C, D:\\,Hệ\\,số",
+            "x, y, z:\\,Tọa\\,độ"
+        ],
+        "unit": "Chương 7: Phương trình mặt phẳng"
+    },
+    {
+        "name": "Khoảng cách từ một điểm đến một đường thẳng",
+        "formula": "d = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}",
+        "note": [
+            "(x_1, y_1):\\,Tọa\\,độ\\,điểm",
+            "Ax + By + C = 0:\\,Phương\\,trình\\,đường\\,thẳng"
+        ],
+        "unit": "Chương 8: Khoảng cách"
+    },
+    {
+        "name": "Khoảng cách từ một điểm đến một mặt phẳng",
+        "formula": "d = \\frac{|Ax_1 + By_1 + Cz_1 + D|}{\\sqrt{A^2 + B^2 + C^2}}",
+        "note": [
+            "(x_1, y_1, z_1):\\,Tọa\\,độ\\,điểm",
+            "Ax + By + Cz + D = 0:\\,Phương\\,trình\\,mặt\\,phẳng"
+        ],
+        "unit": "Chương 8: Khoảng cách"
+    },
+    {
+        "name": "Góc giữa hai đường thẳng",
+        "formula": "\\cos{\\theta} = \\frac{\\vec{a} \\cdot \\vec{b}}{\\|\\vec{a}\\| \\|\\vec{b}\\|}",
+        "note": [
+            "\\vec{a}, \\vec{b}:\\,Vector\\,chỉ\\,phương\\,của\\,hai\\,đường\\,thẳng",
+            "\\vec{a} \\cdot \\vec{b}:\\,Tích\\,vô\\,hướng",
+            "\\|\\vec{a}\\|, \\|\\vec{b}\\|:Độ\\,dài\\,vector"
+        ],
+        "unit": "Chương 9: Góc"
+    }
+]
