@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Công thức tính khoảng cách giữa hai điểm",
+        "formula": "d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+        "note": [
+            "d:\\,Khoảng\\,cách",
+            "x_1, x_2:\\,Hoành\\,độ\\,của\\,hai\\,điểm",
+            "y_1, y_2:\\,Tung\\,độ\\,của\\,hai\\,điểm"
+        ],
+        "unit": "Bài 1: Khoảng cách giữa hai điểm"
+    },
+    {
+        "name": "Công thức tính diện tích tam giác",
+        "formula": "S = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "x_1, x_2, x_3:\\,Hoành\\,độ\\,của\\,ba\\,điểm",
+            "y_1, y_2, y_3:\\,Tung\\,độ\\,của\\,ba\\,điểm"
+        ],
+        "unit": "Bài 2: Diện tích tam giác"
+    },
+    {
+        "name": "Phương trình đường thẳng",
+        "formula": "Ax + By + C = 0",
+        "note": [
+            "A, B, C:\\,Hệ\\,số",
+            "x, y:\\,Tọa\\,độ\\,điểm\\,trên\\,đường\\,thẳng"
+        ],
+        "unit": "Bài 3: Phương trình đường thẳng"
+    },
+    {
+        "name": "Phương trình đường tròn",
+        "formula": "(x - x_0)^2 + (y - y_0)^2 = R^2",
+        "note": [
+            "x_0, y_0:\\,Tọa\\,độ\\,tâm\\,đường\\,tròn",
+            "R:\\,Bán\\,kính\\,đường\\,tròn",
+            "x, y:\\,Tọa\\,độ\\,điểm\\,trên\\,đường\\,tròn"
+        ],
+        "unit": "Bài 4: Phương trình đường tròn"
+    },
+    {
+        "name": "Diện tích hình chữ nhật",
+        "formula": "S = a \\cdot b",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "a:\\,Chiều\\,dài",
+            "b:\\,Chiều\\,rộng"
+        ],
+        "unit": "Bài 5: Diện tích hình chữ nhật"
+    },
+    {
+        "name": "Chu vi hình chữ nhật",
+        "formula": "P = 2(a + b)",
+        "note": [
+            "P:\\,Chu\\,vi",
+            "a:\\,Chiều\\,dài",
+            "b:\\,Chiều\\,rộng"
+        ],
+        "unit": "Bài 6: Chu vi hình chữ nhật"
+    },
+    {
+        "name": "Diện tích hình vuông",
+        "formula": "S = a^2",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Bài 7: Diện tích hình vuông"
+    },
+    {
+        "name": "Chu vi hình vuông",
+        "formula": "P = 4a",
+        "note": [
+            "P:\\,Chu\\,vi",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Bài 8: Chu vi hình vuông"
+    },
+    {
+        "name": "Diện tích hình thang",
+        "formula": "S = \\frac{1}{2}(a + b) \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "a:\\,Đáy\\,lớn",
+            "b:\\,Đáy\\,nhỏ",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Bài 9: Diện tích hình thang"
+    },
+    {
+        "name": "Diện tích hình bình hành",
+        "formula": "S = a \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "a:\\,Cạnh\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Bài 10: Diện tích hình bình hành"
+    },
+    {
+        "name": "Diện tích hình thoi",
+        "formula": "S = \\frac{1}{2} \\cdot d_1 \\cdot d_2",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "d_1, d_2:\\,Đường\\,chéo"
+        ],
+        "unit": "Bài 11: Diện tích hình thoi"
+    },
+    {
+        "name": "Diện tích hình tam giác",
+        "formula": "S = \\frac{1}{2} \\cdot a \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "a:\\,Cạnh\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Bài 12: Diện tích hình tam giác"
+    },
+    {
+        "name": "Định lý Pythagore",
+        "formula": "a^2 + b^2 = c^2",
+        "note": [
+            "a, b:\\,Các\\,cạnh\\,góc\\,vuông",
+            "c:\\,Cạnh\\,huyền"
+        ],
+        "unit": "Bài 13: Định lý Pythagore"
+    },
+    {
+        "name": "Thể tích hình hộp chữ nhật",
+        "formula": "V = a \\cdot b \\cdot c",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "a:\\,Chiều\\,dài",
+            "b:\\,Chiều\\,rộng",
+            "c:\\,Chiều\\,cao"
+        ],
+        "unit": "Bài 14: Thể tích hình hộp chữ nhật"
+    },
+    {
+        "name": "Thể tích hình lập phương",
+        "formula": "V = a^3",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Bài 15: Thể tích hình lập phương"
+    },
+    {
+        "name": "Thể tích hình lăng trụ",
+        "formula": "V = S_{đáy} \\cdot h",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "S_{đáy}:\\,Diện\\,tích\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Bài 16: Thể tích hình lăng trụ"
+    },
+    {
+        "name": "Thể tích hình chóp",
+        "formula": "V = \\frac{1}{3} S_{đáy} \\cdot h",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "S_{đáy}:\\,Diện\\,tích\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Bài 17: Thể tích hình chóp"
+    },
+    {
+        "name": "Thể tích hình cầu",
+        "formula": "V = \\frac{4}{3} \\pi r^3",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "r:\\,Bán\\,kính",
+            "\\pi:\\,Hằng\\,số\\,Pi"
+        ],
+        "unit": "Bài 18: Thể tích hình cầu"
+    },
+    {
+        "name": "Diện tích mặt cầu",
+        "formula": "S = 4 \\pi r^2",
+        "note": [
+            "S:\\,Diện\\,tích",
+            "r:\\,Bán\\,kính",
+            "\\pi:\\,Hằng\\,số\\,Pi"
+        ],
+        "unit": "Bài 19: Diện tích mặt cầu"
+    }
+]

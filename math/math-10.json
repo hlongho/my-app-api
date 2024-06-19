@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Công thức tính đạo hàm",
+        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
+        "note": [
+            "f'(x):\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,f\\,tại\\,x",
+            "f(x):\\,Hàm\\,số",
+            "h:\\,Gia\\,số\\,nhỏ"
+        ],
+        "unit": "Bài 1: Đạo hàm"
+    },
+    {
+        "name": "Công thức tính đạo hàm của tổng",
+        "formula": "[f(x) + g(x)]' = f'(x) + g'(x)",
+        "note": [
+            "f(x), g(x):\\,Các\\,hàm\\,số",
+            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số"
+        ],
+        "unit": "Bài 2: Đạo hàm của tổng"
+    },
+    {
+        "name": "Công thức tính đạo hàm của tích",
+        "formula": "[f(x) \\cdot g(x)]' = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)",
+        "note": [
+            "f(x), g(x):\\,Các\\,hàm\\,số",
+            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số"
+        ],
+        "unit": "Bài 3: Đạo hàm của tích"
+    },
+    {
+        "name": "Công thức tính đạo hàm của thương",
+        "formula": "\\left( \\frac{f(x)}{g(x)} \\right)' = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{[g(x)]^2}",
+        "note": [
+            "f(x), g(x):\\,Các\\,hàm\\,số",
+            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số",
+            "g(x) \\neq 0"
+        ],
+        "unit": "Bài 4: Đạo hàm của thương"
+    },
+    {
+        "name": "Công thức tính đạo hàm của hàm hợp",
+        "formula": "\\left( f(g(x)) \\right)' = f'(g(x)) \\cdot g'(x)",
+        "note": [
+            "f(x), g(x):\\,Các\\,hàm\\,số",
+            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số"
+        ],
+        "unit": "Bài 5: Đạo hàm của hàm hợp"
+    },
+    {
+        "name": "Phương trình bậc nhất một ẩn",
+        "formula": "ax + b = 0",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,nhất",
+            "b:\\,Hằng\\,số",
+            "x:\\,Ẩn\\,số"
+        ],
+        "unit": "Bài 6: Phương trình bậc nhất một ẩn"
+    },
+    {
+        "name": "Phương trình bậc hai một ẩn",
+        "formula": "ax^2 + bx + c = 0",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hằng\\,số",
+            "x:\\,Ẩn\\,số"
+        ],
+        "unit": "Bài 7: Phương trình bậc hai một ẩn"
+    },
+    {
+        "name": "Công thức nghiệm phương trình bậc hai",
+        "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hằng\\,số",
+            "x:\\,Nghiệm"
+        ],
+        "unit": "Bài 8: Công thức nghiệm phương trình bậc hai"
+    },
+    {
+        "name": "Công thức nghiệm thu gọn phương trình bậc hai",
+        "formula": "x = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}, \\text{với } \\Delta = b^2 - 4ac",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hằng\\,số",
+            "x:\\,Nghiệm",
+            "\\Delta:\\,Biệt\\,thức"
+        ],
+        "unit": "Bài 9: Công thức nghiệm thu gọn phương trình bậc hai"
+    },
+    {
+        "name": "Định lý Viet về nghiệm của phương trình bậc hai",
+        "formula": "\\begin{cases} x_1 + x_2 = -\\frac{b}{a} \\\\ x_1 x_2 = \\frac{c}{a} \\end{cases}",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hằng\\,số",
+            "x_1, x_2:\\,Các\\,nghiệm\\,của\\,phương\\,trình"
+        ],
+        "unit": "Bài 10: Định lý Viet về nghiệm của phương trình bậc hai"
+    },
+    {
+        "name": "Hàm số bậc nhất",
+        "formula": "y = ax + b",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,nhất",
+            "b:\\,Hằng\\,số",
+            "x:\\,Biến\\,số",
+            "y:\\,Giá\\,trị\\,hàm\\,số"
+        ],
+        "unit": "Bài 11: Hàm số bậc nhất"
+    },
+    {
+        "name": "Hàm số bậc hai",
+        "formula": "y = ax^2 + bx + c",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hằng\\,số",
+            "x:\\,Biến\\,số",
+            "y:\\,Giá\\,trị\\,hàm\\,số"
+        ],
+        "unit": "Bài 12: Hàm số bậc hai"
+    },
+    {
+        "name": "Phương trình đường thẳng",
+        "formula": "y = mx + c",
+        "note": [
+            "m:\\,Hệ\\,số\\,góc",
+            "c:\\,Giao\\,điểm\\,với\\,trục\\,y",
+            "x:\\,Biến\\,số",
+            "y:\\,Giá\\,trị\\,hàm\\,số"
+        ],
+        "unit": "Bài 13: Phương trình đường thẳng"
+    }
+]

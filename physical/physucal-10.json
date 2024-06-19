@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Chuyển động thẳng đều",
+        "formula": "s = v \\cdot t",
+        "note": [
+            "s:\\,Quãng\\,đường\\,đi\\,được\\,(m)",
+            "v:\\,Vận\\,tốc\\,(m/s)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 1: Chuyển động thẳng đều"
+    },
+    {
+        "name": "Chuyển động thẳng biến đổi đều",
+        "formula": "v = v_0 + a \\cdot t",
+        "note": [
+            "v:\\,Vận\\,tốc\\,(m/s)",
+            "v_0:\\,Vận\\,tốc\\,ban\\,đầu\\,(m/s)",
+            "a:\\,Gia\\,tốc\\,(m/s^2)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 2: Chuyển động thẳng biến đổi đều"
+    },
+    {
+        "name": "Phương trình chuyển động thẳng biến đổi đều",
+        "formula": "s = v_0 \\cdot t + \\frac{1}{2} a \\cdot t^2",
+        "note": [
+            "s:\\,Quãng\\,đường\\,đi\\,được\\,(m)",
+            "v_0:\\,Vận\\,tốc\\,ban\\,đầu\\,(m/s)",
+            "a:\\,Gia\\,tốc\\,(m/s^2)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 3: Phương trình chuyển động thẳng biến đổi đều"
+    },
+    {
+        "name": "Lực hấp dẫn",
+        "formula": "F = G \\cdot \\frac{m_1 \\cdot m_2}{r^2}",
+        "note": [
+            "F:\\,Lực\\,hấp\\,dẫn\\,(N)",
+            "G:\\,Hằng\\,số\\,hấp\\,dẫn\\,(6.67 \\times 10^{-11} \\frac{Nm^2}{kg^2})",
+            "m_1, m_2:\\,Khối\\,lượng\\,của\\,hai\\,vật\\,(kg)",
+            "r:\\,Khoảng\\,cách\\,giữa\\,hai\\,vật\\,(m)"
+        ],
+        "unit": "Bài 4: Định luật vạn vật hấp dẫn"
+    },
+    {
+        "name": "Lực đàn hồi",
+        "formula": "F = -k \\cdot \\Delta l",
+        "note": [
+            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
+            "k:\\,Hệ\\,số\\,đàn\\,hồi\\,(N/m)",
+            "\\Delta l:\\,Độ\\,biến\\,dạng\\,(m)"
+        ],
+        "unit": "Bài 5: Lực đàn hồi"
+    },
+    {
+        "name": "Động năng",
+        "formula": "W_d = \\frac{1}{2} m \\cdot v^2",
+        "note": [
+            "W_d:\\,Động\\,năng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "v:\\,Vận\\,tốc\\,(m/s)"
+        ],
+        "unit": "Bài 6: Động năng"
+    },
+    {
+        "name": "Thế năng trọng trường",
+        "formula": "W_t = m \\cdot g \\cdot h",
+        "note": [
+            "W_t:\\,Thế\\,năng\\,trọng\\,trường\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(9.8\\,m/s^2)",
+            "h:\\,Độ\\,cao\\,(m)"
+        ],
+        "unit": "Bài 7: Thế năng trọng trường"
+    },
+    {
+        "name": "Công thức tính công",
+        "formula": "A = F \\cdot s \\cdot \\cos\\theta",
+        "note": [
+            "A:\\,Công\\,(J)",
+            "F:\\,Lực\\,(N)",
+            "s:\\,Quãng\\,đường\\,(m)",
+            "\\theta:\\,Góc\\,giữa\\,lực\\,và\\,quãng\\,đường"
+        ],
+        "unit": "Bài 8: Công"
+    },
+    {
+        "name": "Công suất",
+        "formula": "P = \\frac{A}{t}",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "A:\\,Công\\,(J)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 9: Công suất"
+    },
+    {
+        "name": "Định luật bảo toàn cơ năng",
+        "formula": "W = W_d + W_t = \\text{hằng số}",
+        "note": [
+            "W:\\,Cơ\\,năng\\,(J)",
+            "W_d:\\,Động\\,năng\\,(J)",
+            "W_t:\\,Thế\\,năng\\,(J)"
+        ],
+        "unit": "Bài 10: Định luật bảo toàn cơ năng"
+    },
+    {
+        "name": "Định luật Coulomb",
+        "formula": "F = k \\cdot \\frac{|q_1 \\cdot q_2|}{r^2}",
+        "note": [
+            "F:\\,Lực\\,điện\\,tích\\,(N)",
+            "k:\\,Hằng\\,số\\,(8.99 \\times 10^9 \\frac{Nm^2}{C^2})",
+            "q_1, q_2:\\,Điện\\,tích\\,(C)",
+            "r:\\,Khoảng\\,cách\\,giữa\\,hai\\,điện\\,tích\\,(m)"
+        ],
+        "unit": "Bài 11: Định luật Coulomb"
+    },
+    {
+        "name": "Điện trường",
+        "formula": "E = \\frac{F}{q}",
+        "note": [
+            "E:\\,Cường\\,độ\\,điện\\,trường\\,(N/C)",
+            "F:\\,Lực\\,điện\\,tích\\,(N)",
+            "q:\\,Điện\\,tích\\,(C)"
+        ],
+        "unit": "Bài 12: Điện trường"
+    },
+    {
+        "name": "Hiệu điện thế",
+        "formula": "U = E \\cdot d",
+        "note": [
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "E:\\,Cường\\,độ\\,điện\\,trường\\,(N/C)",
+            "d:\\,Khoảng\\,cách\\,(m)"
+        ],
+        "unit": "Bài 13: Hiệu điện thế"
+    },
+    {
+        "name": "Công của lực điện",
+        "formula": "A = q \\cdot U",
+        "note": [
+            "A:\\,Công\\,(J)",
+            "q:\\,Điện\\,tích\\,(C)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)"
+        ],
+        "unit": "Bài 14: Công của lực điện"
+    },
+    {
+        "name": "Điện dung",
+        "formula": "C = \\frac{Q}{U}",
+        "note": [
+            "C:\\,Điện\\,dung\\,(F)",
+            "Q:\\,Điện\\,tích\\,(C)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)"
+        ],
+        "unit": "Bài 15: Điện dung"
+    },
+    {
+        "name": "Năng lượng điện trường trong tụ điện",
+        "formula": "W = \\frac{1}{2} C \\cdot U^2",
+        "note": [
+            "W:\\,Năng\\,lượng\\,điện\\,trường\\,(J)",
+            "C:\\,Điện\\,dung\\,(F)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)"
+        ],
+        "unit": "Bài 16: Năng lượng điện trường trong tụ điện"
+    },
+    {
+        "name": "Công suất điện",
+        "formula": "P = U \\cdot I",
+        "note": [
+            "P:\\,Công\\,suất\\,điện\\,(W)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "I:\\,Cường\\,độ\\,dòng\\,điện\\,(A)"
+        ],
+        "unit": "Bài 17: Công suất điện"
+    },
+    {
+        "name": "Điện năng tiêu thụ",
+        "formula": "A = P \\cdot t",
+        "note": [
+            "A:\\,Điện\\,năng\\,(J)",
+            "P:\\,Công\\,suất\\,điện\\,(W)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 18: Điện năng tiêu thụ"
+    }
+]
