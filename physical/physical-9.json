@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Vận tốc",
+        "formula": "v = \\frac{s}{t}",
+        "note": [
+            "v:\\,Vận\\,tốc\\,(m/s)",
+            "s:\\,Quãng\\,đường\\,(m)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 1: Chuyển động thẳng đều"
+    },
+    {
+        "name": "Gia tốc",
+        "formula": "a = \\frac{\\Delta v}{\\Delta t}",
+        "note": [
+            "a:\\,Gia\\,tốc\\,(m/s^2)",
+            "\\Delta v:\\,Độ\\,biến\\,thiên\\,vận\\,tốc\\,(m/s)",
+            "\\Delta t:\\,Độ\\,biến\\,thiên\\,thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 2: Chuyển động thẳng biến đổi đều"
+    },
+    {
+        "name": "Lực",
+        "formula": "F = m \\cdot a",
+        "note": [
+            "F:\\,Lực\\,(N)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "a:\\,Gia\\,tốc\\,(m/s^2)"
+        ],
+        "unit": "Bài 3: Định luật Newton thứ hai"
+    },
+    {
+        "name": "Trọng lực",
+        "formula": "P = m \\cdot g",
+        "note": [
+            "P:\\,Trọng\\,lực\\,(N)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(m/s^2)"
+        ],
+        "unit": "Bài 4: Trọng lực và trọng lượng"
+    },
+    {
+        "name": "Động lượng",
+        "formula": "p = m \\cdot v",
+        "note": [
+            "p:\\,Động\\,lượng\\,(kg·m/s)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "v:\\,Vận\\,tốc\\,(m/s)"
+        ],
+        "unit": "Bài 5: Động lượng"
+    },
+    {
+        "name": "Công cơ học",
+        "formula": "A = F \\cdot s \\cdot \\cos \\theta",
+        "note": [
+            "A:\\,Công\\,cơ\\,học\\,(J)",
+            "F:\\,Lực\\,(N)",
+            "s:\\,Quãng\\,đường\\,(m)",
+            "\\theta:\\,Góc\\,giữa\\,hướng\\,lực\\,và\\,hướng\\,chuyển\\,động"
+        ],
+        "unit": "Bài 6: Công cơ học"
+    },
+    {
+        "name": "Động năng",
+        "formula": "W = \\frac{1}{2} m v^2",
+        "note": [
+            "W:\\,Động\\,năng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "v:\\,Vận\\,tốc\\,(m/s)"
+        ],
+        "unit": "Bài 7: Động năng"
+    },
+    {
+        "name": "Thế năng",
+        "formula": "W = m \\cdot g \\cdot h",
+        "note": [
+            "W:\\,Thế\\,năng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(m/s^2)",
+            "h:\\,Độ\\,cao\\,(m)"
+        ],
+        "unit": "Bài 8: Thế năng"
+    },
+    {
+        "name": "Cơ năng",
+        "formula": "W = W_{\\text{động}} + W_{\\text{thế}}",
+        "note": [
+            "W:\\,Cơ\\,năng\\,(J)",
+            "W_{\\text{động}}:\\,Động\\,năng\\,(J)",
+            "W_{\\text{thế}}:\\,Thế\\,năng\\,(J)"
+        ],
+        "unit": "Bài 9: Cơ năng"
+    },
+    {
+        "name": "Định luật bảo toàn cơ năng",
+        "formula": "W_{\\text{cơ}} = \\text{const}",
+        "note": [
+            "W_{\\text{cơ}}:\\,Cơ\\,năng"
+        ],
+        "unit": "Bài 10: Định luật bảo toàn cơ năng"
+    }
+]

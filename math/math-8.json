@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Cộng hai đa thức",
+        "formula": "(a + b) + (c + d) = (a + c) + (b + d)",
+        "note": [
+            "a,\\,b,\\,c,\\,d:\\,Các\\,hạng\\,tử\\,của\\,đa\\,thức"
+        ],
+        "unit": "Đại số: Cộng hai đa thức"
+    },
+    {
+        "name": "Hiệu hai đa thức",
+        "formula": "(a + b) - (c + d) = (a - c) + (b - d)",
+        "note": [
+            "a,\\,b,\\,c,\\,d:\\,Các\\,hạng\\,tử\\,của\\,đa\\,thức"
+        ],
+        "unit": "Đại số: Hiệu hai đa thức"
+    },
+    {
+        "name": "Nhân đơn thức với đa thức",
+        "formula": "a(b + c) = ab + ac",
+        "note": [
+            "a,\\,b,\\,c:\\,Các\\,hạng\\,tử"
+        ],
+        "unit": "Đại số: Nhân đơn thức với đa thức"
+    },
+    {
+        "name": "Nhân hai đa thức",
+        "formula": "(a + b)(c + d) = ac + ad + bc + bd",
+        "note": [
+            "a,\\,b,\\,c,\\,d:\\,Các\\,hạng\\,tử\\,của\\,đa\\,thức"
+        ],
+        "unit": "Đại số: Nhân hai đa thức"
+    },
+    {
+        "name": "Bình phương của một tổng",
+        "formula": "(a + b)^2 = a^2 + 2ab + b^2",
+        "note": [
+            "a,\\,b:\\,Các\\,hạng\\,tử"
+        ],
+        "unit": "Đại số: Bình phương của một tổng"
+    },
+    {
+        "name": "Bình phương của một hiệu",
+        "formula": "(a - b)^2 = a^2 - 2ab + b^2",
+        "note": [
+            "a,\\,b:\\,Các\\,hạng\\,tử"
+        ],
+        "unit": "Đại số: Bình phương của một hiệu"
+    },
+    {
+        "name": "Hiệu hai bình phương",
+        "formula": "a^2 - b^2 = (a - b)(a + b)",
+        "note": [
+            "a,\\,b:\\,Các\\,hạng\\,tử"
+        ],
+        "unit": "Đại số: Hiệu hai bình phương"
+    },
+    {
+        "name": "Lập phương của một tổng",
+        "formula": "(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3",
+        "note": [
+            "a,\\,b:\\,Các\\,hạng\\,tử"
+        ],
+        "unit": "Đại số: Lập phương của một tổng"
+    },
+    {
+        "name": "Lập phương của một hiệu",
+        "formula": "(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3",
+        "note": [
+            "a,\\,b:\\,Các\\,hạng\\,tử"
+        ],
+        "unit": "Đại số: Lập phương của một hiệu"
+    },
+    {
+        "name": "Phân tích đa thức thành nhân tử",
+        "formula": "ax^2 + bx + c = a(x - x_1)(x - x_2)",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,một",
+            "c:\\,Hệ\\,số\\,tự\\,do",
+            "x_1,\\,x_2:\\,Các\\,nghiệm\\,của\\,phương\\,trình"
+        ],
+        "unit": "Đại số: Phân tích đa thức thành nhân tử"
+    },
+    {
+        "name": "Giải phương trình bậc nhất một ẩn",
+        "formula": "ax + b = 0",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,nhất",
+            "b:\\,Hệ\\,số\\,tự\\,do"
+        ],
+        "unit": "Đại số: Giải phương trình bậc nhất một ẩn"
+    },
+    {
+        "name": "Giải phương trình bậc hai một ẩn",
+        "formula": "ax^2 + bx + c = 0",
+        "note": [
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hệ\\,số\\,tự\\,do"
+        ],
+        "unit": "Đại số: Giải phương trình bậc hai một ẩn"
+    },
+    {
+        "name": "Định lý Viète",
+        "formula": "x_1 + x_2 = -\\frac{b}{a},\\,x_1x_2 = \\frac{c}{a}",
+        "note": [
+            "x_1,\\,x_2:\\,Các\\,nghiệm\\,của\\,phương\\,trình",
+            "a:\\,Hệ\\,số\\,bậc\\,hai",
+            "b:\\,Hệ\\,số\\,bậc\\,nhất",
+            "c:\\,Hệ\\,số\\,tự\\,do"
+        ],
+        "unit": "Đại số: Định lý Viète"
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Chu vi hình chữ nhật",
+        "formula": "P = 2(a + b)",
+        "note": [
+            "P:\\,Chu\\,vi",
+            "a:\\,Chiều\\,dài",
+            "b:\\,Chiều\\,rộng"
+        ],
+        "unit": "Hình học: Chu vi hình chữ nhật"
+    },
+    {
+        "name": "Diện tích hình chữ nhật",
+        "formula": "A = a \\cdot b",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "a:\\,Chiều\\,dài",
+            "b:\\,Chiều\\,rộng"
+        ],
+        "unit": "Hình học: Diện tích hình chữ nhật"
+    },
+    {
+        "name": "Chu vi hình vuông",
+        "formula": "P = 4a",
+        "note": [
+            "P:\\,Chu\\,vi",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Hình học: Chu vi hình vuông"
+    },
+    {
+        "name": "Diện tích hình vuông",
+        "formula": "A = a^2",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Hình học: Diện tích hình vuông"
+    },
+    {
+        "name": "Chu vi hình tam giác",
+        "formula": "P = a + b + c",
+        "note": [
+            "P:\\,Chu\\,vi",
+            "a,\\,b,\\,c:\\,Độ\\,dài\\,các\\,cạnh"
+        ],
+        "unit": "Hình học: Chu vi hình tam giác"
+    },
+    {
+        "name": "Diện tích hình tam giác",
+        "formula": "A = \\frac{1}{2} \\cdot a \\cdot h",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "a:\\,Độ\\,dài\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Hình học: Diện tích hình tam giác"
+    },
+    {
+        "name": "Chu vi hình tròn",
+        "formula": "C = 2\\pi r",
+        "note": [
+            "C:\\,Chu\\,vi",
+            "r:\\,Bán\\,kính"
+        ],
+        "unit": "Hình học: Chu vi hình tròn"
+    },
+    {
+        "name": "Diện tích hình tròn",
+        "formula": "A = \\pi r^2",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "r:\\,Bán\\,kính"
+        ],
+        "unit": "Hình học: Diện tích hình tròn"
+    },
+    {
+        "name": "Diện tích hình thang",
+        "formula": "A = \\frac{1}{2} (a + b) \\cdot h",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "a,\\,b:\\,Độ\\,dài\\,hai\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Hình học: Diện tích hình thang"
+    },
+    {
+        "name": "Diện tích hình bình hành",
+        "formula": "A = a \\cdot h",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "a:\\,Độ\\,dài\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Hình học: Diện tích hình bình hành"
+    },
+    {
+        "name": "Diện tích hình thoi",
+        "formula": "A = \\frac{1}{2} d_1 d_2",
+        "note": [
+            "A:\\,Diện\\,tích",
+            "d_1:\\,Độ\\,dài\\,đường\\,chéo\\,thứ\\,nhất",
+            "d_2:\\,Độ\\,dài\\,đường\\,chéo\\,thứ\\,hai"
+        ],
+        "unit": "Hình học: Diện tích hình thoi"
+    },
+    {
+        "name": "Định lý Pythagoras",
+        "formula": "a^2 + b^2 = c^2",
+        "note": [
+            "a,\\,b:\\,Độ\\,dài\\,hai\\,cạnh\\,góc\\,vuông",
+            "c:\\,Độ\\,dài\\,cạnh\\,huyền"
+        ],
+        "unit": "Hình học: Định lý Pythagoras"
+    },
+    {
+        "name": "Thể tích hình hộp chữ nhật",
+        "formula": "V = a \\cdot b \\cdot c",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "a,\\,b,\\,c:\\,Độ\\,dài\\,các\\,cạnh"
+        ],
+        "unit": "Hình học: Thể tích hình hộp chữ nhật"
+    },
+    {
+        "name": "Thể tích hình lập phương",
+        "formula": "V = a^3",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "a:\\,Độ\\,dài\\,cạnh"
+        ],
+        "unit": "Hình học: Thể tích hình lập phương"
+    },
+    {
+        "name": "Thể tích hình lăng trụ đứng",
+        "formula": "V = B \\cdot h",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "B:\\,Diện\\,tích\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Hình học: Thể tích hình lăng trụ đứng"
+    },
+    {
+        "name": "Thể tích hình chóp",
+        "formula": "V = \\frac{1}{3} B \\cdot h",
+        "note": [
+            "V:\\,Thể\\,tích",
+            "B:\\,Diện\\,tích\\,đáy",
+            "h:\\,Chiều\\,cao"
+        ],
+        "unit": "Hình học: Thể tích hình chóp"
+    }
+]

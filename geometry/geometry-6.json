@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Diện tích hình chữ nhật",
+        "formula": "S = a \\cdot b",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "a:\\,Chiều\\,dài\\,(m)",
+            "b:\\,Chiều\\,rộng\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình chữ nhật"
+    },
+    {
+        "name": "Chu vi hình chữ nhật",
+        "formula": "P = 2 \\cdot (a + b)",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "a:\\,Chiều\\,dài\\,(m)",
+            "b:\\,Chiều\\,rộng\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình chữ nhật"
+    },
+    {
+        "name": "Diện tích hình vuông",
+        "formula": "S = a^2",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "a:\\,Cạnh\\,hình\\,vuông\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình vuông"
+    },
+    {
+        "name": "Chu vi hình vuông",
+        "formula": "P = 4 \\cdot a",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "a:\\,Cạnh\\,hình\\,vuông\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình vuông"
+    },
+    {
+        "name": "Diện tích hình tam giác",
+        "formula": "S = \\frac{1}{2} \\cdot a \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "a:\\,Cạnh\\,đáy\\,(m)",
+            "h:\\,Chiều\\,cao\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình tam giác"
+    },
+    {
+        "name": "Chu vi hình tam giác",
+        "formula": "P = a + b + c",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "a,\\,b,\\,c:\\,Các\\,cạnh\\,của\\,hình\\,tam\\,giác\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình tam giác"
+    },
+    {
+        "name": "Diện tích hình thang",
+        "formula": "S = \\frac{1}{2} \\cdot (a + b) \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "a,\\,b:\\,Các\\,đáy\\,của\\,hình\\,thang\\,(m)",
+            "h:\\,Chiều\\,cao\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình thang"
+    },
+    {
+        "name": "Chu vi hình thang",
+        "formula": "P = a + b + c + d",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "a,\\,b,\\,c,\\,d:\\,Các\\,cạnh\\,của\\,hình\\,thang\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình thang"
+    },
+    {
+        "name": "Diện tích hình tròn",
+        "formula": "S = \\pi \\cdot r^2",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "r:\\,Bán\\,kính\\,hình\\,tròn\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình tròn"
+    },
+    {
+        "name": "Chu vi hình tròn",
+        "formula": "P = 2 \\pi \\cdot r",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "r:\\,Bán\\,kính\\,hình\\,tròn\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình tròn"
+    },
+    {
+        "name": "Diện tích hình bình hành",
+        "formula": "S = a \\cdot h",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "a:\\,Cạnh\\,đáy\\,(m)",
+            "h:\\,Chiều\\,cao\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình bình hành"
+    },
+    {
+        "name": "Chu vi hình bình hành",
+        "formula": "P = 2 \\cdot (a + b)",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "a,\\,b:\\,Các\\,cạnh\\,của\\,hình\\,bình\\,hành\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình bình hành"
+    },
+    {
+        "name": "Diện tích hình thoi",
+        "formula": "S = \\frac{1}{2} \\cdot d1 \\cdot d2",
+        "note": [
+            "S:\\,Diện\\,tích\\,(m^2)",
+            "d1:\\,Đường\\,chéo\\,thứ\\,nhất\\,(m)",
+            "d2:\\,Đường\\,chéo\\,thứ\\,hai\\,(m)"
+        ],
+        "unit": "Hình học: Diện tích hình thoi"
+    },
+    {
+        "name": "Chu vi hình thoi",
+        "formula": "P = 4 \\cdot a",
+        "note": [
+            "P:\\,Chu\\,vi\\,(m)",
+            "a:\\,Cạnh\\,hình\\,thoi\\,(m)"
+        ],
+        "unit": "Hình học: Chu vi hình thoi"
+    }
+]

@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Công thức định luật Hooke",
+        "formula": "F = k \\cdot \\Delta l",
+        "note": [
+            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
+            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
+            "\\Delta l:\\,Độ\\,biến\\,dạng\\,của\\,lò\\,xo\\,(m)"
+        ],
+        "unit": "Bài 1: Định luật Hooke"
+    },
+    {
+        "name": "Áp suất chất rắn",
+        "formula": "p = \\frac{F}{S}",
+        "note": [
+            "p:\\,Áp\\,suất\\,(Pa)",
+            "F:\\,Lực\\,tác\\,dụng\\,(N)",
+            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
+        ],
+        "unit": "Bài 2: Áp suất chất rắn"
+    },
+    {
+        "name": "Áp suất chất lỏng",
+        "formula": "p = d \\cdot h",
+        "note": [
+            "p:\\,Áp\\,suất\\,(Pa)",
+            "d:\\,Trọng\\,lượng\\,riêng\\,của\\,chất\\,lỏng\\,(N/m^3)",
+            "h:\\,Chiều\\,cao\\,cột\\,chất\\,lỏng\\,(m)"
+        ],
+        "unit": "Bài 3: Áp suất chất lỏng"
+    },
+    {
+        "name": "Lực đẩy Ác-si-mét",
+        "formula": "F_A = d \\cdot V",
+        "note": [
+            "F_A:\\,Lực\\,đẩy\\,Ác-si-mét\\,(N)",
+            "d:\\,Trọng\\,lượng\\,riêng\\,của\\,chất\\,lỏng\\,(N/m^3)",
+            "V:\\,Thể\\,tích\\,phần\\,chất\\,lỏng\\,bị\\,chìm\\,(m^3)"
+        ],
+        "unit": "Bài 4: Lực đẩy Ác-si-mét"
+    },
+    {
+        "name": "Công cơ học",
+        "formula": "A = F \\cdot s",
+        "note": [
+            "A:\\,Công\\,cơ\\,học\\,(J)",
+            "F:\\,Lực\\,(N)",
+            "s:\\,Quãng\\,đường\\,(m)"
+        ],
+        "unit": "Bài 5: Công cơ học"
+    },
+    {
+        "name": "Công suất",
+        "formula": "P = \\frac{A}{t}",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "A:\\,Công\\,cơ\\,học\\,(J)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 6: Công suất"
+    },
+    {
+        "name": "Định luật bảo toàn và chuyển hóa năng lượng",
+        "formula": "E = \\text{const}",
+        "note": [
+            "E:\\,Tổng\\,năng\\,lượng"
+        ],
+        "unit": "Bài 7: Định luật bảo toàn và chuyển hóa năng lượng"
+    },
+    {
+        "name": "Công thức nhiệt lượng",
+        "formula": "Q = m \\cdot c \\cdot \\Delta t",
+        "note": [
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg°C)",
+            "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
+        ],
+        "unit": "Bài 8: Công thức nhiệt lượng"
+    },
+    {
+        "name": "Hiệu suất",
+        "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
+        "note": [
+            "H:\\,Hiệu\\,suất\\,(\\%)",
+            "A_{\\text{có ích}}:\\,Công\\,có\\,ích\\,(J)",
+            "A_{\\text{toàn phần}}:\\,Công\\,toàn\\,phần\\,(J)"
+        ],
+        "unit": "Bài 9: Hiệu suất"
+    },
+    {
+        "name": "Định luật Joule-Lenz",
+        "formula": "Q = I^2 \\cdot R \\cdot t",
+        "note": [
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "R:\\,Điện\\,trở\\,(Ω)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 10: Định luật Joule-Lenz"
+    },
+    {
+        "name": "Công suất điện",
+        "formula": "P = U \\cdot I",
+        "note": [
+            "P:\\,Công\\,suất\\,(W)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "I:\\,Dòng\\,điện\\,(A)"
+        ],
+        "unit": "Bài 11: Công suất điện"
+    },
+    {
+        "name": "Định luật Ohm",
+        "formula": "I = \\frac{U}{R}",
+        "note": [
+            "I:\\,Dòng\\,điện\\,(A)",
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "R:\\,Điện\\,trở\\,(Ω)"
+        ],
+        "unit": "Bài 12: Định luật Ohm"
+    },
+    {
+        "name": "Nhiệt lượng của dòng điện",
+        "formula": "Q = I^2 \\cdot R \\cdot t",
+        "note": [
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "R:\\,Điện\\,trở\\,(Ω)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 13: Nhiệt lượng của dòng điện"
+    },
+    {
+        "name": "Điện năng tiêu thụ",
+        "formula": "W = P \\cdot t",
+        "note": [
+            "W:\\,Điện\\,năng\\,tiêu\\,thụ\\,(J)",
+            "P:\\,Công\\,suất\\,(W)",
+            "t:\\,Thời\\,gian\\,(s)"
+        ],
+        "unit": "Bài 14: Điện năng tiêu thụ"
+    },
+    {
+        "name": "Suất điện động",
+        "formula": "\\mathcal{E} = I \\cdot R + I \\cdot r",
+        "note": [
+            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,(V)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "R:\\,Điện\\,trở\\,ngoài\\,(Ω)",
+            "r:\\,Điện\\,trở\\,trong\\,(Ω)"
+        ],
+        "unit": "Bài 15: Suất điện động"
+    },
+    {
+        "name": "Hiệu điện thế",
+        "formula": "U = \\mathcal{E} - I \\cdot r",
+        "note": [
+            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
+            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,(V)",
+            "I:\\,Dòng\\,điện\\,(A)",
+            "r:\\,Điện\\,trở\\,trong\\,(Ω)"
+        ],
+        "unit": "Bài 16: Hiệu điện thế"
+    },
+    {
+        "name": "Định luật Kirchhoff",
+        "formula": "\\sum I_{\\text{vào}} = \\sum I_{\\text{ra}}",
+        "note": [
+            "\\sum I_{\\text{vào}}:\\,Tổng\\,dòng\\,điện\\,vào\\,(A)",
+            "\\sum I_{\\text{ra}}:\\,Tổng\\,dòng\\,điện\\,ra\\,(A)"
+        ],
+        "unit": "Bài 17: Định luật Kirchhoff"
+    }
+]

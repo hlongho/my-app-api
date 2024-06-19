@@ -1,52 +1,106 @@
 [
     {
-        "name": "Công thức đa thức",
-        "formula": "(a + b)^2 = a^2 + 2ab + b^2",
+        "name": "Phép cộng và phép trừ các số hữu tỉ",
+        "formula": "a + b = c,\\,a - b = d",
         "note": [
-            "a, b:\\,Là\\,các\\,hệ\\,số\\,cố\\,định"
-        ]
+            "a,\\,b:\\,các\\,số\\,hữu\\,tỉ",
+            "c:\\,Kết\\,quả\\,phép\\,cộng",
+            "d:\\,Kết\\,quả\\,phép\\,trừ"
+        ],
+        "unit": "Đại số: Phép cộng và phép trừ các số hữu tỉ"
     },
     {
-        "name": "Công thức về tỷ lệ",
+        "name": "Phép nhân và phép chia các số hữu tỉ",
+        "formula": "a \\cdot b = c,\\,a \\div b = d",
+        "note": [
+            "a,\\,b:\\,các\\,số\\,hữu\\,tỉ",
+            "c:\\,Kết\\,quả\\,phép\\,nhân",
+            "d:\\,Kết\\,quả\\,phép\\,chia"
+        ],
+        "unit": "Đại số: Phép nhân và phép chia các số hữu tỉ"
+    },
+    {
+        "name": "Lũy thừa của một số hữu tỉ",
+        "formula": "a^n",
+        "note": [
+            "a:\\,Số\\,hữu\\,tỉ",
+            "n:\\,Số\\,mũ"
+        ],
+        "unit": "Đại số: Lũy thừa của một số hữu tỉ"
+    },
+    {
+        "name": "Căn bậc hai của một số không âm",
+        "formula": "\\sqrt{a}",
+        "note": [
+            "a:\\,Số\\,không\\,âm"
+        ],
+        "unit": "Đại số: Căn bậc hai của một số không âm"
+    },
+    {
+        "name": "Tỉ lệ thức",
         "formula": "\\frac{a}{b} = \\frac{c}{d}",
         "note": [
-            "a, b, c, d:\\,Là\\,các\\,số\\,cố\\,định"
-        ]
+            "a,\\,b,\\,c,\\,d:\\,Các\\,số\\,hữu\\,tỉ\\,với\\,b,\\,d \\neq 0"
+        ],
+        "unit": "Đại số: Tỉ lệ thức"
     },
     {
-        "name": "Diện tích hình vuông",
-        "formula": "A = a^2",
+        "name": "Đại lượng tỉ lệ thuận",
+        "formula": "y = kx",
         "note": [
-            "a:\\,Độ\\,dài\\,cạnh\\,hình\\,vuông"
-        ]
+            "y:\\,Đại\\,lượng\\,tỉ\\,lệ\\,thuận",
+            "x:\\,Đại\\,lượng\\,tỉ\\,lệ\\,thuận",
+            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
+        ],
+        "unit": "Đại số: Đại lượng tỉ lệ thuận"
     },
     {
-        "name": "Diện tích hình chữ nhật",
-        "formula": "A = a \\times b",
+        "name": "Đại lượng tỉ lệ nghịch",
+        "formula": "y = \\frac{k}{x}",
         "note": [
-            "a, b:\\,Độ\\,dài\\,các\\,cạnh\\,hình\\,chữ\\,nhật"
-        ]
+            "y:\\,Đại\\,lượng\\,tỉ\\,lệ\\,nghịch",
+            "x:\\,Đại\\,lượng\\,tỉ\\,lệ\\,nghịch",
+            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
+        ],
+        "unit": "Đại số: Đại lượng tỉ lệ nghịch"
     },
     {
-        "name": "Diện tích tam giác",
-        "formula": "A = \\frac{1}{2} \\times b \\times h",
+        "name": "Biểu thức đại số",
+        "formula": "A(x) = ax + b",
         "note": [
-            "b:\\,Độ\\,dài\\,cơ\\,bản\\,của\\,tam\\,giác",
-            "h:\\,Chiều\\,cao\\,tương\\,ứng"
-        ]
+            "A(x):\\,Biểu\\,thức\\,đại\\,số",
+            "a,\\,b:\\,Các\\,hằng\\,số",
+            "x:\\,Biến\\,số"
+        ],
+        "unit": "Đại số: Biểu thức đại số"
     },
     {
-        "name": "Chu vi hình tròn",
-        "formula": "C = 2 \\times \\pi \\times r",
+        "name": "Phương trình bậc nhất một ẩn",
+        "formula": "ax + b = 0",
         "note": [
-            "r:\\,Bán\\,kính\\,của\\,hình\\,tròn"
-        ]
+            "a,\\,b:\\,Các\\,hằng\\,số",
+            "x:\\,Biến\\,số"
+        ],
+        "unit": "Đại số: Phương trình bậc nhất một ẩn"
     },
     {
-        "name": "Diện tích hình tròn",
-        "formula": "A = \\pi \\times r^2",
+        "name": "Hệ phương trình bậc nhất hai ẩn",
+        "formula": "\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}",
         "note": [
-            "r:\\,Bán\\,kính\\,của\\,hình\\,tròn"
-        ]
+            "a_1,\\,b_1,\\,c_1,\\,a_2,\\,b_2,\\,c_2:\\,Các\\,hằng\\,số",
+            "x,\\,y:\\,Các\\,biến\\,số"
+        ],
+        "unit": "Đại số: Hệ phương trình bậc nhất hai ẩn"
+    },
+    {
+        "name": "Đa thức một biến",
+        "formula": "P(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0",
+        "note": [
+            "P(x):\\,Đa\\,thức\\,một\\,biến",
+            "a_n,\\,a_{n-1},\\,...,\\,a_1,\\,a_0:\\,Các\\,hệ\\,số",
+            "x:\\,Biến\\,số",
+            "n:\\,Bậc\\,của\\,đa\\,thức"
+        ],
+        "unit": "Đại số: Đa thức một biến"
     }
 ]

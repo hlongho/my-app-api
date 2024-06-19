@@ -1,183 +1,170 @@
 [
     {
-        "name": "Tính tổng các số tự nhiên liên tiếp",
-        "formula": "S = \\frac{n(n + 1)}{2}",
+        "name": "Phép cộng số nguyên",
+        "formula": "a + b",
         "note": [
-            "S:\\,Tổng\\,các\\,số\\,tự\\,nhiên\\,liên\\,tiếp",
-            "n:\\,Số\\,tự\\,nhiên\\,cuối\\,cùng"
+            "a,\\,b:\\,Các\\,số\\,nguyên"
         ],
-        "unit": "Bài 1: Số học"
+        "unit": "Đại số: Phép cộng"
     },
     {
-        "name": "Chu vi hình chữ nhật",
-        "formula": "P = 2(a + b)",
+        "name": "Phép trừ số nguyên",
+        "formula": "a - b",
         "note": [
-            "P:\\,Chu\\,vi\\,hình\\,chữ\\,nhật",
-            "a:\\,Chiều\\,dài",
-            "b:\\,Chiều\\,rộng"
+            "a,\\,b:\\,Các\\,số\\,nguyên"
         ],
-        "unit": "Bài 2: Hình học"
+        "unit": "Đại số: Phép trừ"
     },
     {
-        "name": "Diện tích hình chữ nhật",
-        "formula": "A = a \\cdot b",
+        "name": "Phép nhân số nguyên",
+        "formula": "a \\cdot b",
         "note": [
-            "A:\\,Diện\\,tích\\,hình\\,chữ\\,nhật",
-            "a:\\,Chiều\\,dài",
-            "b:\\,Chiều\\,rộng"
+            "a,\\,b:\\,Các\\,số\\,nguyên"
         ],
-        "unit": "Bài 3: Hình học"
+        "unit": "Đại số: Phép nhân"
     },
     {
-        "name": "Chu vi hình vuông",
-        "formula": "P = 4a",
+        "name": "Phép chia số nguyên",
+        "formula": "a \\div b",
         "note": [
-            "P:\\,Chu\\,vi\\,hình\\,vuông",
-            "a:\\,Độ\\,dài\\,cạnh"
+            "a,\\,b:\\,Các\\,số\\,nguyên,\\,b\\neq 0"
         ],
-        "unit": "Bài 4: Hình học"
+        "unit": "Đại số: Phép chia"
     },
     {
-        "name": "Diện tích hình vuông",
-        "formula": "A = a^2",
-        "note": [
-            "A:\\,Diện\\,tích\\,hình\\,vuông",
-            "a:\\,Độ\\,dài\\,cạnh"
-        ],
-        "unit": "Bài 5: Hình học"
-    },
-    {
-        "name": "Chu vi hình tròn",
-        "formula": "C = 2\\pi r",
-        "note": [
-            "C:\\,Chu\\,vi\\,hình\\,tròn",
-            "r:\\,Bán\\,kính"
-        ],
-        "unit": "Bài 6: Hình học"
-    },
-    {
-        "name": "Diện tích hình tròn",
-        "formula": "A = \\pi r^2",
-        "note": [
-            "A:\\,Diện\\,tích\\,hình\\,tròn",
-            "r:\\,Bán\\,kính"
-        ],
-        "unit": "Bài 7: Hình học"
-    },
-    {
-        "name": "Phân số",
-        "formula": "\\frac{a}{b}",
-        "note": [
-            "a:\\,Tử\\,số",
-            "b:\\,Mẫu\\,số"
-        ],
-        "unit": "Bài 8: Số học"
-    },
-    {
-        "name": "Cộng phân số",
+        "name": "Phép cộng phân số",
         "formula": "\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}",
         "note": [
-            "a, b, c, d:\\,Các\\,số\\,tự\\,nhiên\\,với\\,b \\neq 0\\,và\\,d \\neq 0"
+            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
         ],
-        "unit": "Bài 9: Số học"
+        "unit": "Đại số: Phép cộng phân số"
     },
     {
-        "name": "Trừ phân số",
+        "name": "Phép trừ phân số",
         "formula": "\\frac{a}{b} - \\frac{c}{d} = \\frac{ad - bc}{bd}",
         "note": [
-            "a, b, c, d:\\,Các\\,số\\,tự\\,nhiên\\,với\\,b \\neq 0\\,và\\,d \\neq 0"
+            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
         ],
-        "unit": "Bài 10: Số học"
+        "unit": "Đại số: Phép trừ phân số"
     },
     {
-        "name": "Nhân phân số",
+        "name": "Phép nhân phân số",
         "formula": "\\frac{a}{b} \\cdot \\frac{c}{d} = \\frac{ac}{bd}",
         "note": [
-            "a, b, c, d:\\,Các\\,số\\,tự\\,nhiên\\,với\\,b \\neq 0\\,và\\,d \\neq 0"
+            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
         ],
-        "unit": "Bài 11: Số học"
+        "unit": "Đại số: Phép nhân phân số"
     },
     {
-        "name": "Chia phân số",
+        "name": "Phép chia phân số",
         "formula": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{ad}{bc}",
         "note": [
-            "a, b, c, d:\\,Các\\,số\\,tự\\,nhiên\\,với\\,b \\neq 0\\,và\\,d \\neq 0"
+            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
         ],
-        "unit": "Bài 12: Số học"
+        "unit": "Đại số: Phép chia phân số"
+    },
+    {
+        "name": "Lũy thừa",
+        "formula": "a^n",
+        "note": [
+            "a:\\,Cơ\\,số",
+            "n:\\,Số\\,mũ"
+        ],
+        "unit": "Đại số: Lũy thừa"
+    },
+    {
+        "name": "Nhân lũy thừa cùng cơ số",
+        "formula": "a^m \\cdot a^n = a^{m+n}",
+        "note": [
+            "a:\\,Cơ\\,số",
+            "m,\\,n:\\,Số\\,mũ"
+        ],
+        "unit": "Đại số: Lũy thừa"
+    },
+    {
+        "name": "Chia lũy thừa cùng cơ số",
+        "formula": "\\frac{a^m}{a^n} = a^{m-n}",
+        "note": [
+            "a:\\,Cơ\\,số",
+            "m,\\,n:\\,Số\\,mũ"
+        ],
+        "unit": "Đại số: Lũy thừa"
+    },
+    {
+        "name": "Lũy thừa của một lũy thừa",
+        "formula": "(a^m)^n = a^{m \\cdot n}",
+        "note": [
+            "a:\\,Cơ\\,số",
+            "m,\\,n:\\,Số\\,mũ"
+        ],
+        "unit": "Đại số: Lũy thừa"
+    },
+    {
+        "name": "Căn bậc hai",
+        "formula": "\\sqrt{a}",
+        "note": [
+            "a:\\,Số\\,bị\\,lấy\\,căn"
+        ],
+        "unit": "Đại số: Căn bậc hai"
+    },
+    {
+        "name": "Căn bậc ba",
+        "formula": "\\sqrt[3]{a}",
+        "note": [
+            "a:\\,Số\\,bị\\,lấy\\,căn"
+        ],
+        "unit": "Đại số: Căn bậc ba"
     },
     {
         "name": "Tỉ lệ thức",
         "formula": "\\frac{a}{b} = \\frac{c}{d}",
         "note": [
-            "a, b, c, d:\\,Các\\,số\\,tự\\,nhiên\\,với\\,b \\neq 0\\,và\\,d \\neq 0"
+            "a,\\,b,\\,c,\\,d:\\,Các\\,số"
         ],
-        "unit": "Bài 13: Đại số"
+        "unit": "Đại số: Tỉ lệ thức"
     },
     {
-        "name": "Tìm hai số khi biết tổng và tỉ số của chúng",
-        "formula": "a = \\frac{T \\cdot t_1}{t_1 + t_2}, b = \\frac{T \\cdot t_2}{t_1 + t_2}",
+        "name": "Đại lượng tỉ lệ thuận",
+        "formula": "y = kx",
         "note": [
-            "a, b:\\,Hai\\,số\\,cần\\,tìm",
-            "T:\\,Tổng\\,của\\,hai\\,số",
-            "t_1, t_2:\\,Tỉ\\,số\\,giữa\\,hai\\,số"
+            "y,\\,x:\\,Các\\,đại\\,lượng",
+            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
         ],
-        "unit": "Bài 14: Đại số"
+        "unit": "Đại số: Đại lượng tỉ lệ thuận"
     },
     {
-        "name": "Tìm hai số khi biết hiệu và tỉ số của chúng",
-        "formula": "a = \\frac{H \\cdot t_1}{t_1 - t_2}, b = \\frac{H \\cdot t_2}{t_1 - t_2}",
+        "name": "Đại lượng tỉ lệ nghịch",
+        "formula": "y = \\frac{k}{x}",
         "note": [
-            "a, b:\\,Hai\\,số\\,cần\\,tìm",
-            "H:\\,Hiệu\\,của\\,hai\\,số",
-            "t_1, t_2:\\,Tỉ\\,số\\,giữa\\,hai\\,số"
+            "y,\\,x:\\,Các\\,đại\\,lượng",
+            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
         ],
-        "unit": "Bài 15: Đại số"
+        "unit": "Đại số: Đại lượng tỉ lệ nghịch"
     },
     {
-        "name": "Diện tích hình tam giác",
-        "formula": "A = \\frac{1}{2} \\cdot a \\cdot h",
+        "name": "Giá trị tuyệt đối",
+        "formula": "|a|",
         "note": [
-            "A:\\,Diện\\,tích\\,hình\\,tam\\,giác",
-            "a:\\,Độ\\,dài\\,đáy",
-            "h:\\,Chiều\\,cao"
+            "a:\\,Số\\,thực"
         ],
-        "unit": "Bài 16: Hình học"
+        "unit": "Đại số: Giá trị tuyệt đối"
     },
     {
-        "name": "Diện tích hình thang",
-        "formula": "A = \\frac{1}{2} \\cdot (a + b) \\cdot h",
+        "name": "Phương trình bậc nhất một ẩn",
+        "formula": "ax + b = 0",
         "note": [
-            "A:\\,Diện\\,tích\\,hình\\,thang",
-            "a, b:\\,Độ\\,dài\\,hai\\,đáy",
-            "h:\\,Chiều\\,cao"
+            "a,\\,b:\\,Các\\,hệ\\,số",
+            "x:\\,Nghiệm"
         ],
-        "unit": "Bài 17: Hình học"
+        "unit": "Đại số: Phương trình bậc nhất"
     },
     {
-        "name": "Diện tích hình bình hành",
-        "formula": "A = a \\cdot h",
+        "name": "Phương trình bậc hai một ẩn",
+        "formula": "ax^2 + bx + c = 0",
         "note": [
-            "A:\\,Diện\\,tích\\,hình\\,bình\\,hành",
-            "a:\\,Độ\\,dài\\,đáy",
-            "h:\\,Chiều\\,cao"
+            "a,\\,b,\\,c:\\,Các\\,hệ\\,số",
+            "x:\\,Nghiệm"
         ],
-        "unit": "Bài 18: Hình học"
-    },
-    {
-        "name": "Diện tích hình thoi",
-        "formula": "A = \\frac{1}{2} \\cdot d_1 \\cdot d_2",
-        "note": [
-            "A:\\,Diện\\,tích\\,hình\\,thoi",
-            "d_1, d_2:\\,Độ\\,dài\\,hai\\,đường\\,chéo"
-        ],
-        "unit": "Bài 19: Hình học"
-    },
-    {
-        "name": "Tổng các góc trong một tam giác",
-        "formula": "\\alpha + \\beta + \\gamma = 180^\\circ",
-        "note": [
-            "\\alpha, \\beta, \\gamma:\\,Ba\\,góc\\,trong\\,tam\\,giác"
-        ],
-        "unit": "Bài 20: Hình học"
+        "unit": "Đại số: Phương trình bậc hai"
     }
 ]

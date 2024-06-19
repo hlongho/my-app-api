@@ -5,7 +5,11 @@
       "subject": [
         {
           "name": "math",
-          "display": "Toán"
+          "display": "Đại số"
+        },
+        {
+          "name": "geometry",
+          "display": "Hình học"
         },
         {
           "name": "physical",
@@ -18,7 +22,45 @@
       "subject": [
         {
           "name": "math",
-          "display": "Toán"
+          "display": "Đại số"
+        },
+        {
+          "name": "geometry",
+          "display": "Hình học"
+        },
+        {
+          "name": "physical",
+          "display": "Vật lý"
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "subject": [
+        {
+          "name": "math",
+          "display": "Đại số"
+        },
+        {
+          "name": "geometry",
+          "display": "Hình học"
+        },
+        {
+          "name": "physical",
+          "display": "Vật lý"
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "subject": [
+        {
+          "name": "math",
+          "display": "Đại số"
+        },
+        {
+          "name": "geometry",
+          "display": "Hình học"
         },
         {
           "name": "physical",
@@ -27,7 +69,7 @@
       ]
     }
   ],
-  "banner":[
+  "banner": [
     "banner_1.png",
     "banner_2.png"
   ]
