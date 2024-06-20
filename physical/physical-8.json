@@ -1,45 +1,5 @@
 [
     {
-        "name": "Công thức định luật Hooke",
-        "formula": "F = k \\cdot \\Delta l",
-        "note": [
-            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
-            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
-            "\\Delta l:\\,Độ\\,biến\\,dạng\\,của\\,lò\\,xo\\,(m)"
-        ],
-        "unit": "Bài 1: Định luật Hooke"
-    },
-    {
-        "name": "Áp suất chất rắn",
-        "formula": "p = \\frac{F}{S}",
-        "note": [
-            "p:\\,Áp\\,suất\\,(Pa)",
-            "F:\\,Lực\\,tác\\,dụng\\,(N)",
-            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
-        ],
-        "unit": "Bài 2: Áp suất chất rắn"
-    },
-    {
-        "name": "Áp suất chất lỏng",
-        "formula": "p = d \\cdot h",
-        "note": [
-            "p:\\,Áp\\,suất\\,(Pa)",
-            "d:\\,Trọng\\,lượng\\,riêng\\,của\\,chất\\,lỏng\\,(N/m^3)",
-            "h:\\,Chiều\\,cao\\,cột\\,chất\\,lỏng\\,(m)"
-        ],
-        "unit": "Bài 3: Áp suất chất lỏng"
-    },
-    {
-        "name": "Lực đẩy Ác-si-mét",
-        "formula": "F_A = d \\cdot V",
-        "note": [
-            "F_A:\\,Lực\\,đẩy\\,Ác-si-mét\\,(N)",
-            "d:\\,Trọng\\,lượng\\,riêng\\,của\\,chất\\,lỏng\\,(N/m^3)",
-            "V:\\,Thể\\,tích\\,phần\\,chất\\,lỏng\\,bị\\,chìm\\,(m^3)"
-        ],
-        "unit": "Bài 4: Lực đẩy Ác-si-mét"
-    },
-    {
         "name": "Công cơ học",
         "formula": "A = F \\cdot s",
         "note": [
@@ -47,7 +7,9 @@
             "F:\\,Lực\\,(N)",
             "s:\\,Quãng\\,đường\\,(m)"
         ],
-        "unit": "Bài 5: Công cơ học"
+        "unit": "Bài 1: Công cơ học",
+        "code": "00c580b7495a3dd0f4f3a850b77b5681",
+        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và quãng đường là 10m, thì công cơ học là <br>\\(A = 50 \\cdot 10 = 500J\\)"
     },
     {
         "name": "Công suất",
@@ -57,118 +19,82 @@
             "A:\\,Công\\,cơ\\,học\\,(J)",
             "t:\\,Thời\\,gian\\,(s)"
         ],
-        "unit": "Bài 6: Công suất"
+        "unit": "Bài 2: Công suất",
+        "code": "d0f712fea7bfbf29af9a57846d7a88a6",
+        "example": "<b>Ví dụ:</b> <br> Nếu công cơ học là 500J và thời gian là 50s, thì công suất là <br>\\(P = \\frac{500}{50} = 10W\\)"
     },
     {
-        "name": "Định luật bảo toàn và chuyển hóa năng lượng",
-        "formula": "E = \\text{const}",
+        "name": "Cơ năng",
+        "formula": "W = W_{đ} + W_{t}",
         "note": [
-            "E:\\,Tổng\\,năng\\,lượng"
+            "W:\\,Cơ\\,năng\\,(J)",
+            "W_{đ}:\\,Động\\,năng\\,(J)",
+            "W_{t}:\\,Thế\\,năng\\,(J)"
         ],
-        "unit": "Bài 7: Định luật bảo toàn và chuyển hóa năng lượng"
+        "unit": "Bài 3: Cơ năng",
+        "code": "45dbd4d5b1cfc60c5eb8dba503d2c5b3",
+        "example": "<b>Ví dụ:</b> <br> Cơ năng của một vật bằng tổng của động năng và thế năng."
     },
     {
-        "name": "Công thức nhiệt lượng",
+        "name": "Động năng",
+        "formula": "W_{đ} = \\frac{1}{2} m v^2",
+        "note": [
+            "W_{đ}:\\,Động\\,năng\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "v:\\,Vận\\,tốc\\,(m/s)"
+        ],
+        "unit": "Bài 4: Động năng",
+        "code": "8a5b1f7b1c1d4e6f4e9b6d7d0a2a9b9d",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 2kg và vận tốc là 3m/s, thì động năng là <br>\\(W_{đ} = \\frac{1}{2} \\cdot 2 \\cdot 3^2 = 9J\\)"
+    },
+    {
+        "name": "Thế năng trọng trường",
+        "formula": "W_{t} = m \\cdot g \\cdot h",
+        "note": [
+            "W_{t}:\\,Thế\\,năng\\,trọng\\,trường\\,(J)",
+            "m:\\,Khối\\,lượng\\,(kg)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)",
+            "h:\\,Độ\\,cao\\,(m)"
+        ],
+        "unit": "Bài 5: Thế năng trọng trường",
+        "code": "9e6c6fbb1f5e6c4a7f7b8d1a2c3e5f6a",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 2kg, độ cao là 5m, thì thế năng trọng trường là <br>\\(W_{t} = 2 \\cdot 9.8 \\cdot 5 = 98J\\)"
+    },
+    {
+        "name": "Thế năng đàn hồi",
+        "formula": "W_{đh} = \\frac{1}{2} k \\Delta l^2",
+        "note": [
+            "W_{đh}:\\,Thế\\,năng\\,đàn\\,hồi\\,(J)",
+            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
+            "\\Delta l:\\,Độ\\,biến\\,dạng\\,(m)"
+        ],
+        "unit": "Bài 6: Thế năng đàn hồi",
+        "code": "0b6c1d5f8a4e6a5f7b8d9c3e7f8a9b6d",
+        "example": "<b>Ví dụ:</b> <br> Nếu độ cứng của lò xo là 100N/m và độ biến dạng là 0.05m, thì thế năng đàn hồi là <br>\\(W_{đh} = \\frac{1}{2} \\cdot 100 \\cdot 0.05^2 = 0.125J\\)"
+    },
+    {
+        "name": "Nhiệt năng",
         "formula": "Q = m \\cdot c \\cdot \\Delta t",
         "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "Q:\\,Nhiệt\\,năng\\,(J)",
             "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg°C)",
+            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg.°C)",
             "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
         ],
-        "unit": "Bài 8: Công thức nhiệt lượng"
+        "unit": "Bài 7: Nhiệt năng",
+        "code": "f61f374e18e1e52b198e7e7df17e5db4",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 2kg, nhiệt dung riêng là 4200 J/kg°C và độ thay đổi nhiệt độ là 10°C, thì nhiệt năng là <br>\\(Q = 2 \\cdot 4200 \\cdot 10 = 84000J\\)"
     },
     {
         "name": "Hiệu suất",
-        "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
+        "formula": "H = \\frac{A_{có ích}}{A_{cung cấp}} \\times 100%",
         "note": [
-            "H:\\,Hiệu\\,suất\\,(\\%)",
-            "A_{\\text{có ích}}:\\,Công\\,có\\,ích\\,(J)",
-            "A_{\\text{toàn phần}}:\\,Công\\,toàn\\,phần\\,(J)"
+            "H:\\,Hiệu\\,suất\\,(%)",
+            "A_{có ích}:\\,Công\\,có\\,ích\\,(J)",
+            "A_{cung cấp}:\\,Công\\,cung\\,cấp\\,(J)"
         ],
-        "unit": "Bài 9: Hiệu suất"
-    },
-    {
-        "name": "Định luật Joule-Lenz",
-        "formula": "Q = I^2 \\cdot R \\cdot t",
-        "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
-            "I:\\,Dòng\\,điện\\,(A)",
-            "R:\\,Điện\\,trở\\,(Ω)",
-            "t:\\,Thời\\,gian\\,(s)"
-        ],
-        "unit": "Bài 10: Định luật Joule-Lenz"
-    },
-    {
-        "name": "Công suất điện",
-        "formula": "P = U \\cdot I",
-        "note": [
-            "P:\\,Công\\,suất\\,(W)",
-            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
-            "I:\\,Dòng\\,điện\\,(A)"
-        ],
-        "unit": "Bài 11: Công suất điện"
-    },
-    {
-        "name": "Định luật Ohm",
-        "formula": "I = \\frac{U}{R}",
-        "note": [
-            "I:\\,Dòng\\,điện\\,(A)",
-            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
-            "R:\\,Điện\\,trở\\,(Ω)"
-        ],
-        "unit": "Bài 12: Định luật Ohm"
-    },
-    {
-        "name": "Nhiệt lượng của dòng điện",
-        "formula": "Q = I^2 \\cdot R \\cdot t",
-        "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
-            "I:\\,Dòng\\,điện\\,(A)",
-            "R:\\,Điện\\,trở\\,(Ω)",
-            "t:\\,Thời\\,gian\\,(s)"
-        ],
-        "unit": "Bài 13: Nhiệt lượng của dòng điện"
-    },
-    {
-        "name": "Điện năng tiêu thụ",
-        "formula": "W = P \\cdot t",
-        "note": [
-            "W:\\,Điện\\,năng\\,tiêu\\,thụ\\,(J)",
-            "P:\\,Công\\,suất\\,(W)",
-            "t:\\,Thời\\,gian\\,(s)"
-        ],
-        "unit": "Bài 14: Điện năng tiêu thụ"
-    },
-    {
-        "name": "Suất điện động",
-        "formula": "\\mathcal{E} = I \\cdot R + I \\cdot r",
-        "note": [
-            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,(V)",
-            "I:\\,Dòng\\,điện\\,(A)",
-            "R:\\,Điện\\,trở\\,ngoài\\,(Ω)",
-            "r:\\,Điện\\,trở\\,trong\\,(Ω)"
-        ],
-        "unit": "Bài 15: Suất điện động"
-    },
-    {
-        "name": "Hiệu điện thế",
-        "formula": "U = \\mathcal{E} - I \\cdot r",
-        "note": [
-            "U:\\,Hiệu\\,điện\\,thế\\,(V)",
-            "\\mathcal{E}:\\,Suất\\,điện\\,động\\,(V)",
-            "I:\\,Dòng\\,điện\\,(A)",
-            "r:\\,Điện\\,trở\\,trong\\,(Ω)"
-        ],
-        "unit": "Bài 16: Hiệu điện thế"
-    },
-    {
-        "name": "Định luật Kirchhoff",
-        "formula": "\\sum I_{\\text{vào}} = \\sum I_{\\text{ra}}",
-        "note": [
-            "\\sum I_{\\text{vào}}:\\,Tổng\\,dòng\\,điện\\,vào\\,(A)",
-            "\\sum I_{\\text{ra}}:\\,Tổng\\,dòng\\,điện\\,ra\\,(A)"
-        ],
-        "unit": "Bài 17: Định luật Kirchhoff"
+        "unit": "Bài 8: Hiệu suất",
+        "code": "0c6a2f3b8e6d7a9b1f0e4d3c5b7a6d8c",
+        "example": "<b>Ví dụ:</b> <br> Nếu công có ích là 80J và công cung cấp là 100J, thì hiệu suất là <br>\\(H = \\frac{80}{100} \\times 100% = 80%\\)"
     }
 ]

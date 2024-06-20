@@ -1,50 +1,15 @@
 [
     {
-        "name": "Khối lượng",
-        "formula": "m = \\rho \\cdot V",
+        "name": "Khối lượng riêng",
+        "formula": "\\rho = \\frac{m}{V}",
         "note": [
-            "m:\\,Khối\\,lượng\\,(kg)",
             "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
+            "m:\\,Khối\\,lượng\\,(kg)",
             "V:\\,Thể\\,tích\\,(m^3)"
         ],
-        "unit": "Bài 1: Khối lượng"
-    },
-    {
-        "name": "Thể tích hình hộp chữ nhật",
-        "formula": "V = a \\cdot b \\cdot c",
-        "note": [
-            "V:\\,Thể\\,tích\\,(m^3)",
-            "a:\\,Chiều\\,dài,\\,b:\\,chiều\\,rộng,\\,c:\\,chiều\\,cao\\,(m)"
-        ],
-        "unit": "Bài 2: Thể tích"
-    },
-    {
-        "name": "Thể tích hình lập phương",
-        "formula": "V = a^3",
-        "note": [
-            "V:\\,Thể\\,tích\\,(m^3)",
-            "a:\\,Chiều\\,dài\\,cạnh\\,(m)"
-        ],
-        "unit": "Bài 3: Thể tích"
-    },
-    {
-        "name": "Thể tích hình cầu",
-        "formula": "V = \\frac{4}{3} \\pi r^3",
-        "note": [
-            "V:\\,Thể\\,tích\\,(m^3)",
-            "r:\\,Bán\\,kính\\,(m)"
-        ],
-        "unit": "Bài 4: Thể tích"
-    },
-    {
-        "name": "Lực",
-        "formula": "F = m \\cdot a",
-        "note": [
-            "F:\\,Lực\\,(N)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "a:\\,Gia\\,tốc\\,(m/s^2)"
-        ],
-        "unit": "Bài 5: Lực"
+        "unit": "Bài 1: Khối lượng riêng",
+        "code": "dd99f95b7d2521fa72e7a999adf6c7ab",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 500kg và thể tích là 0.2m<sup>3</sup>, thì khối lượng riêng là <br>\\(\\rho = \\frac{500}{0.2} = 2500kg/m^3\\)"
     },
     {
         "name": "Trọng lượng",
@@ -54,219 +19,83 @@
             "m:\\,Khối\\,lượng\\,(kg)",
             "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)"
         ],
-        "unit": "Bài 6: Lực"
+        "unit": "Bài 2: Trọng lượng",
+        "code": "ab71a7d2b7db5d768a5b65a44c2136ff",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 10kg, thì trọng lượng của nó là <br>\\(P = 10 \\cdot 9.8 = 98N\\)"
     },
     {
-        "name": "Khối lượng riêng",
-        "formula": "\\rho = \\frac{m}{V}",
+        "name": "Lực kéo",
+        "formula": "F = P \\cdot f",
         "note": [
-            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "V:\\,Thể\\,tích\\,(m^3)"
+            "F:\\,Lực\\,kéo\\,(N)",
+            "P:\\,Trọng\\,lượng\\,(N)",
+            "f:\\,Hệ\\,số\\,ma\\,sát"
         ],
-        "unit": "Bài 7: Khối lượng riêng"
+        "unit": "Bài 3: Lực kéo",
+        "code": "f6b10c5376e19e0beff67b6a8c8cbd95",
+        "example": "<b>Ví dụ:</b> <br> Nếu trọng lượng của vật là 98N và hệ số ma sát là 0.2, thì lực kéo là <br>\\(F = 98 \\cdot 0.2 = 19.6N\\)"
     },
     {
         "name": "Áp suất",
         "formula": "p = \\frac{F}{S}",
         "note": [
             "p:\\,Áp\\,suất\\,(Pa)",
-            "F:\\,Lực\\,tác\\,dụng\\,(N)",
-            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
+            "F:\\,Lực\\,(N)",
+            "S:\\,Diện\\,tích\\,(m^2)"
         ],
-        "unit": "Bài 8: Áp suất"
-    },
-    {
-        "name": "Công suất",
-        "formula": "P = \\frac{W}{t}",
-        "note": [
-            "P:\\,Công\\,suất\\,(W)",
-            "W:\\,Công\\,(J)",
-            "t:\\,Thời\\,gian\\,(s)"
-        ],
-        "unit": "Bài 9: Công suất"
+        "unit": "Bài 4: Áp suất",
+        "code": "3b98da83a59e273d1c7614ae1a3b2c9f",
+        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và diện tích là 0.5m<sup>2</sup>, thì áp suất là <br>\\(p = \\frac{50}{0.5} = 100Pa\\)"
     },
     {
         "name": "Công cơ học",
-        "formula": "W = F \\cdot s",
+        "formula": "A = F \\cdot s",
         "note": [
-            "W:\\,Công\\,(J)",
+            "A:\\,Công\\,cơ\\,học\\,(J)",
             "F:\\,Lực\\,(N)",
             "s:\\,Quãng\\,đường\\,(m)"
         ],
-        "unit": "Bài 10: Công cơ học"
+        "unit": "Bài 5: Công cơ học",
+        "code": "00c580b7495a3dd0f4f3a850b77b5681",
+        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và quãng đường là 10m, thì công cơ học là <br>\\(A = 50 \\cdot 10 = 500J\\)"
     },
     {
-        "name": "Nhiệt năng",
+        "name": "Nhiệt lượng",
         "formula": "Q = m \\cdot c \\cdot \\Delta t",
         "note": [
-            "Q:\\,Nhiệt\\,năng\\,(J)",
+            "Q:\\,Nhiệt\\,lượng\\,(J)",
             "m:\\,Khối\\,lượng\\,(kg)",
             "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg.°C)",
             "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
         ],
-        "unit": "Bài 11: Nhiệt năng"
+        "unit": "Bài 6: Nhiệt lượng",
+        "code": "f61f374e18e1e52b198e7e7df17e5db4",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 2kg, nhiệt dung riêng là 4200 J/kg°C và độ thay đổi nhiệt độ là 10°C, thì nhiệt lượng là <br>\\(Q = 2 \\cdot 4200 \\cdot 10 = 84000J\\)"
     },
     {
-        "name": "Hiệu suất",
-        "formula": "H = \\frac{A_{\\text{có ích}}}{A_{\\text{toàn phần}}} \\cdot 100\\%",
+        "name": "Định luật Pascal",
+        "formula": "p = \\rho \\cdot g \\cdot h",
         "note": [
-            "H:\\,Hiệu\\,suất\\,(\\%)",
-            "A_{\\text{có ích}}:\\,Công\\,có\\,ích\\,(J)",
-            "A_{\\text{toàn phần}}:\\,Công\\,toàn\\,phần\\,(J)"
+            "p:\\,Áp\\,suất\\,(Pa)",
+            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)",
+            "h:\\,Chiều\\,cao\\,(m)"
         ],
-        "unit": "Bài 12: Hiệu suất"
+        "unit": "Bài 7: Định luật Pascal",
+        "code": "8a6df536b0f479fe9a11c96af07ff28d",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng riêng của chất lỏng là 1000 kg/m<sup>3</sup>, gia tốc trọng trường là 9.8 m/s<sup>2</sup> và chiều cao là 5m, thì áp suất là <br>\\(p = 1000 \\cdot 9.8 \\cdot 5 = 49000Pa\\)"
     },
     {
-        "name": "Ảnh hưởng của Sự nhiệt",
-        "formula": "Q = mc\\Delta T",
+        "name": "Định luật Archimedes",
+        "formula": "F_A = \\rho \\cdot g \\cdot V",
         "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg°C)",
-            "\\Delta T:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
+            "F_A:\\,Lực\\,đẩy\\,Archimedes\\,(N)",
+            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
+            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)",
+            "V:\\,Thể\\,tích\\,chất\\,lỏng\\,bị\\,chiếm\\,(m^3)"
         ],
-        "unit": "Bài 13: Ảnh hưởng của Sự nhiệt"
-    },
-    {
-        "name": "Mô men lực và Công cơ học",
-        "formula": "\\tau = Fr",
-        "note": [
-            "\\tau:\\,Mô\\,men\\,lực\\,(N.m)",
-            "F:\\,Lực\\,(N)",
-            "r:\\,Cánh\\,tay\\,đòn\\,(m)"
-        ],
-        "unit": "Bài 14: Mô men lực và Công cơ học"
-    },
-    {
-        "name": "Dòng điện và Điện trở",
-        "formula": "R = \\frac{V}{I}",
-        "note": [
-            "R:\\,Điện\\,trở\\,(Ω)",
-            "V:\\,Điện\\,áp\\,(V)",
-            "I:\\,Dòng\\,điện\\,(A)"
-        ],
-        "unit": "Bài 15: Dòng điện và Điện trở"
-    },
-    {
-        "name": "Nhiệt năng và Công năng của Dòng điện",
-        "formula": "P = IV",
-        "note": [
-            "P:\\,Công\\,suất\\,(W)",
-            "I:\\,Dòng\\,điện\\,(A)",
-            "V:\\,Điện\\,áp\\,(V)"
-        ],
-        "unit": "Bài 16: Nhiệt năng và Công năng của Dòng điện"
-    },
-    {
-        "name": "Từ trường và Nam châm",
-        "formula": "F = BIL",
-        "note": [
-            "F:\\,Lực\\,(N)",
-            "B:\\,Mật\\,độ\\,từ\\,trường\\,(T)",
-            "I:\\,Dòng\\,điện\\,(A)",
-            "L:\\,Chiều\\,dài\\,dây\\,dẫn\\,trong\\,từ\\,trường\\,(m)"
-        ],
-        "unit": "Bài 17: Từ trường và Nam châm"
-    },
-    {
-        "name": "Sóng cơ",
-        "formula": "v = f \\lambda",
-        "note": [
-            "v:\\,Vận\\,tốc\\,sóng\\,(m/s)",
-            "f:\\,Tần\\,số\\,sóng\\,(Hz)",
-            "\\lambda:\\,Bước\\,sóng\\,(m)"
-        ],
-        "unit": "Bài 18: Sóng cơ"
-    },
-    {
-        "name": "Điện trường và Điện tích",
-        "formula": "E = \\frac{F}{q}",
-        "note": [
-            "E:\\,Điện\\,trường\\,(V/m)",
-            "F:\\,Lực\\,(N)",
-            "q:\\,Điện\\,tích\\,(C)"
-        ],
-        "unit": "Bài 19: Điện trường và Điện tích"
-    },
-    {
-        "name": "Điện áp và Điện dung",
-        "formula": "C = \\frac{Q}{V}",
-        "note": [
-            "C:\\,Điện\\,dung\\,(F)",
-            "Q:\\,Điện\\,tích\\,(C)",
-            "V:\\,Điện\\,áp\\,(V)"
-        ],
-        "unit": "Bài 20: Điện áp và Điện dung"
-    },
-    {
-        "name": "Quang học",
-        "formula": "v = f \\lambda",
-        "note": [
-            "v:\\,Vận\\,tốc\\,sóng\\,(m/s)",
-            "f:\\,Tần\\,số\\,sóng\\,(Hz)",
-            "\\lambda:\\,Bước\\,sóng\\,(m)"
-        ],
-        "unit": "Bài 21: Quang học"
-    },
-    {
-        "name": "Âm học",
-        "formula": "v = f \\lambda",
-        "note": [
-            "v:\\,Vận\\,tốc\\,âm\\,than\\,(m/s)",
-            "f:\\,Tần\\,số\\,sóng\\,(Hz)",
-            "\\lambda:\\,Bước\\,sóng\\,(m)"
-        ],
-        "unit": "Bài 22: Âm học"
-    },
-    {
-        "name": "Quang phổ",
-        "formula": "v = c \\lambda",
-        "note": [
-            "v:\\,Vận\\,tốc\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(m/s)",
-            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,trong\\,chân\\,không\\,(3 \\times 10^8 m/s)",
-            "\\lambda:\\,Bước\\,sóng\\,(m)"
-        ],
-        "unit": "Bài 23: Quang phổ"
-    },
-    {
-        "name": "Ống kính và gương",
-        "formula": "\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{q}",
-        "note": [
-            "f:\\,Tiêu\\,cự\\,của\\,ống\\,kính\\,hoặc\\,gương\\,(m)",
-            "p:\\,Khoảng\\,cách\\,từ\\,vật\\,gốc\\,đến\\,ống\\,kính\\,hoặc\\,gương\\,(m)",
-            "q:\\,Khoảng\\,cách\\,từ\\,ống\\,kính\\,hoặc\\,gương\\,đến\\,hình\\,ảnh\\,vật\\,gốc\\,(m)"
-        ],
-        "unit": "Bài 24: Ống kính và gương"
-    },
-    {
-        "name": "Vật chất và Động học học lượng tử",
-        "formula": "E = mc^2",
-        "note": [
-            "E:\\,Năng\\,lượng\\,(J)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,(m/s)"
-        ],
-        "unit": "Bài 25: Vật chất và Động học học lượng tử"
-    },
-    {
-        "name": "Cấu tạo nguyên tử",
-        "formula": "N = Z + A",
-        "note": [
-            "N:\\,Số\\,hạt\\,nguyên\\,tử",
-            "Z:\\,Số\\,proton",
-            "A:\\,Số\\,Nơtron"
-        ],
-        "unit": "Bài 26: Cấu tạo nguyên tử"
-    },
-    {
-        "name": "Hạt nhân nguyên tử",
-        "formula": "E = mc^2",
-        "note": [
-            "E:\\,Năng\\,lượng\\,(J)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Tốc\\,độ\\,ánh\\,sáng\\,(m/s)"
-        ],
-        "unit": "Bài 27: Hạt nhân nguyên tử"
+        "unit": "Bài 8: Định luật Archimedes",
+        "code": "d1f87d2d4c3c8c9e28c2d0cde9d6f3ea",
+        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng riêng của nước là 1000 kg/m<sup>3</sup>, gia tốc trọng trường là 9.8 m/s<sup>2</sup> và thể tích của chất lỏng bị chiếm là 0.1m<sup>3</sup>, thì lực đẩy Archimedes là <br>\\(F_A = 1000 \\cdot 9.8 \\cdot 0.1 = 980N\\)"
     }
 ]
