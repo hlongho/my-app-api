@@ -8,44 +8,68 @@
             "V:\\,Thể\\,tích\\,(m^3)"
         ],
         "unit": "Bài 1: Khối lượng riêng",
-        "code": "dd99f95b7d2521fa72e7a999adf6c7ab",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 500kg và thể tích là 0.2m<sup>3</sup>, thì khối lượng riêng là <br>\\(\\rho = \\frac{500}{0.2} = 2500kg/m^3\\)"
+        "example": {
+            "value": "Ví dụ: Nếu khối lượng của vật là 500kg và thể tích là #### thì khối lượng riêng là ####",
+            "param": [
+                "0.2\\,(m^3)",
+                "2500\\,(kg/m^3)"
+            ]
+        },
+        "code": "9f033931d9b499a8bf8c483579c5c925"
     },
     {
-        "name": "Trọng lượng",
-        "formula": "P = m \\cdot g",
+        "name": "Công thức tính quãng đường",
+        "formula": "s = v \\cdot t",
         "note": [
-            "P:\\,Trọng\\,lượng\\,(N)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)"
+            "s:\\,Quãng\\,đường\\,(m)",
+            "v:\\,Vận\\,tốc\\,(m/s)",
+            "t:\\,Thời\\,gian\\,(s)"
         ],
-        "unit": "Bài 2: Trọng lượng",
-        "code": "ab71a7d2b7db5d768a5b65a44c2136ff",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 10kg, thì trọng lượng của nó là <br>\\(P = 10 \\cdot 9.8 = 98N\\)"
+        "unit": "Bài 2: Công thức tính quãng đường",
+        "example": {
+            "value": "Ví dụ: Nếu vận tốc là 10m/s và thời gian là #### thì quãng đường là ####",
+            "param": [
+                "5\\,(s)",
+                "50\\,(m)"
+            ]
+        },
+        "code": "23a6733e30a0860d3dba05f2056aa036"
     },
     {
-        "name": "Lực kéo",
-        "formula": "F = P \\cdot f",
+        "name": "Lực đàn hồi",
+        "formula": "F = k \\cdot \\Delta l",
         "note": [
-            "F:\\,Lực\\,kéo\\,(N)",
-            "P:\\,Trọng\\,lượng\\,(N)",
-            "f:\\,Hệ\\,số\\,ma\\,sát"
+            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
+            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
+            "\\Delta l:\\,Độ\\,biến\\,dạng\\,của\\,lò\\,xo\\,(m)"
         ],
-        "unit": "Bài 3: Lực kéo",
-        "code": "f6b10c5376e19e0beff67b6a8c8cbd95",
-        "example": "<b>Ví dụ:</b> <br> Nếu trọng lượng của vật là 98N và hệ số ma sát là 0.2, thì lực kéo là <br>\\(F = 98 \\cdot 0.2 = 19.6N\\)"
+        "unit": "Bài 3: Lực đàn hồi",
+        "example": {
+            "value": "Ví dụ: Nếu độ cứng của lò xo là 100N/m và độ biến dạng là #### thì lực đàn hồi là ####",
+            "param": [
+                "0.05\\,(m)",
+                "5\\,(N)"
+            ]
+        },
+        "code": "9d7023c7dd77e918345a7d26124f9ab6"
     },
     {
         "name": "Áp suất",
         "formula": "p = \\frac{F}{S}",
         "note": [
             "p:\\,Áp\\,suất\\,(Pa)",
-            "F:\\,Lực\\,(N)",
-            "S:\\,Diện\\,tích\\,(m^2)"
+            "F:\\,Lực\\,tác\\,dụng\\,(N)",
+            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
         ],
         "unit": "Bài 4: Áp suất",
-        "code": "3b98da83a59e273d1c7614ae1a3b2c9f",
-        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và diện tích là 0.5m<sup>2</sup>, thì áp suất là <br>\\(p = \\frac{50}{0.5} = 100Pa\\)"
+        "example": {
+            "value": "Ví dụ: Nếu lực tác dụng là 200N và diện tích bề mặt là #### thì áp suất là ####",
+            "param": [
+                "0.5\\,(m^2)",
+                "400\\,(Pa)"
+            ]
+        },
+        "code": "d3c4d197e69d7a2b1786d54a7212fe12"
     },
     {
         "name": "Công cơ học",
@@ -56,46 +80,31 @@
             "s:\\,Quãng\\,đường\\,(m)"
         ],
         "unit": "Bài 5: Công cơ học",
-        "code": "00c580b7495a3dd0f4f3a850b77b5681",
-        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và quãng đường là 10m, thì công cơ học là <br>\\(A = 50 \\cdot 10 = 500J\\)"
+        "example": {
+            "value": "Ví dụ: Nếu lực là 150N và quãng đường là #### thì công cơ học là ####",
+            "param": [
+                "10\\,(m)",
+                "1500\\,(J)"
+            ]
+        },
+        "code": "c70c7ab2affca2ea1c29fc758d74b2e4"
     },
     {
-        "name": "Nhiệt lượng",
-        "formula": "Q = m \\cdot c \\cdot \\Delta t",
+        "name": "Động năng",
+        "formula": "W_d = \\frac{1}{2} m v^2",
         "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
+            "W_d:\\,Động\\,năng\\,(J)",
             "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg.°C)",
-            "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
+            "v:\\,Vận\\,tốc\\,(m/s)"
         ],
-        "unit": "Bài 6: Nhiệt lượng",
-        "code": "f61f374e18e1e52b198e7e7df17e5db4",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 2kg, nhiệt dung riêng là 4200 J/kg°C và độ thay đổi nhiệt độ là 10°C, thì nhiệt lượng là <br>\\(Q = 2 \\cdot 4200 \\cdot 10 = 84000J\\)"
-    },
-    {
-        "name": "Định luật Pascal",
-        "formula": "p = \\rho \\cdot g \\cdot h",
-        "note": [
-            "p:\\,Áp\\,suất\\,(Pa)",
-            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
-            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)",
-            "h:\\,Chiều\\,cao\\,(m)"
-        ],
-        "unit": "Bài 7: Định luật Pascal",
-        "code": "8a6df536b0f479fe9a11c96af07ff28d",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng riêng của chất lỏng là 1000 kg/m<sup>3</sup>, gia tốc trọng trường là 9.8 m/s<sup>2</sup> và chiều cao là 5m, thì áp suất là <br>\\(p = 1000 \\cdot 9.8 \\cdot 5 = 49000Pa\\)"
-    },
-    {
-        "name": "Định luật Archimedes",
-        "formula": "F_A = \\rho \\cdot g \\cdot V",
-        "note": [
-            "F_A:\\,Lực\\,đẩy\\,Archimedes\\,(N)",
-            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
-            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)",
-            "V:\\,Thể\\,tích\\,chất\\,lỏng\\,bị\\,chiếm\\,(m^3)"
-        ],
-        "unit": "Bài 8: Định luật Archimedes",
-        "code": "d1f87d2d4c3c8c9e28c2d0cde9d6f3ea",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng riêng của nước là 1000 kg/m<sup>3</sup>, gia tốc trọng trường là 9.8 m/s<sup>2</sup> và thể tích của chất lỏng bị chiếm là 0.1m<sup>3</sup>, thì lực đẩy Archimedes là <br>\\(F_A = 1000 \\cdot 9.8 \\cdot 0.1 = 980N\\)"
+        "unit": "Bài 6: Động năng",
+        "example": {
+            "value": "Ví dụ: Nếu khối lượng là 50kg và vận tốc là #### thì động năng là ####",
+            "param": [
+                "3\\,(m/s)",
+                "225\\,(J)"
+            ]
+        },
+        "code": "efd836f5888f994a3f33dab0241f615c"
     }
 ]
