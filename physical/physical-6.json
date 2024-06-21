@@ -1,191 +1,265 @@
 [
     {
+        "name": "Khối lượng",
+        "formula": "m = D \\cdot V",
+        "note": [
+            {
+                "value": "####: Khối lượng ####",
+                "param": [
+                    "m",
+                    "(kg)"
+                ]
+            },
+            {
+                "value": "####: Khối lượng riêng ####",
+                "param": [
+                    "D",
+                    "(kg/m^3)"
+                ]
+            },
+            {
+                "value": "####: Thể tích ####",
+                "param": [
+                    "V",
+                    "(m^3)"
+                ]
+            }
+        ],
+        "unit": "Bài 1: Khối lượng",
+        "code": "a1d0c6e83f027327d8461063f4ac58a6",
+        "question": {
+            "value": "Một vật có thể tích #### và khối lượng riêng là ####. Hãy tính khối lượng của vật.",
+            "param": [
+                "2 (m^3)",
+                "500 (kg/m^3)"
+            ]
+        },
+        "answer": {
+            "value": "Với thể tích vật là #### và khối lượng riêng là ####, ta áp dụng công thức khối lượng để tính: ####.",
+            "param": [
+                "2 (m^3)",
+                "500 (kg/m^3)",
+                "m = 500 \\cdot 2 = 1000 (kg)"
+            ]
+        }
+    },
+    {
+        "name": "Thể tích",
+        "formula": "V = \\frac{m}{D}",
+        "note": [
+            {
+                "value": "####: Thể tích ####",
+                "param": [
+                    "V",
+                    "(m^3)"
+                ]
+            },
+            {
+                "value": "####: Khối lượng ####",
+                "param": [
+                    "m",
+                    "(kg)"
+                ]
+            },
+            {
+                "value": "####: Khối lượng riêng ####",
+                "param": [
+                    "D",
+                    "(kg/m^3)"
+                ]
+            }
+        ],
+        "unit": "Bài 2: Thể tích",
+        "code": "c81e728d9d4c2f636f067f89cc14862c",
+        "question": {
+            "value": "Một vật có khối lượng #### và khối lượng riêng là ####. Hãy tính thể tích của vật.",
+            "param": [
+                "1000 (kg)",
+                "500 (kg/m^3)"
+            ]
+        },
+        "answer": {
+            "value": "Với khối lượng vật là #### và khối lượng riêng là ####, ta áp dụng công thức thể tích để tính: ####.",
+            "param": [
+                "1000 (kg)",
+                "500 (kg/m^3)",
+                "V = \\frac{1000}{500} = 2 (m^3)"
+            ]
+        }
+    },
+    {
         "name": "Khối lượng riêng",
-        "formula": "\\rho = \\frac{m}{V}",
+        "formula": "D = \\frac{m}{V}",
         "note": [
-            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "V:\\,Thể\\,tích\\,(m^3)"
+            {
+                "value": "####: Khối lượng riêng ####",
+                "param": [
+                    "D",
+                    "(kg/m^3)"
+                ]
+            },
+            {
+                "value": "####: Khối lượng ####",
+                "param": [
+                    "m",
+                    "(kg)"
+                ]
+            },
+            {
+                "value": "####: Thể tích ####",
+                "param": [
+                    "V",
+                    "(m^3)"
+                ]
+            }
         ],
-        "unit": "Bài 1: Khối lượng riêng",
-        "code": "7ac1f1b2ac3f79f59f5de28f1b18ed42",
+        "unit": "Bài 3: Khối lượng riêng",
+        "code": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
         "question": {
-            "value": "Một vật có khối lượng 500kg và thể tích là ####, hãy tính khối lượng riêng của vật.",
+            "value": "Một vật có khối lượng #### và thể tích là ####. Hãy tính khối lượng riêng của vật.",
             "param": [
-                "0.2\\,(m^3)"
+                "1000 (kg)",
+                "2 (m^3)"
             ]
         },
         "answer": {
-            "value": "Nếu khối lượng của vật là 500kg và thể tích là ####, ta áp dụng công thức khối lượng riêng #### để tính: ####.",
+            "value": "Với khối lượng vật là #### và thể tích là ####, ta áp dụng công thức khối lượng riêng để tính: ####.",
             "param": [
-                "0.2\\,(m^3)",
-                "\\rho = \\frac{m}{V}",
-                "\\rho = \\frac{500}{0.2} = 2500\\,(kg/m^3)"
+                "1000 (kg)",
+                "2 (m^3)",
+                "D = \\frac{1000}{2} = 500 (kg/m^3)"
             ]
         }
     },
     {
-        "name": "Trọng lượng",
-        "formula": "P = m \\cdot g",
+        "name": "Tốc độ",
+        "formula": "v = \\frac{s}{t}",
         "note": [
-            "P:\\,Trọng\\,lượng\\,(N)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(m/s^2)"
+            {
+                "value": "####: Tốc độ ####",
+                "param": [
+                    "v",
+                    "(m/s)"
+                ]
+            },
+            {
+                "value": "####: Quãng đường ####",
+                "param": [
+                    "s",
+                    "(m)"
+                ]
+            },
+            {
+                "value": "####: Thời gian ####",
+                "param": [
+                    "t",
+                    "(s)"
+                ]
+            }
         ],
-        "unit": "Bài 2: Trọng lượng",
-        "code": "0176d26dc10e92ae28622f0e3fca7877",
+        "unit": "Bài 4: Tốc độ",
+        "code": "a87ff679a2f3e71d9181a67b7542122c",
         "question": {
-            "value": "Một vật có khối lượng 10kg và gia tốc trọng trường là ####, hãy tính trọng lượng của vật.",
+            "value": "Một vật di chuyển quãng đường #### trong thời gian ####. Hãy tính tốc độ của vật.",
             "param": [
-                "9.8\\,(m/s^2)"
+                "100 (m)",
+                "20 (s)"
             ]
         },
         "answer": {
-            "value": "Nếu khối lượng của vật là 10kg và gia tốc trọng trường là ####, ta áp dụng công thức trọng lượng #### để tính: ####.",
+            "value": "Với quãng đường là #### và thời gian là ####, ta áp dụng công thức tốc độ để tính: ####.",
             "param": [
-                "9.8\\,(m/s^2)",
-                "P = m \\cdot g",
-                "P = 10 \\cdot 9.8 = 98\\,(N)"
+                "100 (m)",
+                "20 (s)",
+                "v = \\frac{100}{20} = 5 (m/s)"
             ]
         }
     },
     {
-        "name": "Áp suất",
-        "formula": "p = \\frac{F}{S}",
+        "name": "Quãng đường",
+        "formula": "s = v \\cdot t",
         "note": [
-            "p:\\,Áp\\,suất\\,(Pa)",
-            "F:\\,Lực\\,tác\\,dụng\\,(N)",
-            "S:\\,Diện\\,tích\\,bề\\,mặt\\,(m^2)"
+            {
+                "value": "####: Quãng đường ####",
+                "param": [
+                    "s",
+                    "(m)"
+                ]
+            },
+            {
+                "value": "####: Tốc độ ####",
+                "param": [
+                    "v",
+                    "(m/s)"
+                ]
+            },
+            {
+                "value": "####: Thời gian ####",
+                "param": [
+                    "t",
+                    "(s)"
+                ]
+            }
         ],
-        "unit": "Bài 3: Áp suất",
-        "code": "9f1f346a8f289c5f3213030c2a6117c4",
+        "unit": "Bài 5: Quãng đường",
+        "code": "e4da3b7fbbce2345d7772b0674a318d5",
         "question": {
-            "value": "Một lực có độ lớn 200N tác dụng lên diện tích bề mặt là ####, hãy tính áp suất.",
+            "value": "Một vật di chuyển với tốc độ #### trong thời gian ####. Hãy tính quãng đường mà vật đã di chuyển.",
             "param": [
-                "0.5\\,(m^2)"
+                "5 (m/s)",
+                "20 (s)"
             ]
         },
         "answer": {
-            "value": "Nếu lực có độ lớn 200N tác dụng lên diện tích bề mặt là ####, ta áp dụng công thức áp suất #### để tính: ####.",
+            "value": "Với tốc độ là #### và thời gian là ####, ta áp dụng công thức quãng đường để tính: ####.",
             "param": [
-                "0.5\\,(m^2)",
-                "p = \\frac{F}{S}",
-                "p = \\frac{200}{0.5} = 400\\,(Pa)"
+                "5 (m/s)",
+                "20 (s)",
+                "s = 5 \\cdot 20 = 100 (m)"
             ]
         }
     },
     {
-        "name": "Công cơ học",
-        "formula": "A = F \\cdot s",
+        "name": "Thời gian",
+        "formula": "t = \\frac{s}{v}",
         "note": [
-            "A:\\,Công\\,cơ\\,học\\,(J)",
-            "F:\\,Lực\\,(N)",
-            "s:\\,Quãng\\,đường\\,(m)"
+            {
+                "value": "####: Thời gian ####",
+                "param": [
+                    "t",
+                    "(s)"
+                ]
+            },
+            {
+                "value": "####: Quãng đường ####",
+                "param": [
+                    "s",
+                    "(m)"
+                ]
+            },
+            {
+                "value": "####: Tốc độ ####",
+                "param": [
+                    "v",
+                    "(m/s)"
+                ]
+            }
         ],
-        "unit": "Bài 4: Công cơ học",
-        "code": "522f6fe9b9f3f2e0a1de3d2af2e90d11",
+        "unit": "Bài 6: Thời gian",
+        "code": "1679091c5a880faf6fb5e6087eb1b2dc",
         "question": {
-            "value": "Một lực 50N tác dụng lên một vật làm vật di chuyển quãng đường 10m, hãy tính công cơ học thực hiện lên vật.",
-            "param": []
-        },
-        "answer": {
-            "value": "Nếu lực 50N tác dụng lên một vật làm vật di chuyển quãng đường 10m, ta áp dụng công thức công cơ học #### để tính: ####.",
+            "value": "Một vật di chuyển quãng đường #### với tốc độ ####. Hãy tính thời gian vật di chuyển hết quãng đường đó.",
             "param": [
-                "A = F \\cdot s",
-                "A = 50 \\cdot 10 = 500\\,(J)"
-            ]
-        }
-    },
-    {
-        "name": "Công suất",
-        "formula": "P = \\frac{A}{t}",
-        "note": [
-            "P:\\,Công\\,suất\\,(W)",
-            "A:\\,Công\\,cơ\\,học\\,(J)",
-            "t:\\,Thời\\,gian\\,(s)"
-        ],
-        "unit": "Bài 5: Công suất",
-        "code": "f05e6f3e8f3e657f2f2a91d1f8c0e8c5",
-        "question": {
-            "value": "Một công cơ học 500J được thực hiện trong 5 giây, hãy tính công suất.",
-            "param": []
-        },
-        "answer": {
-            "value": "Nếu một công cơ học 500J được thực hiện trong 5 giây, ta áp dụng công thức công suất #### để tính: ####.",
-            "param": [
-                "P = \\frac{A}{t}",
-                "P = \\frac{500}{5} = 100\\,(W)"
-            ]
-        }
-    },
-    {
-        "name": "Nhiệt lượng",
-        "formula": "Q = m \\cdot c \\cdot \\Delta t",
-        "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg°C)",
-            "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
-        ],
-        "unit": "Bài 6: Nhiệt lượng",
-        "code": "8f3e6c7d8c3e6c7d9e3e6d7c8e3e6d8c",
-        "question": {
-            "value": "Một vật có khối lượng 2kg, nhiệt dung riêng là 4200J/kg°C và độ thay đổi nhiệt độ là 5°C, hãy tính nhiệt lượng.",
-            "param": []
-        },
-        "answer": {
-            "value": "Nếu một vật có khối lượng 2kg, nhiệt dung riêng là 4200J/kg°C và độ thay đổi nhiệt độ là 5°C, ta áp dụng công thức nhiệt lượng #### để tính: ####.",
-            "param": [
-                "Q = m \\cdot c \\cdot \\Delta t",
-                "Q = 2 \\cdot 4200 \\cdot 5 = 42000\\,(J)"
-            ]
-        }
-    },
-    {
-        "name": "Định luật Hooke",
-        "formula": "F = k \\cdot \\Delta l",
-        "note": [
-            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
-            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
-            "\\Delta l:\\,Độ\\,biến\\,dạng\\,của\\,lò\\,xo\\,(m)"
-        ],
-        "unit": "Bài 7: Định luật Hooke",
-        "code": "6c7d8c9e7f8a9b8d6e7a9c8d7e8c7d9f",
-        "question": {
-            "value": "Một lò xo có độ cứng 100N/m và độ biến dạng là ####, hãy tính lực đàn hồi.",
-            "param": [
-                "0.05\\,(m)"
+                "100 (m)",
+                "5 (m/s)"
             ]
         },
         "answer": {
-            "value": "Nếu một lò xo có độ cứng 100N/m và độ biến dạng là ####, ta áp dụng công thức định luật Hooke #### để tính: ####.",
+            "value": "Với quãng đường là #### và tốc độ là ####, ta áp dụng công thức thời gian để tính: ####.",
             "param": [
-                "0.05\\,(m)",
-                "F = k \\cdot \\Delta l",
-                "F = 100 \\cdot 0.05 = 5\\,(N)"
-            ]
-        }
-    },
-    {
-        "name": "Lực đẩy Archimedes",
-        "formula": "F_A = \\rho_{chất\\,lỏng} \\cdot V_{bị\\,chiếm\\,chỗ} \\cdot g",
-        "note": [
-            "F_A:\\,Lực\\,đẩy\\,Archimedes\\,(N)",
-            "\\rho_{chất\\,lỏng}:\\,Khối\\,lượng\\,riêng\\,của\\,chất\\,lỏng\\,(kg/m^3)",
-            "V_{bị\\,chiếm\\,chỗ}:\\,Thể\\,tích\\,bị\\,chiếm\\,chỗ\\,(m^3)",
-            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(m/s^2)"
-        ],
-        "unit": "Bài 8: Lực đẩy Archimedes",
-        "code": "3d9e7f6c8a7b9d8e7a6c7d8e9b7a8c6d",
-        "question": {
-            "value": "Một vật có thể tích 0.1m^3 bị ngập trong nước có khối lượng riêng 1000kg/m^3, hãy tính lực đẩy Archimedes.",
-            "param": []
-        },
-        "answer": {
-            "value": "Nếu một vật có thể tích 0.1m^3 bị ngập trong nước có khối lượng riêng 1000kg/m^3, ta áp dụng công thức lực đẩy Archimedes #### để tính: ####.",
-            "param": [
-                "F_A = \\rho_{chất\\,lỏng} \\cdot V_{bị\\,chiếm\\,chỗ} \\cdot g",
-                "F_A = 1000 \\cdot 0.1 \\cdot 9.8 = 980\\,(N)"
+                "100 (m)",
+                "5 (m/s)",
+                "t = \\frac{100}{5} = 20 (s)"
             ]
         }
     }
