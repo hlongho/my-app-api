@@ -1,170 +1,414 @@
 [
     {
-        "name": "Phép cộng số nguyên",
-        "formula": "a + b",
+        "name": "Cộng hai số nguyên",
+        "formula": "a + b = c",
         "note": [
-            "a,\\,b:\\,Các\\,số\\,nguyên"
+            {
+                "value": "####: Tổng của hai số nguyên ####",
+                "param": [
+                    "c"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ nhất ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ hai ####",
+                "param": [
+                    "b"
+                ]
+            }
         ],
-        "unit": "Đại số: Phép cộng"
+        "unit": "Chương 1: Số nguyên",
+        "code": "c4ca4238a0b923820dcc509a6f75849b",
+        "question": {
+            "value": "Tính tổng của hai số nguyên #### và ####.",
+            "param": [
+                "5",
+                "3"
+            ]
+        },
+        "answer": {
+            "value": "Tổng của hai số nguyên #### và #### là ####.",
+            "param": [
+                "5",
+                "3",
+                "5 + 3 = 8"
+            ]
+        }
     },
     {
-        "name": "Phép trừ số nguyên",
-        "formula": "a - b",
+        "name": "Trừ hai số nguyên",
+        "formula": "a - b = c",
         "note": [
-            "a,\\,b:\\,Các\\,số\\,nguyên"
+            {
+                "value": "####: Hiệu của hai số nguyên ####",
+                "param": [
+                    "c"
+                ]
+            },
+            {
+                "value": "####: Số nguyên bị trừ ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Số nguyên trừ ####",
+                "param": [
+                    "b"
+                ]
+            }
         ],
-        "unit": "Đại số: Phép trừ"
+        "unit": "Chương 1: Số nguyên",
+        "code": "c81e728d9d4c2f636f067f89cc14862c",
+        "question": {
+            "value": "Tính hiệu của hai số nguyên #### và ####.",
+            "param": [
+                "8",
+                "5"
+            ]
+        },
+        "answer": {
+            "value": "Hiệu của hai số nguyên #### và #### là ####.",
+            "param": [
+                "8",
+                "5",
+                "8 - 5 = 3"
+            ]
+        }
     },
     {
-        "name": "Phép nhân số nguyên",
-        "formula": "a \\cdot b",
+        "name": "Nhân hai số nguyên",
+        "formula": "a \\cdot b = c",
         "note": [
-            "a,\\,b:\\,Các\\,số\\,nguyên"
+            {
+                "value": "####: Tích của hai số nguyên ####",
+                "param": [
+                    "c"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ nhất ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ hai ####",
+                "param": [
+                    "b"
+                ]
+            }
         ],
-        "unit": "Đại số: Phép nhân"
+        "unit": "Chương 1: Số nguyên",
+        "code": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
+        "question": {
+            "value": "Tính tích của hai số nguyên #### và ####.",
+            "param": [
+                "4",
+                "7"
+            ]
+        },
+        "answer": {
+            "value": "Tích của hai số nguyên #### và #### là ####.",
+            "param": [
+                "4",
+                "7",
+                "4 \\cdot 7 = 28"
+            ]
+        }
     },
     {
-        "name": "Phép chia số nguyên",
-        "formula": "a \\div b",
+        "name": "Chia hai số nguyên",
+        "formula": "\\frac{a}{b} = c",
         "note": [
-            "a,\\,b:\\,Các\\,số\\,nguyên,\\,b\\neq 0"
+            {
+                "value": "####: Thương của hai số nguyên ####",
+                "param": [
+                    "c"
+                ]
+            },
+            {
+                "value": "####: Số nguyên bị chia ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Số nguyên chia ####",
+                "param": [
+                    "b"
+                ]
+            }
         ],
-        "unit": "Đại số: Phép chia"
+        "unit": "Chương 1: Số nguyên",
+        "code": "a87ff679a2f3e71d9181a67b7542122c",
+        "question": {
+            "value": "Tính thương của hai số nguyên #### và ####.",
+            "param": [
+                "15",
+                "3"
+            ]
+        },
+        "answer": {
+            "value": "Thương của hai số nguyên #### và #### là ####.",
+            "param": [
+                "15",
+                "3",
+                "\\frac{15}{3} = 5"
+            ]
+        }
     },
     {
-        "name": "Phép cộng phân số",
-        "formula": "\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}",
+        "name": "Tính giá trị biểu thức",
+        "formula": "a + b - c",
         "note": [
-            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
+            {
+                "value": "####: Biểu thức ####",
+                "param": [
+                    "a + b - c"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ nhất ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ hai ####",
+                "param": [
+                    "b"
+                ]
+            },
+            {
+                "value": "####: Số nguyên thứ ba ####",
+                "param": [
+                    "c"
+                ]
+            }
         ],
-        "unit": "Đại số: Phép cộng phân số"
+        "unit": "Chương 2: Biểu thức đại số",
+        "code": "e4da3b7fbbce2345d7772b0674a318d5",
+        "question": {
+            "value": "Tính giá trị của biểu thức #### với ####, #### và ####.",
+            "param": [
+                "a + b - c",
+                "a = 5",
+                "b = 3",
+                "c = 2"
+            ]
+        },
+        "answer": {
+            "value": "Với biểu thức #### và các giá trị ####, ####, ta tính được: ####.",
+            "param": [
+                "a + b - c",
+                "a = 5",
+                "b = 3",
+                "c = 2",
+                "5 + 3 - 2 = 6"
+            ]
+        }
     },
     {
-        "name": "Phép trừ phân số",
-        "formula": "\\frac{a}{b} - \\frac{c}{d} = \\frac{ad - bc}{bd}",
-        "note": [
-            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
-        ],
-        "unit": "Đại số: Phép trừ phân số"
-    },
-    {
-        "name": "Phép nhân phân số",
-        "formula": "\\frac{a}{b} \\cdot \\frac{c}{d} = \\frac{ac}{bd}",
-        "note": [
-            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
-        ],
-        "unit": "Đại số: Phép nhân phân số"
-    },
-    {
-        "name": "Phép chia phân số",
-        "formula": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c} = \\frac{ad}{bc}",
-        "note": [
-            "\\frac{a}{b},\\,\\frac{c}{d}:\\,Các\\,phân\\,số"
-        ],
-        "unit": "Đại số: Phép chia phân số"
-    },
-    {
-        "name": "Lũy thừa",
-        "formula": "a^n",
-        "note": [
-            "a:\\,Cơ\\,số",
-            "n:\\,Số\\,mũ"
-        ],
-        "unit": "Đại số: Lũy thừa"
-    },
-    {
-        "name": "Nhân lũy thừa cùng cơ số",
-        "formula": "a^m \\cdot a^n = a^{m+n}",
-        "note": [
-            "a:\\,Cơ\\,số",
-            "m,\\,n:\\,Số\\,mũ"
-        ],
-        "unit": "Đại số: Lũy thừa"
-    },
-    {
-        "name": "Chia lũy thừa cùng cơ số",
-        "formula": "\\frac{a^m}{a^n} = a^{m-n}",
-        "note": [
-            "a:\\,Cơ\\,số",
-            "m,\\,n:\\,Số\\,mũ"
-        ],
-        "unit": "Đại số: Lũy thừa"
-    },
-    {
-        "name": "Lũy thừa của một lũy thừa",
-        "formula": "(a^m)^n = a^{m \\cdot n}",
-        "note": [
-            "a:\\,Cơ\\,số",
-            "m,\\,n:\\,Số\\,mũ"
-        ],
-        "unit": "Đại số: Lũy thừa"
-    },
-    {
-        "name": "Căn bậc hai",
-        "formula": "\\sqrt{a}",
-        "note": [
-            "a:\\,Số\\,bị\\,lấy\\,căn"
-        ],
-        "unit": "Đại số: Căn bậc hai"
-    },
-    {
-        "name": "Căn bậc ba",
-        "formula": "\\sqrt[3]{a}",
-        "note": [
-            "a:\\,Số\\,bị\\,lấy\\,căn"
-        ],
-        "unit": "Đại số: Căn bậc ba"
-    },
-    {
-        "name": "Tỉ lệ thức",
-        "formula": "\\frac{a}{b} = \\frac{c}{d}",
-        "note": [
-            "a,\\,b,\\,c,\\,d:\\,Các\\,số"
-        ],
-        "unit": "Đại số: Tỉ lệ thức"
-    },
-    {
-        "name": "Đại lượng tỉ lệ thuận",
-        "formula": "y = kx",
-        "note": [
-            "y,\\,x:\\,Các\\,đại\\,lượng",
-            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
-        ],
-        "unit": "Đại số: Đại lượng tỉ lệ thuận"
-    },
-    {
-        "name": "Đại lượng tỉ lệ nghịch",
-        "formula": "y = \\frac{k}{x}",
-        "note": [
-            "y,\\,x:\\,Các\\,đại\\,lượng",
-            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
-        ],
-        "unit": "Đại số: Đại lượng tỉ lệ nghịch"
-    },
-    {
-        "name": "Giá trị tuyệt đối",
+        "name": "Tính giá trị tuyệt đối",
         "formula": "|a|",
         "note": [
-            "a:\\,Số\\,thực"
+            {
+                "value": "####: Giá trị tuyệt đối của số nguyên ####",
+                "param": [
+                    "|a|"
+                ]
+            },
+            {
+                "value": "####: Số nguyên ####",
+                "param": [
+                    "a"
+                ]
+            }
         ],
-        "unit": "Đại số: Giá trị tuyệt đối"
+        "unit": "Chương 1: Số nguyên",
+        "code": "1679091c5a880faf6fb5e6087eb1b2dc",
+        "question": {
+            "value": "Tính giá trị tuyệt đối của số nguyên ####.",
+            "param": [
+                "-7"
+            ]
+        },
+        "answer": {
+            "value": "Giá trị tuyệt đối của số nguyên #### là ####.",
+            "param": [
+                "-7",
+                "|-7| = 7"
+            ]
+        }
     },
     {
-        "name": "Phương trình bậc nhất một ẩn",
-        "formula": "ax + b = 0",
+        "name": "Luỹ thừa bậc hai",
+        "formula": "a^2",
         "note": [
-            "a,\\,b:\\,Các\\,hệ\\,số",
-            "x:\\,Nghiệm"
+            {
+                "value": "####: Bình phương của số nguyên ####",
+                "param": [
+                    "a^2"
+                ]
+            },
+            {
+                "value": "####: Số nguyên ####",
+                "param": [
+                    "a"
+                ]
+            }
         ],
-        "unit": "Đại số: Phương trình bậc nhất"
+        "unit": "Chương 2: Biểu thức đại số",
+        "code": "8f14e45fceea167a5a36dedd4bea2543",
+        "question": {
+            "value": "Tính bình phương của số nguyên ####.",
+            "param": [
+                "6"
+            ]
+        },
+        "answer": {
+            "value": "Bình phương của số nguyên #### là ####.",
+            "param": [
+                "6",
+                "6^2 = 36"
+            ]
+        }
     },
     {
-        "name": "Phương trình bậc hai một ẩn",
-        "formula": "ax^2 + bx + c = 0",
+        "name": "Luỹ thừa bậc ba",
+        "formula": "a^3",
         "note": [
-            "a,\\,b,\\,c:\\,Các\\,hệ\\,số",
-            "x:\\,Nghiệm"
+            {
+                "value": "####: Lập phương của số nguyên ####",
+                "param": [
+                    "a^3"
+                ]
+            },
+            {
+                "value": "####: Số nguyên ####",
+                "param": [
+                    "a"
+                ]
+            }
         ],
-        "unit": "Đại số: Phương trình bậc hai"
+        "unit": "Chương 2: Biểu thức đại số",
+        "code": "c9f0f895fb98ab9159f51fd0297e236d",
+        "question": {
+            "value": "Tính lập phương của số nguyên ####.",
+            "param": [
+                "3"
+            ]
+        },
+        "answer": {
+            "value": "Lập phương của số nguyên #### là ####.",
+            "param": [
+                "3",
+                "3^3 = 27"
+            ]
+        }
+    },
+    {
+        "name": "Phân số",
+        "formula": "\\frac{a}{b}",
+        "note": [
+            {
+                "value": "####: Phân số ####",
+                "param": [
+                    "\\frac{a}{b}"
+                ]
+            },
+            {
+                "value": "####: Tử số ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Mẫu số ####",
+                "param": [
+                    "b"
+                ]
+            }
+        ],
+        "unit": "Chương 3: Phân số",
+        "code": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+        "question": {
+            "value": "Viết phân số với tử số #### và mẫu số ####.",
+            "param": [
+                "5",
+                "8"
+            ]
+        },
+        "answer": {
+            "value": "Phân số với tử số #### và mẫu số #### là ####.",
+            "param": [
+                "5",
+                "8",
+                "\\frac{5}{8}"
+            ]
+        }
+    },
+    {
+        "name": "Phân số bằng nhau",
+        "formula": "\\frac{a}{b} = \\frac{c}{d}",
+        "note": [
+            {
+                "value": "####: Phân số thứ nhất ####",
+                "param": [
+                    "\\frac{a}{b}"
+                ]
+            },
+            {
+                "value": "####: Tử số của phân số thứ nhất ####",
+                "param": [
+                    "a"
+                ]
+            },
+            {
+                "value": "####: Mẫu số của phân số thứ nhất ####",
+                "param": [
+                    "b"
+                ]
+            },
+            {
+                "value": "####: Phân số thứ hai ####",
+                "param": [
+                    "\\frac{c}{d}"
+                ]
+            },
+            {
+                "value": "####: Tử số của phân số thứ hai ####",
+                "param": [
+                    "c"
+                ]
+            },
+            {
+                "value": "####: Mẫu số của phân số thứ hai ####",
+                "param": [
+                    "d"
+                ]
+            }
+        ],
+        "unit": "Chương 3: Phân số",
+        "code": "d3d9446802a44259755d38e6d163e820",
+        "question": {
+            "value": "Viết phân số thứ hai bằng phân số thứ nhất ####.",
+            "param": [
+                "\\frac{2}{3}"
+            ]
+        },
+        "answer": {
+            "value": "Phân số thứ hai bằng phân số thứ nhất #### là ####.",
+            "param": [
+                "\\frac{2}{3}",
+                "\\frac{4}{6}"
+            ]
+        }
     }
 ]

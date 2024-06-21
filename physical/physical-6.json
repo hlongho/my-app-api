@@ -262,5 +262,181 @@
                 "t = \\frac{100}{5} = 20 (s)"
             ]
         }
+    },
+    {
+        "name": "Lực",
+        "formula": "F = m \\cdot a",
+        "note": [
+            {
+                "value": "####: Lực ####",
+                "param": [
+                    "F",
+                    "(N)"
+                ]
+            },
+            {
+                "value": "####: Khối lượng ####",
+                "param": [
+                    "m",
+                    "(kg)"
+                ]
+            },
+            {
+                "value": "####: Gia tốc ####",
+                "param": [
+                    "a",
+                    "(m/s^2)"
+                ]
+            }
+        ],
+        "unit": "Bài 7: Lực",
+        "code": "8f14e45fceea167a5a36dedd4bea2543",
+        "question": {
+            "value": "Một vật có khối lượng #### và gia tốc là ####. Hãy tính lực tác dụng lên vật.",
+            "param": [
+                "10 (kg)",
+                "2 (m/s^2)"
+            ]
+        },
+        "answer": {
+            "value": "Với khối lượng vật là #### và gia tốc là ####, ta áp dụng công thức lực để tính: ####.",
+            "param": [
+                "10 (kg)",
+                "2 (m/s^2)",
+                "F = 10 \\cdot 2 = 20 (N)"
+            ]
+        }
+    },
+    {
+        "name": "Áp suất",
+        "formula": "p = \\frac{F}{S}",
+        "note": [
+            {
+                "value": "####: Áp suất ####",
+                "param": [
+                    "p",
+                    "(Pa)"
+                ]
+            },
+            {
+                "value": "####: Lực ####",
+                "param": [
+                    "F",
+                    "(N)"
+                ]
+            },
+            {
+                "value": "####: Diện tích ####",
+                "param": [
+                    "S",
+                    "(m^2)"
+                ]
+            }
+        ],
+        "unit": "Bài 8: Áp suất",
+        "code": "c9f0f895fb98ab9159f51fd0297e236d",
+        "question": {
+            "value": "Một lực #### tác dụng lên diện tích ####. Hãy tính áp suất.",
+            "param": [
+                "200 (N)",
+                "0.5 (m^2)"
+            ]
+        },
+        "answer": {
+            "value": "Với lực là #### và diện tích là ####, ta áp dụng công thức áp suất để tính: ####.",
+            "param": [
+                "200 (N)",
+                "0.5 (m^2)",
+                "p = \\frac{200}{0.5} = 400 (Pa)"
+            ]
+        }
+    },
+    {
+        "name": "Công",
+        "formula": "A = F \\cdot s",
+        "note": [
+            {
+                "value": "####: Công ####",
+                "param": [
+                    "A",
+                    "(J)"
+                ]
+            },
+            {
+                "value": "####: Lực ####",
+                "param": [
+                    "F",
+                    "(N)"
+                ]
+            },
+            {
+                "value": "####: Quãng đường ####",
+                "param": [
+                    "s",
+                    "(m)"
+                ]
+            }
+        ],
+        "unit": "Bài 9: Công",
+        "code": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+        "question": {
+            "value": "Một lực #### tác dụng lên vật di chuyển quãng đường ####. Hãy tính công thực hiện.",
+            "param": [
+                "100 (N)",
+                "10 (m)"
+            ]
+        },
+        "answer": {
+            "value": "Với lực là #### và quãng đường là ####, ta áp dụng công thức công để tính: ####.",
+            "param": [
+                "100 (N)",
+                "10 (m)",
+                "A = 100 \\cdot 10 = 1000 (J)"
+            ]
+        }
+    },
+    {
+        "name": "Công suất",
+        "formula": "P = \\frac{A}{t}",
+        "note": [
+            {
+                "value": "####: Công suất ####",
+                "param": [
+                    "P",
+                    "(W)"
+                ]
+            },
+            {
+                "value": "####: Công ####",
+                "param": [
+                    "A",
+                    "(J)"
+                ]
+            },
+            {
+                "value": "####: Thời gian ####",
+                "param": [
+                    "t",
+                    "(s)"
+                ]
+            }
+        ],
+        "unit": "Bài 10: Công suất",
+        "code": "d3d9446802a44259755d38e6d163e820",
+        "question": {
+            "value": "Một công #### được thực hiện trong thời gian ####. Hãy tính công suất.",
+            "param": [
+                "1000 (J)",
+                "50 (s)"
+            ]
+        },
+        "answer": {
+            "value": "Với công là #### và thời gian là ####, ta áp dụng công thức công suất để tính: ####.",
+            "param": [
+                "1000 (J)",
+                "50 (s)",
+                "P = \\frac{1000}{50} = 20 (W)"
+            ]
+        }
     }
 ]
