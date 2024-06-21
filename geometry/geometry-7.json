@@ -1,116 +1,326 @@
 [
     {
-        "name": "Chu vi hình tam giác",
-        "formula": "P = a + b + c",
+        "name": "Diện tích hình chữ nhật",
+        "formula": "S = a \\cdot b",
         "note": [
-            "P:\\,Chu\\,vi",
-            "a,\\,b,\\,c:\\,Các\\,cạnh\\,của\\,tam\\,giác"
+            {
+                "value": "S: Diện tích ####",
+                "param": [
+                    "(m^2)"
+                ]
+            },
+            {
+                "value": "a: Chiều dài ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "b: Chiều rộng ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Chu vi hình tam giác"
-    },
-    {
-        "name": "Diện tích hình tam giác",
-        "formula": "S = \\frac{1}{2} \\cdot a \\cdot h",
-        "note": [
-            "S:\\,Diện\\,tích",
-            "a:\\,Cạnh\\,đáy",
-            "h:\\,Chiều\\,cao"
-        ],
-        "unit": "Hình học: Diện tích hình tam giác"
+        "unit": "Bài 1: Diện tích hình chữ nhật",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình chữ nhật có chiều dài 5m và chiều rộng 3m, hãy tính diện tích của hình chữ nhật.",
+            "param": []
+        },
+        "answer": {
+            "value": "Diện tích của hình chữ nhật là: ####.",
+            "param": [
+                "S = 5 \\cdot 3 = 15\\,(m^2)"
+            ]
+        }
     },
     {
         "name": "Chu vi hình chữ nhật",
         "formula": "P = 2 \\cdot (a + b)",
         "note": [
-            "P:\\,Chu\\,vi",
-            "a:\\,Chiều\\,dài",
-            "b:\\,Chiều\\,rộng"
+            {
+                "value": "P: Chu vi ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "a: Chiều dài ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "b: Chiều rộng ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Chu vi hình chữ nhật"
-    },
-    {
-        "name": "Diện tích hình chữ nhật",
-        "formula": "S = a \\cdot b",
-        "note": [
-            "S:\\,Diện\\,tích",
-            "a:\\,Chiều\\,dài",
-            "b:\\,Chiều\\,rộng"
-        ],
-        "unit": "Hình học: Diện tích hình chữ nhật"
-    },
-    {
-        "name": "Chu vi hình vuông",
-        "formula": "P = 4 \\cdot a",
-        "note": [
-            "P:\\,Chu\\,vi",
-            "a:\\,Độ\\,dài\\,một\\,cạnh"
-        ],
-        "unit": "Hình học: Chu vi hình vuông"
+        "unit": "Bài 2: Chu vi hình chữ nhật",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình chữ nhật có chiều dài 5m và chiều rộng 3m, hãy tính chu vi của hình chữ nhật.",
+            "param": []
+        },
+        "answer": {
+            "value": "Chu vi của hình chữ nhật là: ####.",
+            "param": [
+                "P = 2 \\cdot (5 + 3) = 16\\,(m)"
+            ]
+        }
     },
     {
         "name": "Diện tích hình vuông",
         "formula": "S = a^2",
         "note": [
-            "S:\\,Diện\\,tích",
-            "a:\\,Độ\\,dài\\,một\\,cạnh"
+            {
+                "value": "S: Diện tích ####",
+                "param": [
+                    "(m^2)"
+                ]
+            },
+            {
+                "value": "a: Cạnh hình vuông ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Diện tích hình vuông"
+        "unit": "Bài 3: Diện tích hình vuông",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình vuông có cạnh dài 4m, hãy tính diện tích của hình vuông.",
+            "param": []
+        },
+        "answer": {
+            "value": "Diện tích của hình vuông là: ####.",
+            "param": [
+                "S = 4^2 = 16\\,(m^2)"
+            ]
+        }
     },
     {
-        "name": "Chu vi hình tròn",
-        "formula": "P = 2 \\pi r",
+        "name": "Chu vi hình vuông",
+        "formula": "P = 4 \\cdot a",
         "note": [
-            "P:\\,Chu\\,vi",
-            "r:\\,Bán\\,kính"
+            {
+                "value": "P: Chu vi ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "a: Cạnh hình vuông ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Chu vi hình tròn"
+        "unit": "Bài 4: Chu vi hình vuông",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình vuông có cạnh dài 4m, hãy tính chu vi của hình vuông.",
+            "param": []
+        },
+        "answer": {
+            "value": "Chu vi của hình vuông là: ####.",
+            "param": [
+                "P = 4 \\cdot 4 = 16\\,(m)"
+            ]
+        }
     },
     {
-        "name": "Diện tích hình tròn",
-        "formula": "S = \\pi r^2",
+        "name": "Diện tích hình tam giác",
+        "formula": "S = \\frac{1}{2} \\cdot a \\cdot h",
         "note": [
-            "S:\\,Diện\\,tích",
-            "r:\\,Bán\\,kính"
+            {
+                "value": "S: Diện tích ####",
+                "param": [
+                    "(m^2)"
+                ]
+            },
+            {
+                "value": "a: Cạnh đáy ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "h: Chiều cao ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Diện tích hình tròn"
+        "unit": "Bài 5: Diện tích hình tam giác",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình tam giác có cạnh đáy dài 6m và chiều cao 4m, hãy tính diện tích của hình tam giác.",
+            "param": []
+        },
+        "answer": {
+            "value": "Diện tích của hình tam giác là: ####.",
+            "param": [
+                "S = \\frac{1}{2} \\cdot 6 \\cdot 4 = 12\\,(m^2)"
+            ]
+        }
     },
     {
-        "name": "Định lý Pythagoras",
-        "formula": "a^2 + b^2 = c^2",
+        "name": "Chu vi hình tam giác",
+        "formula": "P = a + b + c",
         "note": [
-            "a,\\,b:\\,Các\\,cạnh\\,góc\\,vuông",
-            "c:\\,Cạnh\\,huyền"
+            {
+                "value": "P: Chu vi ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "a, b, c: Các cạnh của hình tam giác ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Định lý Pythagoras"
+        "unit": "Bài 6: Chu vi hình tam giác",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình tam giác có các cạnh lần lượt là 3m, 4m và 5m, hãy tính chu vi của hình tam giác.",
+            "param": []
+        },
+        "answer": {
+            "value": "Chu vi của hình tam giác là: ####.",
+            "param": [
+                "P = 3 + 4 + 5 = 12\\,(m)"
+            ]
+        }
     },
     {
         "name": "Diện tích hình thang",
         "formula": "S = \\frac{1}{2} \\cdot (a + b) \\cdot h",
         "note": [
-            "S:\\,Diện\\,tích",
-            "a,\\,b:\\,Hai\\,đáy",
-            "h:\\,Chiều\\,cao"
+            {
+                "value": "S: Diện tích ####",
+                "param": [
+                    "(m^2)"
+                ]
+            },
+            {
+                "value": "a, b: Các đáy của hình thang ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "h: Chiều cao ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Diện tích hình thang"
+        "unit": "Bài 7: Diện tích hình thang",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình thang có các đáy lần lượt là 4m và 6m, chiều cao 3m, hãy tính diện tích của hình thang.",
+            "param": []
+        },
+        "answer": {
+            "value": "Diện tích của hình thang là: ####.",
+            "param": [
+                "S = \\frac{1}{2} \\cdot (4 + 6) \\cdot 3 = 15\\,(m^2)"
+            ]
+        }
     },
     {
-        "name": "Diện tích hình bình hành",
-        "formula": "S = a \\cdot h",
+        "name": "Chu vi hình thang",
+        "formula": "P = a + b + c + d",
         "note": [
-            "S:\\,Diện\\,tích",
-            "a:\\,Đáy",
-            "h:\\,Chiều\\,cao"
+            {
+                "value": "P: Chu vi ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "a, b, c, d: Các cạnh của hình thang ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Diện tích hình bình hành"
+        "unit": "Bài 8: Chu vi hình thang",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình thang có các cạnh lần lượt là 3m, 4m, 5m và 6m, hãy tính chu vi của hình thang.",
+            "param": []
+        },
+        "answer": {
+            "value": "Chu vi của hình thang là: ####.",
+            "param": [
+                "P = 3 + 4 + 5 + 6 = 18\\,(m)"
+            ]
+        }
     },
     {
-        "name": "Diện tích hình thoi",
-        "formula": "S = \\frac{1}{2} \\cdot d_1 \\cdot d_2",
+        "name": "Diện tích hình tròn",
+        "formula": "S = \\pi \\cdot r^2",
         "note": [
-            "S:\\,Diện\\,tích",
-            "d_1:\\,Đường\\,chéo\\,thứ\\,nhất",
-            "d_2:\\,Đường\\,chéo\\,thứ\\,hai"
+            {
+                "value": "S: Diện tích ####",
+                "param": [
+                    "(m^2)"
+                ]
+            },
+            {
+                "value": "r: Bán kính hình tròn ####",
+                "param": [
+                    "(m)"
+                ]
+            }
         ],
-        "unit": "Hình học: Diện tích hình thoi"
+        "unit": "Bài 9: Diện tích hình tròn",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình tròn có bán kính 2m, hãy tính diện tích của hình tròn.",
+            "param": []
+        },
+        "answer": {
+            "value": "Diện tích của hình tròn là: ####.",
+            "param": [
+                "S = \\pi \\cdot 2^2 = 4\\pi\\,(m^2)"
+            ]
+        }
+    },
+    {
+        "name": "Chu vi hình tròn",
+        "formula": "P = 2 \\pi \\cdot r",
+        "note": [
+            {
+                "value": "P: Chu vi ####",
+                "param": [
+                    "(m)"
+                ]
+            },
+            {
+                "value": "r: Bán kính hình tròn ####",
+                "param": [
+                    "(m)"
+                ]
+            }
+        ],
+        "unit": "Bài 10: Chu vi hình tròn",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho hình tròn có bán kính 2m, hãy tính chu vi của hình tròn.",
+            "param": []
+        },
+        "answer": {
+            "value": "Chu vi của hình tròn là: ####.",
+            "param": [
+                "P = 2 \\pi \\cdot 2 = 4\\pi\\,(m)"
+            ]
+        }
     }
 ]

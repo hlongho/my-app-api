@@ -1,106 +1,300 @@
 [
     {
-        "name": "Phép cộng và phép trừ các số hữu tỉ",
-        "formula": "a + b = c,\\,a - b = d",
-        "note": [
-            "a,\\,b:\\,các\\,số\\,hữu\\,tỉ",
-            "c:\\,Kết\\,quả\\,phép\\,cộng",
-            "d:\\,Kết\\,quả\\,phép\\,trừ"
-        ],
-        "unit": "Đại số: Phép cộng và phép trừ các số hữu tỉ"
-    },
-    {
-        "name": "Phép nhân và phép chia các số hữu tỉ",
-        "formula": "a \\cdot b = c,\\,a \\div b = d",
-        "note": [
-            "a,\\,b:\\,các\\,số\\,hữu\\,tỉ",
-            "c:\\,Kết\\,quả\\,phép\\,nhân",
-            "d:\\,Kết\\,quả\\,phép\\,chia"
-        ],
-        "unit": "Đại số: Phép nhân và phép chia các số hữu tỉ"
-    },
-    {
-        "name": "Lũy thừa của một số hữu tỉ",
-        "formula": "a^n",
-        "note": [
-            "a:\\,Số\\,hữu\\,tỉ",
-            "n:\\,Số\\,mũ"
-        ],
-        "unit": "Đại số: Lũy thừa của một số hữu tỉ"
-    },
-    {
-        "name": "Căn bậc hai của một số không âm",
-        "formula": "\\sqrt{a}",
-        "note": [
-            "a:\\,Số\\,không\\,âm"
-        ],
-        "unit": "Đại số: Căn bậc hai của một số không âm"
-    },
-    {
         "name": "Tỉ lệ thức",
         "formula": "\\frac{a}{b} = \\frac{c}{d}",
         "note": [
-            "a,\\,b,\\,c,\\,d:\\,Các\\,số\\,hữu\\,tỉ\\,với\\,b,\\,d \\neq 0"
+            {
+                "value": "####: Các số trong tỉ lệ thức",
+                "param": [
+                    "a, b, c, d"
+                ]
+            }
         ],
-        "unit": "Đại số: Tỉ lệ thức"
+        "unit": "Bài 1: Tỉ lệ thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\), hãy tính giá trị của #### khi biết ####.",
+            "param": [
+                "d",
+                "a, b, c"
+            ]
+        },
+        "answer": {
+            "value": "Khi biết \\(\\frac{a}{b} = \\frac{c}{d}\\), ta có thể tính giá trị của #### bằng công thức: ####.",
+            "param": [
+                "d",
+                "\\frac{a \\cdot d}{c}"
+            ]
+        }
     },
     {
-        "name": "Đại lượng tỉ lệ thuận",
-        "formula": "y = kx",
+        "name": "Tính chất cơ bản của tỉ lệ thức",
+        "formula": "a \\cdot d = b \\cdot c",
         "note": [
-            "y:\\,Đại\\,lượng\\,tỉ\\,lệ\\,thuận",
-            "x:\\,Đại\\,lượng\\,tỉ\\,lệ\\,thuận",
-            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
+            {
+                "value": "####: Các số trong tỉ lệ thức",
+                "param": [
+                    "a, b, c, d"
+                ]
+            }
         ],
-        "unit": "Đại số: Đại lượng tỉ lệ thuận"
+        "unit": "Bài 1: Tỉ lệ thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Chứng minh rằng tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\) có tính chất: ####.",
+            "param": [
+                "a \\cdot d = b \\cdot c"
+            ]
+        },
+        "answer": {
+            "value": "Tính chất của tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\) là: ####.",
+            "param": [
+                "a \\cdot d = b \\cdot c"
+            ]
+        }
     },
     {
-        "name": "Đại lượng tỉ lệ nghịch",
-        "formula": "y = \\frac{k}{x}",
+        "name": "Tính chất của dãy tỉ số bằng nhau",
+        "formula": "\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f}",
         "note": [
-            "y:\\,Đại\\,lượng\\,tỉ\\,lệ\\,nghịch",
-            "x:\\,Đại\\,lượng\\,tỉ\\,lệ\\,nghịch",
-            "k:\\,Hằng\\,số\\,tỉ\\,lệ"
+            {
+                "value": "####: Các số trong dãy tỉ số bằng nhau",
+                "param": [
+                    "a, b, c, d, e, f"
+                ]
+            }
         ],
-        "unit": "Đại số: Đại lượng tỉ lệ nghịch"
+        "unit": "Bài 1: Tỉ lệ thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho dãy tỉ số bằng nhau \\(\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f}\\), hãy chứng minh rằng: ####.",
+            "param": [
+                "\\frac{a+c+e}{b+d+f}"
+            ]
+        },
+        "answer": {
+            "value": "Dãy tỉ số bằng nhau có tính chất: ####.",
+            "param": [
+                "\\frac{a+c+e}{b+d+f}"
+            ]
+        }
     },
     {
-        "name": "Biểu thức đại số",
-        "formula": "A(x) = ax + b",
+        "name": "Số hữu tỉ",
+        "formula": "\\frac{a}{b}",
         "note": [
-            "A(x):\\,Biểu\\,thức\\,đại\\,số",
-            "a,\\,b:\\,Các\\,hằng\\,số",
-            "x:\\,Biến\\,số"
+            {
+                "value": "####: Số hữu tỉ",
+                "param": [
+                    "\\frac{a}{b}"
+                ]
+            },
+            {
+                "value": "a: Số nguyên",
+                "param": []
+            },
+            {
+                "value": "b: Số nguyên khác 0",
+                "param": []
+            }
         ],
-        "unit": "Đại số: Biểu thức đại số"
+        "unit": "Bài 2: Số hữu tỉ - Cộng, trừ số hữu tỉ",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho số hữu tỉ \\(\\frac{a}{b}\\). Hãy tính tổng của số hữu tỉ này với số hữu tỉ \\(\\frac{c}{d}\\).",
+            "param": [
+                "\\frac{a}{b}",
+                "\\frac{c}{d}"
+            ]
+        },
+        "answer": {
+            "value": "Tổng của số hữu tỉ \\(\\frac{a}{b}\\) và \\(\\frac{c}{d}\\) là: ####.",
+            "param": [
+                "\\frac{ad+bc}{bd}"
+            ]
+        }
     },
     {
-        "name": "Phương trình bậc nhất một ẩn",
-        "formula": "ax + b = 0",
+        "name": "Quy tắc chuyển vế",
+        "formula": "a = b \\Rightarrow a - c = b - c",
         "note": [
-            "a,\\,b:\\,Các\\,hằng\\,số",
-            "x:\\,Biến\\,số"
+            {
+                "value": "####: Các số trong quy tắc chuyển vế",
+                "param": [
+                    "a, b, c"
+                ]
+            }
         ],
-        "unit": "Đại số: Phương trình bậc nhất một ẩn"
+        "unit": "Bài 3: Các bài toán về tỉ lệ thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Áp dụng quy tắc chuyển vế, giải phương trình: ####.",
+            "param": [
+                "x + 5 = 12"
+            ]
+        },
+        "answer": {
+            "value": "Giải phương trình \\(x + 5 = 12\\) bằng quy tắc chuyển vế: ####.",
+            "param": [
+                "x = 12 - 5",
+                "x = 7"
+            ]
+        }
     },
     {
-        "name": "Hệ phương trình bậc nhất hai ẩn",
-        "formula": "\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}",
+        "name": "Quy tắc nhân với số âm",
+        "formula": "a = b \\Rightarrow -a = -b",
         "note": [
-            "a_1,\\,b_1,\\,c_1,\\,a_2,\\,b_2,\\,c_2:\\,Các\\,hằng\\,số",
-            "x,\\,y:\\,Các\\,biến\\,số"
+            {
+                "value": "####: Các số trong quy tắc nhân với số âm",
+                "param": [
+                    "a, b"
+                ]
+            }
         ],
-        "unit": "Đại số: Hệ phương trình bậc nhất hai ẩn"
+        "unit": "Bài 4: Các bài toán về tỉ lệ thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Áp dụng quy tắc nhân với số âm, giải phương trình: ####.",
+            "param": [
+                "-x = -7"
+            ]
+        },
+        "answer": {
+            "value": "Giải phương trình \\(-x = -7\\) bằng quy tắc nhân với số âm: ####.",
+            "param": [
+                "x = 7"
+            ]
+        }
     },
     {
-        "name": "Đa thức một biến",
-        "formula": "P(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0",
+        "name": "Quy tắc phân phối",
+        "formula": "a(b + c) = ab + ac",
         "note": [
-            "P(x):\\,Đa\\,thức\\,một\\,biến",
-            "a_n,\\,a_{n-1},\\,...,\\,a_1,\\,a_0:\\,Các\\,hệ\\,số",
-            "x:\\,Biến\\,số",
-            "n:\\,Bậc\\,của\\,đa\\,thức"
+            {
+                "value": "####: Các số trong quy tắc phân phối",
+                "param": [
+                    "a, b, c"
+                ]
+            }
         ],
-        "unit": "Đại số: Đa thức một biến"
+        "unit": "Bài 5: Nhân và chia đa thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Áp dụng quy tắc phân phối để giải: ####.",
+            "param": [
+                "3(x + 4)"
+            ]
+        },
+        "answer": {
+            "value": "Giải \\(3(x + 4)\\) bằng quy tắc phân phối: ####.",
+            "param": [
+                "3x + 12"
+            ]
+        }
+    },
+    {
+        "name": "Công thức nghiệm của phương trình bậc nhất",
+        "formula": "ax + b = 0 \\Rightarrow x = -\\frac{b}{a}",
+        "note": [
+            {
+                "value": "####: Hệ số và nghiệm của phương trình",
+                "param": [
+                    "a, b, x"
+                ]
+            }
+        ],
+        "unit": "Bài 6: Phương trình bậc nhất",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Giải phương trình bậc nhất: ####.",
+            "param": [
+                "2x + 3 = 0"
+            ]
+        },
+        "answer": {
+            "value": "Giải phương trình \\(2x + 3 = 0\\) bằng công thức nghiệm: ####.",
+            "param": [
+                "x = -\\frac{3}{2}"
+            ]
+        }
+    },
+    {
+        "name": "Đơn thức",
+        "formula": "a \\cdot x^n",
+        "note": [
+            {
+                "value": "####: Đơn thức",
+                "param": [
+                    "a \\cdot x^n"
+                ]
+            },
+            {
+                "value": "a: Hệ số",
+                "param": []
+            },
+            {
+                "value": "x: Biến số",
+                "param": []
+            },
+            {
+                "value": "n: Số mũ",
+                "param": []
+            }
+        ],
+        "unit": "Bài 7: Đơn thức và đa thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho đơn thức \\(a \\cdot x^n\\). Hãy tính giá trị của đơn thức khi a = 3, x = 2, n = 4.",
+            "param": [
+                "a = 3",
+                "x = 2",
+                "n = 4"
+            ]
+        },
+        "answer": {
+            "value": "Giá trị của đơn thức \\(3 \\cdot 2^4\\) là: ####.",
+            "param": [
+                "3 \\cdot 16 = 48"
+            ]
+        }
+    },
+    {
+        "name": "Đa thức",
+        "formula": "a_n x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_0",
+        "note": [
+            {
+                "value": "####: Đa thức",
+                "param": [
+                    "a_n x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_0"
+                ]
+            },
+            {
+                "value": "a_n, a_{n-1}, ..., a_1, a_0: Các hệ số",
+                "param": []
+            },
+            {
+                "value": "x: Biến số",
+                "param": []
+            },
+            {
+                "value": "n: Bậc của đa thức",
+                "param": []
+            }
+        ],
+        "unit": "Bài 7: Đơn thức và đa thức",
+        "code": "d41d8cd98f00b204e9800998ecf8427e",
+        "question": {
+            "value": "Cho đa thức \\(2x^3 + 3x^2 + 5x + 7\\). Hãy tính giá trị của đa thức khi x = 1.",
+            "param": [
+                "x = 1"
+            ]
+        },
+        "answer": {
+            "value": "Giá trị của đa thức \\(2(1)^3 + 3(1)^2 + 5(1) + 7\\) là: ####.",
+            "param": [
+                "2 + 3 + 5 + 7 = 17"
+            ]
+        }
     }
 ]

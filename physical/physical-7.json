@@ -1,99 +1,405 @@
 [
     {
-        "name": "Tốc độ",
+        "name": "Định luật truyền thẳng của ánh sáng",
+        "formula": "Ánh sáng truyền theo đường thẳng",
+        "note": [],
+        "unit": "Chương 1: Quang học",
+        "code": "f17f278b8e4b13d3f6e0bcd5c33431b3",
+        "question": {
+            "value": "Nêu định luật truyền thẳng của ánh sáng.",
+            "param": []
+        },
+        "answer": {
+            "value": "Định luật truyền thẳng của ánh sáng là: ####.",
+            "param": [
+                "Ánh sáng truyền theo đường thẳng"
+            ]
+        }
+    },
+    {
+        "name": "Định luật phản xạ ánh sáng",
+        "formula": "Góc tới bằng góc phản xạ",
+        "note": [
+            {
+                "value": "####: Góc tới",
+                "param": [
+                    "i"
+                ]
+            },
+            {
+                "value": "####: Góc phản xạ",
+                "param": [
+                    "r"
+                ]
+            }
+        ],
+        "unit": "Chương 1: Quang học",
+        "code": "96e79218965eb72c92a549dd5a330112",
+        "question": {
+            "value": "Nêu định luật phản xạ ánh sáng.",
+            "param": []
+        },
+        "answer": {
+            "value": "Định luật phản xạ ánh sáng là: #### bằng ####.",
+            "param": [
+                "i",
+                "r"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính vận tốc",
         "formula": "v = \\frac{s}{t}",
         "note": [
-            "v:\\,Tốc\\,độ\\,(m/s)",
-            "s:\\,Quãng\\,đường\\,(m)",
-            "t:\\,Thời\\,gian\\,(s)"
+            {
+                "value": "####: Vận tốc (m/s)",
+                "param": [
+                    "v"
+                ]
+            },
+            {
+                "value": "####: Quãng đường đi được (m)",
+                "param": [
+                    "s"
+                ]
+            },
+            {
+                "value": "####: Thời gian (s)",
+                "param": [
+                    "t"
+                ]
+            }
         ],
-        "unit": "Bài 1: Tốc độ",
-        "code": "a2f5a10b21d3db2ab1603e4e67d1f1b1",
-        "example": "<b>Ví dụ:</b> <br> Nếu quãng đường là 100m và thời gian là 20s, thì tốc độ là <br>\\(v = \\frac{100}{20} = 5m/s\\)"
+        "unit": "Chương 2: Cơ học",
+        "code": "8e296a067a37563370ded05f5a3bf3ec",
+        "question": {
+            "value": "Tính vận tốc của một vật đi được quãng đường #### trong thời gian ####.",
+            "param": [
+                "100\\,m",
+                "10\\,s"
+            ]
+        },
+        "answer": {
+            "value": "Vận tốc của vật đi được quãng đường #### trong thời gian #### là ####.",
+            "param": [
+                "100\\,m",
+                "10\\,s",
+                "v = \\frac{100}{10} = 10\\,m/s"
+            ]
+        }
     },
     {
-        "name": "Khối lượng riêng",
-        "formula": "\\rho = \\frac{m}{V}",
+        "name": "Công thức tính lực",
+        "formula": "F = m \\cdot a",
         "note": [
-            "\\rho:\\,Khối\\,lượng\\,riêng\\,(kg/m^3)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "V:\\,Thể\\,tích\\,(m^3)"
+            {
+                "value": "####: Lực (N)",
+                "param": [
+                    "F"
+                ]
+            },
+            {
+                "value": "####: Khối lượng (kg)",
+                "param": [
+                    "m"
+                ]
+            },
+            {
+                "value": "####: Gia tốc (m/s^2)",
+                "param": [
+                    "a"
+                ]
+            }
         ],
-        "unit": "Bài 2: Khối lượng riêng",
-        "code": "dd99f95b7d2521fa72e7a999adf6c7ab",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 500kg và thể tích là 0.2m<sup>3</sup>, thì khối lượng riêng là <br>\\(\\rho = \\frac{500}{0.2} = 2500kg/m^3\\)"
+        "unit": "Chương 2: Cơ học",
+        "code": "4e732ced3463d06de0ca9a15b6153677",
+        "question": {
+            "value": "Tính lực tác dụng lên một vật có khối lượng #### và gia tốc ####.",
+            "param": [
+                "5\\,kg",
+                "2\\,m/s^2"
+            ]
+        },
+        "answer": {
+            "value": "Lực tác dụng lên vật có khối lượng #### và gia tốc #### là ####.",
+            "param": [
+                "5\\,kg",
+                "2\\,m/s^2",
+                "F = 5 \\cdot 2 = 10\\,N"
+            ]
+        }
     },
     {
-        "name": "Trọng lượng",
-        "formula": "P = m \\cdot g",
+        "name": "Định luật về áp suất",
+        "formula": "P = \\frac{F}{S}",
         "note": [
-            "P:\\,Trọng\\,lượng\\,(N)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "g:\\,Gia\\,tốc\\,trọng\\,trường\\,(\\approx\\,9.8\\,m/s^2)"
+            {
+                "value": "####: Áp suất (Pa)",
+                "param": [
+                    "P"
+                ]
+            },
+            {
+                "value": "####: Lực tác dụng (N)",
+                "param": [
+                    "F"
+                ]
+            },
+            {
+                "value": "####: Diện tích bề mặt (m^2)",
+                "param": [
+                    "S"
+                ]
+            }
         ],
-        "unit": "Bài 3: Trọng lượng",
-        "code": "ab71a7d2b7db5d768a5b65a44c2136ff",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 10kg, thì trọng lượng của nó là <br>\\(P = 10 \\cdot 9.8 = 98N\\)"
+        "unit": "Chương 2: Cơ học",
+        "code": "f4b9ec30ad9f68f89b29639786cb62ef",
+        "question": {
+            "value": "Tính áp suất khi có lực tác dụng #### trên diện tích bề mặt ####.",
+            "param": [
+                "50\\,N",
+                "2\\,m^2"
+            ]
+        },
+        "answer": {
+            "value": "Áp suất khi có lực tác dụng #### trên diện tích bề mặt #### là ####.",
+            "param": [
+                "50\\,N",
+                "2\\,m^2",
+                "P = \\frac{50}{2} = 25\\,Pa"
+            ]
+        }
     },
     {
-        "name": "Lực đàn hồi",
-        "formula": "F = k \\cdot \\Delta l",
+        "name": "Định luật về áp suất chất lỏng",
+        "formula": "p = d \\cdot h",
         "note": [
-            "F:\\,Lực\\,đàn\\,hồi\\,(N)",
-            "k:\\,Độ\\,cứng\\,của\\,lò\\,xo\\,(N/m)",
-            "\\Delta l:\\,Độ\\,biến\\,dạng\\,(m)"
+            {
+                "value": "####: Áp suất (Pa)",
+                "param": [
+                    "p"
+                ]
+            },
+            {
+                "value": "####: Trọng lượng riêng (N/m^3)",
+                "param": [
+                    "d"
+                ]
+            },
+            {
+                "value": "####: Chiều cao cột chất lỏng (m)",
+                "param": [
+                    "h"
+                ]
+            }
         ],
-        "unit": "Bài 4: Lực đàn hồi",
-        "code": "b159af3a45c4a3ffabb4da33092bde76",
-        "example": "<b>Ví dụ:</b> <br> Nếu độ cứng của lò xo là 100N/m và độ biến dạng là 0.05m, thì lực đàn hồi là <br>\\(F = 100 \\cdot 0.05 = 5N\\)"
+        "unit": "Chương 2: Cơ học",
+        "code": "d9d4f495e875a2e075a1a4a6e1b9770f",
+        "question": {
+            "value": "Tính áp suất chất lỏng khi có trọng lượng riêng #### và chiều cao cột chất lỏng ####.",
+            "param": [
+                "10000\\,N/m^3",
+                "5\\,m"
+            ]
+        },
+        "answer": {
+            "value": "Áp suất chất lỏng khi có trọng lượng riêng #### và chiều cao cột chất lỏng #### là ####.",
+            "param": [
+                "10000\\,N/m^3",
+                "5\\,m",
+                "p = 10000 \\cdot 5 = 50000\\,Pa"
+            ]
+        }
     },
     {
-        "name": "Áp suất",
-        "formula": "p = \\frac{F}{S}",
-        "note": [
-            "p:\\,Áp\\,suất\\,(Pa)",
-            "F:\\,Lực\\,(N)",
-            "S:\\,Diện\\,tích\\,(m^2)"
-        ],
-        "unit": "Bài 5: Áp suất",
-        "code": "3b98da83a59e273d1c7614ae1a3b2c9f",
-        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và diện tích là 0.5m<sup>2</sup>, thì áp suất là <br>\\(p = \\frac{50}{0.5} = 100Pa\\)"
-    },
-    {
-        "name": "Công cơ học",
+        "name": "Công thức tính công cơ học",
         "formula": "A = F \\cdot s",
         "note": [
-            "A:\\,Công\\,cơ\\,học\\,(J)",
-            "F:\\,Lực\\,(N)",
-            "s:\\,Quãng\\,đường\\,(m)"
+            {
+                "value": "####: Công (J)",
+                "param": [
+                    "A"
+                ]
+            },
+            {
+                "value": "####: Lực (N)",
+                "param": [
+                    "F"
+                ]
+            },
+            {
+                "value": "####: Quãng đường (m)",
+                "param": [
+                    "s"
+                ]
+            }
         ],
-        "unit": "Bài 6: Công cơ học",
-        "code": "00c580b7495a3dd0f4f3a850b77b5681",
-        "example": "<b>Ví dụ:</b> <br> Nếu lực tác dụng là 50N và quãng đường là 10m, thì công cơ học là <br>\\(A = 50 \\cdot 10 = 500J\\)"
+        "unit": "Chương 3: Công và công suất",
+        "code": "6c8349cc7260ae62e3b1396831a8398f",
+        "question": {
+            "value": "Tính công thực hiện khi có lực #### tác dụng lên một vật và vật di chuyển quãng đường ####.",
+            "param": [
+                "10\\,N",
+                "20\\,m"
+            ]
+        },
+        "answer": {
+            "value": "Công thực hiện khi có lực #### tác dụng lên một vật và vật di chuyển quãng đường #### là ####.",
+            "param": [
+                "10\\,N",
+                "20\\,m",
+                "A = 10 \\cdot 20 = 200\\,J"
+            ]
+        }
     },
     {
-        "name": "Nhiệt lượng",
-        "formula": "Q = m \\cdot c \\cdot \\Delta t",
-        "note": [
-            "Q:\\,Nhiệt\\,lượng\\,(J)",
-            "m:\\,Khối\\,lượng\\,(kg)",
-            "c:\\,Nhiệt\\,dung\\,riêng\\,(J/kg.°C)",
-            "\\Delta t:\\,Độ\\,thay\\,đổi\\,nhiệt\\,độ\\,(°C)"
-        ],
-        "unit": "Bài 7: Nhiệt lượng",
-        "code": "f61f374e18e1e52b198e7e7df17e5db4",
-        "example": "<b>Ví dụ:</b> <br> Nếu khối lượng của vật là 2kg, nhiệt dung riêng là 4200 J/kg°C và độ thay đổi nhiệt độ là 10°C, thì nhiệt lượng là <br>\\(Q = 2 \\cdot 4200 \\cdot 10 = 84000J\\)"
-    },
-    {
-        "name": "Công suất",
+        "name": "Công thức tính công suất",
         "formula": "P = \\frac{A}{t}",
         "note": [
-            "P:\\,Công\\,suất\\,(W)",
-            "A:\\,Công\\,cơ\\,học\\,(J)",
-            "t:\\,Thời\\,gian\\,(s)"
+            {
+                "value": "####: Công suất (W)",
+                "param": [
+                    "P"
+                ]
+            },
+            {
+                "value": "####: Công (J)",
+                "param": [
+                    "A"
+                ]
+            },
+            {
+                "value": "####: Thời gian (s)",
+                "param": [
+                    "t"
+                ]
+            }
         ],
-        "unit": "Bài 8: Công suất",
-        "code": "d0f712fea7bfbf29af9a57846d7a88a6",
-        "example": "<b>Ví dụ:</b> <br> Nếu công cơ học là 500J và thời gian là 50s, thì công suất là <br>\\(P = \\frac{500}{50} = 10W\\)"
+        "unit": "Chương 3: Công và công suất",
+        "code": "d3d9446802a44259755d38e6d163e820",
+        "question": {
+            "value": "Tính công suất khi thực hiện công #### trong thời gian ####.",
+            "param": [
+                "100\\,J",
+                "5\\,s"
+            ]
+        },
+        "answer": {
+            "value": "Công suất khi thực hiện công #### trong thời gian #### là ####.",
+            "param": [
+                "100\\,J",
+                "5\\,s",
+                "P = \\frac{100}{5} = 20\\,W"
+            ]
+        }
+    },
+    {
+        "name": "Định luật bảo toàn công",
+        "formula": "A_1 = A_2",
+        "note": [
+            {
+                "value": "####: Công thực hiện trong trường hợp 1 (J)",
+                "param": [
+                    "A_1"
+                ]
+            },
+            {
+                "value": "####: Công thực hiện trong trường hợp 2 (J)",
+                "param": [
+                    "A_2"
+                ]
+            }
+        ],
+        "unit": "Chương 3: Công và công suất",
+        "code": "6512bd43d9caa6e02c990b0a82652dca",
+        "question": {
+            "value": "Nêu định luật bảo toàn công.",
+            "param": []
+        },
+        "answer": {
+            "value": "Định luật bảo toàn công là: ####.",
+            "param": [
+                "A_1 = A_2"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính nhiệt lượng",
+        "formula": "Q = m \\cdot c \\cdot \\Delta t",
+        "note": [
+            {
+                "value": "####: Nhiệt lượng (J)",
+                "param": [
+                    "Q"
+                ]
+            },
+            {
+                "value": "####: Khối lượng (kg)",
+                "param": [
+                    "m"
+                ]
+            },
+            {
+                "value": "####: Nhiệt dung riêng (J/kg.K)",
+                "param": [
+                    "c"
+                ]
+            },
+            {
+                "value": "####: Độ tăng nhiệt độ (K)",
+                "param": [
+                    "\\Delta t"
+                ]
+            }
+        ],
+        "unit": "Chương 4: Nhiệt học",
+        "code": "c20ad4d76fe97759aa27a0c99bff6710",
+        "question": {
+            "value": "Tính nhiệt lượng khi có khối lượng ####, nhiệt dung riêng #### và độ tăng nhiệt độ ####.",
+            "param": [
+                "2\\,kg",
+                "4200\\,J/kg.K",
+                "10\\,K"
+            ]
+        },
+        "answer": {
+            "value": "Nhiệt lượng khi có khối lượng ####, nhiệt dung riêng #### và độ tăng nhiệt độ #### là ####.",
+            "param": [
+                "2\\,kg",
+                "4200\\,J/kg.K",
+                "10\\,K",
+                "Q = 2 \\cdot 4200 \\cdot 10 = 84000\\,J"
+            ]
+        }
+    },
+    {
+        "name": "Phương trình cân bằng nhiệt",
+        "formula": "Q_1 = Q_2",
+        "note": [
+            {
+                "value": "####: Nhiệt lượng của vật thứ nhất (J)",
+                "param": [
+                    "Q_1"
+                ]
+            },
+            {
+                "value": "####: Nhiệt lượng của vật thứ hai (J)",
+                "param": [
+                    "Q_2"
+                ]
+            }
+        ],
+        "unit": "Chương 4: Nhiệt học",
+        "code": "c51ce410c124a10e0db5e4b97fc2af39",
+        "question": {
+            "value": "Nêu phương trình cân bằng nhiệt.",
+            "param": []
+        },
+        "answer": {
+            "value": "Phương trình cân bằng nhiệt là: ####.",
+            "param": [
+                "Q_1 = Q_2"
+            ]
+        }
     }
 ]
