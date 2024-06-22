@@ -50,23 +50,6 @@
           "display": "Vật lý"
         }
       ]
-    },
-    {
-      "grade": "9",
-      "subject": [
-        {
-          "name": "math",
-          "display": "Đại số"
-        },
-        {
-          "name": "geometry",
-          "display": "Hình học"
-        },
-        {
-          "name": "physical",
-          "display": "Vật lý"
-        }
-      ]
     }
   ],
   "banner": [
