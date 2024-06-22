@@ -1,289 +1,373 @@
 [
     {
-        "name": "Khối lượng riêng",
-        "formula": "\\rho = \\frac{m}{V}",
+        "name": "Công thức tính vận tốc",
+        "formula": "v = \\frac{s}{t}",
         "note": [
             {
-                "value": "####: Khối lượng riêng ####",
+                "value": "v: Vận tốc ####",
                 "param": [
-                    "\\rho",
-                    "(kg/m^3)"
+                    "(m/s)"
                 ]
             },
             {
-                "value": "m: Khối lượng ####",
+                "value": "s: Quãng đường ####",
                 "param": [
-                    "(kg)"
-                ]
-            },
-            {
-                "value": "V: Thể tích ####",
-                "param": [
-                    "(m^3)"
-                ]
-            }
-        ],
-        "unit": "Bài 1: Khối lượng riêng",
-        "code": "7ac1f1b2ac3f79f59f5de28f1b18ed42",
-        "question": {
-            "value": "Một vật có khối lượng 500kg và thể tích là ####, hãy tính khối lượng riêng của vật.",
-            "param": [
-                "0.2\\,(m^3)"
-            ]
-        },
-        "answer": {
-            "value": "Nếu khối lượng của vật là 500kg và thể tích là ####, ta áp dụng công thức khối lượng riêng #### để tính: ####.",
-            "param": [
-                "0.2\\,(m^3)",
-                "\\rho = \\frac{m}{V}",
-                "\\rho = \\frac{500}{0.2} = 2500\\,(kg/m^3)"
-            ]
-        }
-    },
-    {
-        "name": "Công cơ học",
-        "formula": "A = F \\cdot s",
-        "note": [
-            {
-                "value": "####: Công cơ học ####",
-                "param": [
-                    "A",
-                    "(J)"
-                ]
-            },
-            {
-                "value": "####: Lực ####",
-                "param": [
-                    "F",
-                    "(N)"
-                ]
-            },
-            {
-                "value": "####: Quãng đường ####",
-                "param": [
-                    "s",
                     "(m)"
                 ]
-            }
-        ],
-        "unit": "Bài 2: Công cơ học",
-        "code": "33b68e0f86a8b5bb8888db7f2ebc7336",
-        "question": {
-            "value": "Nếu một lực F = 50N được tác dụng lên một vật và vật di chuyển quãng đường s = 10m, thì công cơ học được thực hiện là bao nhiêu?",
-            "param": []
-        },
-        "answer": {
-            "value": "Nếu một lực F = 50N được tác dụng lên một vật và vật di chuyển quãng đường s = 10m, ta áp dụng công thức công cơ học để tính: ####.",
-            "param": [
-                "A = F \\cdot s",
-                "A = 50 \\cdot 10 = 500\\,(J)"
-            ]
-        }
-    },
-    {
-        "name": "Công suất",
-        "formula": "P = \\frac{A}{t}",
-        "note": [
-            {
-                "value": "####: Công suất ####",
-                "param": [
-                    "P",
-                    "(W)"
-                ]
             },
             {
-                "value": "####: Công cơ học ####",
+                "value": "t: Thời gian ####",
                 "param": [
-                    "A",
-                    "(J)"
-                ]
-            },
-            {
-                "value": "####: Thời gian ####",
-                "param": [
-                    "t",
                     "(s)"
                 ]
             }
         ],
-        "unit": "Bài 3: Công suất",
-        "code": "c4ca4238a0b923820dcc509a6f75849b",
+        "unit": "Bài 1: Chuyển động cơ học",
+        "code": "a67c1e2d1f8d4fdb841c1fbb0a3e1b19",
         "question": {
-            "value": "Một máy thực hiện công A = 500J trong thời gian t = 5s, hãy tính công suất của máy.",
-            "param": []
+            "value": "Một xe máy đi được quãng đường 120 km trong ####, tính vận tốc của xe máy.",
+            "param": [
+                "2 giờ"
+            ]
         },
         "answer": {
-            "value": "Nếu một máy thực hiện công A = 500J trong thời gian t = 5s, ta áp dụng công thức công suất để tính: ####.",
+            "value": "Ta có vận tốc của xe máy là: ####.",
             "param": [
-                "P = \\frac{A}{t}",
-                "P = \\frac{500}{5} = 100\\,(W)"
+                "v = \\frac{s}{t}",
+                "v = \\frac{120}{2} = 60 (km/h)"
             ]
         }
     },
     {
-        "name": "Áp suất",
-        "formula": "p = \\frac{F}{S}",
+        "name": "Công thức tính gia tốc",
+        "formula": "a = \\frac{\\Delta v}{\\Delta t}",
         "note": [
             {
-                "value": "####: Áp suất ####",
+                "value": "a: Gia tốc ####",
                 "param": [
-                    "p",
-                    "(Pa)"
+                    "(m/s^2)"
                 ]
             },
             {
-                "value": "####: Lực ####",
+                "value": "\\Delta v: Độ biến thiên vận tốc ####",
                 "param": [
-                    "F",
+                    "(m/s)"
+                ]
+            },
+            {
+                "value": "\\Delta t: Thời gian thay đổi vận tốc ####",
+                "param": [
+                    "(s)"
+                ]
+            }
+        ],
+        "unit": "Bài 2: Gia tốc",
+        "code": "c43f8b9f8b2e4d94b3f49a2c7c6b3b3d",
+        "question": {
+            "value": "Một ô tô thay đổi vận tốc từ 10 m/s lên 20 m/s trong 5 giây. Tính gia tốc của ô tô.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có gia tốc của ô tô là: ####.",
+            "param": [
+                "a = \\frac{\\Delta v}{\\Delta t}",
+                "a = \\frac{20 - 10}{5} = 2 (m/s^2)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính lực",
+        "formula": "F = m \\cdot a",
+        "note": [
+            {
+                "value": "F: Lực tác dụng lên vật ####",
+                "param": [
                     "(N)"
                 ]
             },
             {
-                "value": "####: Diện tích ####",
+                "value": "m: Khối lượng của vật ####",
                 "param": [
-                    "S",
-                    "(m^2)"
-                ]
-            }
-        ],
-        "unit": "Bài 4: Áp suất",
-        "code": "45c48cce2e2d7fbdea1afc51c7c6ad26",
-        "question": {
-            "value": "Một lực F = 200N tác dụng lên diện tích S = 0.5m^2, hãy tính áp suất tác dụng lên diện tích đó.",
-            "param": []
-        },
-        "answer": {
-            "value": "Nếu một lực F = 200N tác dụng lên diện tích S = 0.5m^2, ta áp dụng công thức áp suất để tính: ####.",
-            "param": [
-                "p = \\frac{F}{S}",
-                "p = \\frac{200}{0.5} = 400\\,(Pa)"
-            ]
-        }
-    },
-    {
-        "name": "Áp suất chất lỏng",
-        "formula": "p = d \\cdot h",
-        "note": [
-            {
-                "value": "####: Áp suất ####",
-                "param": [
-                    "p",
-                    "(Pa)"
-                ]
-            },
-            {
-                "value": "####: Trọng lượng riêng ####",
-                "param": [
-                    "d",
-                    "(N/m^3)"
-                ]
-            },
-            {
-                "value": "####: Chiều cao cột chất lỏng ####",
-                "param": [
-                    "h",
-                    "(m)"
-                ]
-            }
-        ],
-        "unit": "Bài 5: Áp suất chất lỏng",
-        "code": "d41d8cd98f00b204e9800998ecf8427e",
-        "question": {
-            "value": "Chiều cao của cột nước là 10m, trọng lượng riêng của nước là 10000N/m^3. Tính áp suất tại điểm dưới cùng của cột nước.",
-            "param": []
-        },
-        "answer": {
-            "value": "Với chiều cao của cột nước là 10m và trọng lượng riêng của nước là 10000N/m^3, ta áp dụng công thức áp suất chất lỏng để tính: ####.",
-            "param": [
-                "p = d \\cdot h",
-                "p = 10000 \\cdot 10 = 100000\\,(Pa)"
-            ]
-        }
-    },
-    {
-        "name": "Lực đẩy Ác-si-mét",
-        "formula": "F_A = d \\cdot V",
-        "note": [
-            {
-                "value": "####: Lực đẩy Ác-si-mét ####",
-                "param": [
-                    "F_A",
-                    "(N)"
-                ]
-            },
-            {
-                "value": "####: Trọng lượng riêng của chất lỏng ####",
-                "param": [
-                    "d",
-                    "(N/m^3)"
-                ]
-            },
-            {
-                "value": "####: Thể tích chất lỏng bị chiếm chỗ ####",
-                "param": [
-                    "V",
-                    "(m^3)"
-                ]
-            }
-        ],
-        "unit": "Bài 6: Lực đẩy Ác-si-mét",
-        "code": "0cc175b9c0f1b6a831c399e269772661",
-        "question": {
-            "value": "Một vật có thể tích 0.1m^3 ngập hoàn toàn trong nước. Tính lực đẩy Ác-si-mét tác dụng lên vật. Biết trọng lượng riêng của nước là 10000N/m^3.",
-            "param": []
-        },
-        "answer": {
-            "value": "Với thể tích vật là 0.1m^3 ngập hoàn toàn trong nước và trọng lượng riêng của nước là 10000N/m^3, ta áp dụng công thức lực đẩy Ác-si-mét để tính: ####.",
-            "param": [
-                "F_A = d \\cdot V",
-                "F_A = 10000 \\cdot 0.1 = 1000\\,(N)"
-            ]
-        }
-    },
-    {
-        "name": "Công thức nhiệt lượng",
-        "formula": "Q = m \\cdot c \\cdot \\Delta t",
-        "note": [
-            {
-                "value": "####: Nhiệt lượng ####",
-                "param": [
-                    "Q",
-                    "(J)"
-                ]
-            },
-            {
-                "value": "####: Khối lượng ####",
-                "param": [
-                    "m",
                     "(kg)"
                 ]
             },
             {
-                "value": "####: Nhiệt dung riêng ####",
+                "value": "a: Gia tốc của vật ####",
                 "param": [
-                    "c",
-                    "(J/kg.K)"
-                ]
-            },
-            {
-                "value": "####: Độ tăng nhiệt độ ####",
-                "param": [
-                    "\\Delta t",
-                    "(K)"
+                    "(m/s^2)"
                 ]
             }
         ],
-        "unit": "Bài 7: Công thức nhiệt lượng",
-        "code": "70efdf2ec9b086079795c442636b55fb",
+        "unit": "Bài 3: Lực",
+        "code": "b78d5a6e7d5c4d2d8d6f3e4b5f4a5d7c",
         "question": {
-            "value": "Một vật có khối lượng 2kg, nhiệt dung riêng của vật là 4200J/kg.K. Nếu nhiệt độ của vật tăng từ 20°C lên 80°C, hãy tính nhiệt lượng cần cung cấp.",
+            "value": "Một vật có khối lượng 5 kg và gia tốc là 3 m/s^2. Tính lực tác dụng lên vật.",
             "param": []
         },
         "answer": {
-            "value": "Với khối lượng vật là 2kg, nhiệt dung riêng của vật là 4200J/kg.K và nhiệt độ tăng từ 20°C lên 80°C, ta áp dụng công thức nhiệt lượng để tính: ####.",
+            "value": "Ta có lực tác dụng lên vật là: ####.",
             "param": [
-                "Q = m \\cdot c \\cdot \\Delta t",
-                "Q = 2 \\cdot 4200 \\cdot (80 - 20) = 504000\\,(J)"
+                "F = m \\cdot a",
+                "F = 5 \\cdot 3 = 15 (N)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính công",
+        "formula": "A = F \\cdot s",
+        "note": [
+            {
+                "value": "A: Công của lực ####",
+                "param": [
+                    "(J)"
+                ]
+            },
+            {
+                "value": "F: Lực tác dụng lên vật ####",
+                "param": [
+                    "(N)"
+                ]
+            },
+            {
+                "value": "s: Quãng đường vật di chuyển theo phương của lực ####",
+                "param": [
+                    "(m)"
+                ]
+            }
+        ],
+        "unit": "Bài 4: Công",
+        "code": "d89a7c6e9b3d4f7a8d6e5b3c7e4f9b3d",
+        "question": {
+            "value": "Một lực 50 N tác dụng lên một vật và làm vật di chuyển 10 m. Tính công của lực tác dụng lên vật.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có công của lực tác dụng lên vật là: ####.",
+            "param": [
+                "A = F \\cdot s",
+                "A = 50 \\cdot 10 = 500 (J)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính công suất",
+        "formula": "P = \\frac{A}{t}",
+        "note": [
+            {
+                "value": "P: Công suất ####",
+                "param": [
+                    "(W)"
+                ]
+            },
+            {
+                "value": "A: Công của lực ####",
+                "param": [
+                    "(J)"
+                ]
+            },
+            {
+                "value": "t: Thời gian thực hiện công ####",
+                "param": [
+                    "(s)"
+                ]
+            }
+        ],
+        "unit": "Bài 5: Công suất",
+        "code": "e7d9c6b8a4e5d7c9a6b3f8d9e4a6b3c7",
+        "question": {
+            "value": "Một động cơ thực hiện công 2000 J trong 10 giây. Tính công suất của động cơ.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có công suất của động cơ là: ####.",
+            "param": [
+                "P = \\frac{A}{t}",
+                "P = \\frac{2000}{10} = 200 (W)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính áp suất",
+        "formula": "p = \\frac{F}{S}",
+        "note": [
+            {
+                "value": "p: Áp suất ####",
+                "param": [
+                    "(Pa)"
+                ]
+            },
+            {
+                "value": "F: Lực tác dụng lên bề mặt ####",
+                "param": [
+                    "(N)"
+                ]
+            },
+            {
+                "value": "S: Diện tích bề mặt bị tác dụng lực ####",
+                "param": [
+                    "(m^2)"
+                ]
+            }
+        ],
+        "unit": "Bài 6: Áp suất",
+        "code": "d3a7e9c6b9d4a7e8b9c7e4f6d8a7e9c7",
+        "question": {
+            "value": "Một lực 200 N tác dụng lên diện tích 0.5 m^2. Tính áp suất.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có áp suất là: ####.",
+            "param": [
+                "p = \\frac{F}{S}",
+                "p = \\frac{200}{0.5} = 400 (Pa)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính áp suất chất lỏng",
+        "formula": "p = d \\cdot h",
+        "note": [
+            {
+                "value": "p: Áp suất chất lỏng ####",
+                "param": [
+                    "(Pa)"
+                ]
+            },
+            {
+                "value": "d: Trọng lượng riêng của chất lỏng ####",
+                "param": [
+                    "(N/m^3)"
+                ]
+            },
+            {
+                "value": "h: Chiều cao cột chất lỏng ####",
+                "param": [
+                    "(m)"
+                ]
+            }
+        ],
+        "unit": "Bài 7: Áp suất chất lỏng",
+        "code": "e8b7d6c5a9e7b6c5a9d4f8a6b7d5e6c5",
+        "question": {
+            "value": "Một cột nước có chiều cao 10 m và trọng lượng riêng là 10000 N/m^3. Tính áp suất của cột nước.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có áp suất của cột nước là: ####.",
+            "param": [
+                "p = d \\cdot h",
+                "p = 10000 \\cdot 10 = 100000 (Pa)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính lực đẩy Ác-si-mét",
+        "formula": "F_A = d \\cdot V",
+        "note": [
+            {
+                "value": "F_A: Lực đẩy Ác-si-mét ####",
+                "param": [
+                    "(N)"
+                ]
+            },
+            {
+                "value": "d: Trọng lượng riêng của chất lỏng ####",
+                "param": [
+                    "(N/m^3)"
+                ]
+            },
+            {
+                "value": "V: Thể tích phần chất lỏng bị chiếm chỗ ####",
+                "param": [
+                    "(m^3)"
+                ]
+            }
+        ],
+        "unit": "Bài 8: Lực đẩy Ác-si-mét",
+        "code": "f9a8d7b6c9e8a7d6c5b7e6d8a9c6e5b4",
+        "question": {
+            "value": "Một vật nhúng vào nước có trọng lượng riêng là 10000 N/m^3 và thể tích là 0.02 m^3. Tính lực đẩy Ác-si-mét.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có lực đẩy Ác-si-mét là: ####.",
+            "param": [
+                "F_A = d \\cdot V",
+                "F_A = 10000 \\cdot 0.02 = 200 (N)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính công suất cơ học",
+        "formula": "P = \\frac{A}{t}",
+        "note": [
+            {
+                "value": "P: Công suất cơ học ####",
+                "param": [
+                    "(W)"
+                ]
+            },
+            {
+                "value": "A: Công thực hiện được ####",
+                "param": [
+                    "(J)"
+                ]
+            },
+            {
+                "value": "t: Thời gian thực hiện công ####",
+                "param": [
+                    "(s)"
+                ]
+            }
+        ],
+        "unit": "Bài 9: Công suất cơ học",
+        "code": "a7b6c5d9e8f7b6d5a9e6b7c8a5d9c7e6",
+        "question": {
+            "value": "Một máy kéo thực hiện công 6000 J trong 10 giây. Tính công suất cơ học của máy kéo.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có công suất cơ học của máy kéo là: ####.",
+            "param": [
+                "P = \\frac{A}{t}",
+                "P = \\frac{6000}{10} = 600 (W)"
+            ]
+        }
+    },
+    {
+        "name": "Công thức tính công suất tiêu thụ điện",
+        "formula": "P = U \\cdot I",
+        "note": [
+            {
+                "value": "P: Công suất tiêu thụ điện ####",
+                "param": [
+                    "(W)"
+                ]
+            },
+            {
+                "value": "U: Hiệu điện thế ####",
+                "param": [
+                    "(V)"
+                ]
+            },
+            {
+                "value": "I: Cường độ dòng điện ####",
+                "param": [
+                    "(A)"
+                ]
+            }
+        ],
+        "unit": "Bài 10: Công suất tiêu thụ điện",
+        "code": "b8c7a6d9e5f7a8b6c9d8e7a6b9c5d7e8",
+        "question": {
+            "value": "Một bóng đèn có hiệu điện thế 220 V và cường độ dòng điện là 0.5 A. Tính công suất tiêu thụ điện của bóng đèn.",
+            "param": []
+        },
+        "answer": {
+            "value": "Ta có công suất tiêu thụ điện của bóng đèn là: ####.",
+            "param": [
+                "P = U \\cdot I",
+                "P = 220 \\cdot 0.5 = 110 (W)"
             ]
         }
     }
