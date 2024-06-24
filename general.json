@@ -55,6 +55,10 @@
       "grade": "9",
       "subject": [
         {
+          "name": "math",
+          "display": "Đại số"
+        },
+        {
           "name": "physical",
           "display": "Vật lý"
         }
