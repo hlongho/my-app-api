@@ -67,6 +67,15 @@
           "display": "Vật lý"
         }
       ]
+    },
+    {
+      "grade": "10",
+      "subject": [
+        {
+          "name": "math",
+          "display": "Đại số"
+        }
+      ]
     }
   ],
   "banner": [

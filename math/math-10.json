@@ -1,138 +1,279 @@
 [
     {
-        "name": "Công thức tính đạo hàm",
-        "formula": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
-        "note": [
-            "f'(x):\\,Đạo\\,hàm\\,của\\,hàm\\,số\\,f\\,tại\\,x",
-            "f(x):\\,Hàm\\,số",
-            "h:\\,Gia\\,số\\,nhỏ"
-        ],
-        "unit": "Bài 1: Đạo hàm"
-    },
-    {
-        "name": "Công thức tính đạo hàm của tổng",
-        "formula": "[f(x) + g(x)]' = f'(x) + g'(x)",
-        "note": [
-            "f(x), g(x):\\,Các\\,hàm\\,số",
-            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số"
-        ],
-        "unit": "Bài 2: Đạo hàm của tổng"
-    },
-    {
-        "name": "Công thức tính đạo hàm của tích",
-        "formula": "[f(x) \\cdot g(x)]' = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)",
-        "note": [
-            "f(x), g(x):\\,Các\\,hàm\\,số",
-            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số"
-        ],
-        "unit": "Bài 3: Đạo hàm của tích"
-    },
-    {
-        "name": "Công thức tính đạo hàm của thương",
-        "formula": "\\left( \\frac{f(x)}{g(x)} \\right)' = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{[g(x)]^2}",
-        "note": [
-            "f(x), g(x):\\,Các\\,hàm\\,số",
-            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số",
-            "g(x) \\neq 0"
-        ],
-        "unit": "Bài 4: Đạo hàm của thương"
-    },
-    {
-        "name": "Công thức tính đạo hàm của hàm hợp",
-        "formula": "\\left( f(g(x)) \\right)' = f'(g(x)) \\cdot g'(x)",
-        "note": [
-            "f(x), g(x):\\,Các\\,hàm\\,số",
-            "f'(x), g'(x):\\,Đạo\\,hàm\\,của\\,các\\,hàm\\,số"
-        ],
-        "unit": "Bài 5: Đạo hàm của hàm hợp"
-    },
-    {
         "name": "Phương trình bậc nhất một ẩn",
         "formula": "ax + b = 0",
         "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,nhất",
-            "b:\\,Hằng\\,số",
-            "x:\\,Ẩn\\,số"
+            {
+                "value": "a, b: Các hằng số",
+                "param": []
+            },
+            {
+                "value": "x: Ẩn số",
+                "param": []
+            }
         ],
-        "unit": "Bài 6: Phương trình bậc nhất một ẩn"
+        "unit": "Bài 1: Phương trình bậc nhất một ẩn",
+        "code": "a1b2c3d4e5f6",
+        "question": {
+            "value": "Giải phương trình bậc nhất: ####.",
+            "param": [
+                "2x + 3 = 0"
+            ]
+        },
+        "answer": {
+            "value": "Phương trình có nghiệm: ####.",
+            "param": [
+                "x = -\\frac{3}{2}"
+            ]
+        }
     },
     {
         "name": "Phương trình bậc hai một ẩn",
         "formula": "ax^2 + bx + c = 0",
         "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,hai",
-            "b:\\,Hệ\\,số\\,bậc\\,nhất",
-            "c:\\,Hằng\\,số",
-            "x:\\,Ẩn\\,số"
+            {
+                "value": "a, b, c: Các hằng số",
+                "param": []
+            },
+            {
+                "value": "x: Ẩn số",
+                "param": []
+            }
         ],
-        "unit": "Bài 7: Phương trình bậc hai một ẩn"
+        "unit": "Bài 2: Phương trình bậc hai một ẩn",
+        "code": "b2c3d4e5f6a1",
+        "question": {
+            "value": "Giải phương trình bậc hai: ####.",
+            "param": [
+                "x^2 - 3x + 2 = 0"
+            ]
+        },
+        "answer": {
+            "value": "Phương trình có nghiệm: #### và ####.",
+            "param": [
+                "x_1 = 1",
+                "x_2 = 2"
+            ]
+        }
     },
     {
-        "name": "Công thức nghiệm phương trình bậc hai",
+        "name": "Công thức nghiệm của phương trình bậc hai",
         "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
         "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,hai",
-            "b:\\,Hệ\\,số\\,bậc\\,nhất",
-            "c:\\,Hằng\\,số",
-            "x:\\,Nghiệm"
+            {
+                "value": "a, b, c: Các hằng số",
+                "param": []
+            },
+            {
+                "value": "x: Ẩn số",
+                "param": []
+            }
         ],
-        "unit": "Bài 8: Công thức nghiệm phương trình bậc hai"
+        "unit": "Bài 3: Công thức nghiệm của phương trình bậc hai",
+        "code": "c3d4e5f6a1b2",
+        "question": {
+            "value": "Tìm nghiệm của phương trình bậc hai: ####.",
+            "param": [
+                "2x^2 - 4x + 2 = 0"
+            ]
+        },
+        "answer": {
+            "value": "Phương trình có nghiệm: #### và ####.",
+            "param": [
+                "x_1 = 1",
+                "x_2 = 1"
+            ]
+        }
     },
     {
-        "name": "Công thức nghiệm thu gọn phương trình bậc hai",
-        "formula": "x = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}, \\text{với } \\Delta = b^2 - 4ac",
+        "name": "Định lý Vi-et",
+        "formula": "\\begin{cases} S = x_1 + x_2 = -\\frac{b}{a} \\\\ P = x_1 x_2 = \\frac{c}{a} \\end{cases}",
         "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,hai",
-            "b:\\,Hệ\\,số\\,bậc\\,nhất",
-            "c:\\,Hằng\\,số",
-            "x:\\,Nghiệm",
-            "\\Delta:\\,Biệt\\,thức"
+            {
+                "value": "x_1, x_2: Các nghiệm của phương trình",
+                "param": []
+            },
+            {
+                "value": "a, b, c: Các hằng số",
+                "param": []
+            }
         ],
-        "unit": "Bài 9: Công thức nghiệm thu gọn phương trình bậc hai"
-    },
-    {
-        "name": "Định lý Viet về nghiệm của phương trình bậc hai",
-        "formula": "\\begin{cases} x_1 + x_2 = -\\frac{b}{a} \\\\ x_1 x_2 = \\frac{c}{a} \\end{cases}",
-        "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,hai",
-            "b:\\,Hệ\\,số\\,bậc\\,nhất",
-            "c:\\,Hằng\\,số",
-            "x_1, x_2:\\,Các\\,nghiệm\\,của\\,phương\\,trình"
-        ],
-        "unit": "Bài 10: Định lý Viet về nghiệm của phương trình bậc hai"
+        "unit": "Bài 4: Định lý Vi-et",
+        "code": "d4e5f6a1b2c3",
+        "question": {
+            "value": "Áp dụng định lý Vi-et cho phương trình: ####.",
+            "param": [
+                "x^2 - 3x + 2 = 0"
+            ]
+        },
+        "answer": {
+            "value": "Ta có: #### và ####.",
+            "param": [
+                "S = 3",
+                "P = 2"
+            ]
+        }
     },
     {
         "name": "Hàm số bậc nhất",
         "formula": "y = ax + b",
         "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,nhất",
-            "b:\\,Hằng\\,số",
-            "x:\\,Biến\\,số",
-            "y:\\,Giá\\,trị\\,hàm\\,số"
+            {
+                "value": "a, b: Các hằng số",
+                "param": []
+            },
+            {
+                "value": "x: Biến số",
+                "param": []
+            },
+            {
+                "value": "y: Giá trị của hàm số",
+                "param": []
+            }
         ],
-        "unit": "Bài 11: Hàm số bậc nhất"
+        "unit": "Bài 5: Hàm số bậc nhất",
+        "code": "e5f6a1b2c3d4",
+        "question": {
+            "value": "Cho hàm số bậc nhất: ####. Tính giá trị của hàm số khi ####.",
+            "param": [
+                "y = 2x + 3",
+                "x = 1"
+            ]
+        },
+        "answer": {
+            "value": "Giá trị của hàm số là: ####.",
+            "param": [
+                "y = 2 \\cdot 1 + 3 = 5"
+            ]
+        }
     },
     {
         "name": "Hàm số bậc hai",
         "formula": "y = ax^2 + bx + c",
         "note": [
-            "a:\\,Hệ\\,số\\,bậc\\,hai",
-            "b:\\,Hệ\\,số\\,bậc\\,nhất",
-            "c:\\,Hằng\\,số",
-            "x:\\,Biến\\,số",
-            "y:\\,Giá\\,trị\\,hàm\\,số"
+            {
+                "value": "a, b, c: Các hằng số",
+                "param": []
+            },
+            {
+                "value": "x: Biến số",
+                "param": []
+            },
+            {
+                "value": "y: Giá trị của hàm số",
+                "param": []
+            }
         ],
-        "unit": "Bài 12: Hàm số bậc hai"
+        "unit": "Bài 6: Hàm số bậc hai",
+        "code": "f6a1b2c3d4e5",
+        "question": {
+            "value": "Cho hàm số bậc hai: ####. Tính giá trị của hàm số khi ####.",
+            "param": [
+                "y = x^2 - 3x + 2",
+                "x = 1"
+            ]
+        },
+        "answer": {
+            "value": "Giá trị của hàm số là: ####.",
+            "param": [
+                "y = 1^2 - 3 \\cdot 1 + 2 = 0"
+            ]
+        }
     },
     {
-        "name": "Phương trình đường thẳng",
-        "formula": "y = mx + c",
+        "name": "Đạo hàm cơ bản",
+        "formula": "\\frac{d}{dx}(x^n) = nx^{n-1}",
         "note": [
-            "m:\\,Hệ\\,số\\,góc",
-            "c:\\,Giao\\,điểm\\,với\\,trục\\,y",
-            "x:\\,Biến\\,số",
-            "y:\\,Giá\\,trị\\,hàm\\,số"
+            {
+                "value": "n: Số mũ của biến x",
+                "param": []
+            }
         ],
-        "unit": "Bài 13: Phương trình đường thẳng"
+        "unit": "Bài 7: Đạo hàm cơ bản",
+        "code": "a1b2c3d4e5f6",
+        "question": {
+            "value": "Tính đạo hàm của hàm số: ####.",
+            "param": [
+                "f(x) = x^3"
+            ]
+        },
+        "answer": {
+            "value": "Đạo hàm của hàm số là: ####.",
+            "param": [
+                "f'(x) = 3x^2"
+            ]
+        }
+    },
+    {
+        "name": "Đạo hàm của tổng, hiệu",
+        "formula": "\\frac{d}{dx}(u \\pm v) = u' \\pm v'",
+        "note": [
+            {
+                "value": "u, v: Các hàm số theo biến x",
+                "param": []
+            }
+        ],
+        "unit": "Bài 8: Đạo hàm của tổng, hiệu",
+        "code": "b2c3d4e5f6a1",
+        "question": {
+            "value": "Tính đạo hàm của hàm số: ####.",
+            "param": [
+                "f(x) = x^3 + 2x"
+            ]
+        },
+        "answer": {
+            "value": "Đạo hàm của hàm số là: ####.",
+            "param": [
+                "f'(x) = 3x^2 + 2"
+            ]
+        }
+    },
+    {
+        "name": "Đạo hàm của tích",
+        "formula": "\\frac{d}{dx}(u \\cdot v) = u' \\cdot v + u \\cdot v'",
+        "note": [
+            {
+                "value": "u, v: Các hàm số theo biến x",
+                "param": []
+            }
+        ],
+        "unit": "Bài 9: Đạo hàm của tích",
+        "code": "c3d4e5f6a1b2",
+        "question": {
+            "value": "Tính đạo hàm của hàm số: ####.",
+            "param": [
+                "f(x) = x^2 \\cdot e^x"
+            ]
+        },
+        "answer": {
+            "value": "Đạo hàm của hàm số là: ####.",
+            "param": [
+                "f'(x) = 2x \\cdot e^x + x^2 \\cdot e^x = (2x + x^2)e^x"
+            ]
+        }
+    },
+    {
+        "name": "Đạo hàm của thương",
+        "formula": "\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{u' \\cdot v - u \\cdot v'}{v^2}",
+        "note": [
+            {
+                "value": "u, v: Các hàm số theo biến x",
+                "param": []
+            }
+        ],
+        "unit": "Bài 10: Đạo hàm của thương",
+        "code": "d4e5f6a1b2c3",
+        "question": {
+            "value": "Tính đạo hàm của hàm số: ####.",
+            "param": [
+                "f(x) = \\frac{x^2}{e^x}"
+            ]
+        },
+        "answer": {
+            "value": "Đạo hàm của hàm số là: ####.",
+            "param": [
+                "f'(x) = \\frac{2x \\cdot e^x - x^2 \\cdot e^x}{(e^x)^2} = \\frac{x(2 - x)}{e^x}"
+            ]
+        }
     }
 ]
