@@ -50,6 +50,15 @@
           "display": "Vật lý"
         }
       ]
+    },
+    {
+      "grade": "9",
+      "subject": [
+        {
+          "name": "physical",
+          "display": "Vật lý"
+        }
+      ]
     }
   ],
   "banner": [
