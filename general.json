@@ -59,6 +59,10 @@
           "display": "Đại số"
         },
         {
+          "name": "geometry",
+          "display": "Hình học"
+        },
+        {
           "name": "physical",
           "display": "Vật lý"
         }
